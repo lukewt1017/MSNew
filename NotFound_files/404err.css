@@ -1,0 +1,176 @@
+BODY {
+	background-color: #fff; text-align: left; 
+}
+.centerBody 
+{
+	
+	padding:0; margin:0 auto; min-width: 778px; width:116ex;
+}
+.container {
+	
+	margin: 0 auto; min-width: 778px; padding-top:2px; width:116ex;
+}
+BODY, DIV, SPAN, P, BODY, TD, TH, INPUT, BUTTON, H1, H4, H6 {
+	padding: 0; margin: 0; font-family: Tahoma,Helvetica,Sans-Serif; 
+}
+body{
+	font-size:small; color: #003399;
+}
+TABLE, TD 
+{
+	padding: 0; margin: 0;
+}
+TD, TH {
+	font-size: 93%
+}
+A{
+	text-decoration: none
+}
+A:hover {
+	text-decoration: underline
+}
+H1 {
+	font-size: 160%; margin: 0;
+}
+H4 {
+	color: #666; background-color: transparent; font-weight:bold; font-size:93%; 
+}
+H4 {
+	padding: 0; margin: 0;
+}
+#head {
+	font-size: 93%
+}
+#head {
+	margin-top: 2px; border-bottom: #183390 3px solid;
+}
+#head {
+	color: #666; background-color: #fff
+}
+#head A {
+	color: #183390; background-color: #fff
+}
+#head A:visited {
+	color: #183390; background-color: #fff
+}
+#head A:hover {
+	text-decoration: underline;
+}
+#head LI 
+{
+	padding: 0 0 0 12px; display: inline; height: 1%;
+	
+}
+#head #big6 {
+	margin-bottom: 0px; top: 4px; text-align:center;
+}
+#head #image{
+	margin: 0px; text-align: left; margin-top: 10px;
+}
+#head LI.first 
+{
+	padding: 0;
+}
+#head UL 
+{
+	padding: 0; margin: 0; list-style-type: none; text-align: center;
+}
+#head H1 IMG {
+	vertical-align: text-bottom; padding-bottom: 0; border: 0; 
+}
+#foot {
+	font-size: 93%; clear: both; 
+} 
+#foot {
+	border-top: #eee 1px solid; padding-top: 9px;
+}
+#foot {
+	color: #666; background-color: #fff
+}
+#foot A {
+	color: #183390; background-color: #fff
+}
+#foot A:visited {
+	color: #183390; background-color: #fff
+}
+#foot LI 
+{
+	padding: 0 0 0 12px; display: inline; height: 1%;
+}
+#foot LI.first {
+	padding: 0;
+}
+#foot UL {
+	padding: 0; margin: 0; list-style-type: none; text-align: left;
+}
+.gptop DIV 
+{
+	padding: 3px 0 3px 0;
+	
+}
+.nsf {
+	color: #c0c0c0; text-align:left; float:left;
+}
+.nsf {
+	text-decoration: none
+}
+#left {
+	width: 50%; text-align: left; float:left; margin-top: 30px; margin-bottom:50px; color: #003399;
+	padding: 10px; font-size: 93%; color: #000;
+}
+#right {
+	width: 46%; text-align:left; float:right; margin-top: 30px; margin-bottom: 50px;
+	padding: 0; 
+}
+#right .sitenav {
+	border-bottom:#aacbee 1px solid; padding:5px; width:90%; color: #003399;
+}
+#right A {
+	color: #003399; background-color: #fff
+}
+#right A:visited {
+	color: #003399; background-color: #fff
+}
+#right .heading {
+	border-bottom:#aacbee 1px solid; padding:5px 0px 0px 5px; width:90%; color: #003399;
+}
+#left .heading2 {
+	color: #003399; 
+	font-size: 180%; 
+}
+#left .error {
+	color: #003399; 
+	font-size: 93%; 
+	text-align:center;
+}
+.search {
+	border-right: #2263a5 1px solid; border-top: #2263a5 1px solid; font-weight: bold; 
+	background: url(https://web.archive.org/web/20071117213303im_/http://sc.msn.com/c/my/search.gif) #cf0 repeat-x 0px 0px; 
+	border-left: #2263a5 1px solid; color: #fff; border-bottom: #2263a5 1px solid; height:20px;
+}
+#left .error a:link {
+	text-decoration:none
+}
+#left .error a:visited {
+	text-decoration:none;  
+	color: #003399;
+}
+/*
+     FILE ARCHIVED ON 21:33:03 Nov 17, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:15:20 Mar 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.189
+  exclusion.robots.policy: 0.172
+  cdx.remote: 0.142
+  esindex: 0.014
+  LoadShardBlock: 217.797 (6)
+  PetaboxLoader3.datanode: 237.829 (7)
+  load_resource: 165.861
+  PetaboxLoader3.resolve: 89.898
+*/
