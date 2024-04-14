@@ -1,0 +1,4852 @@
+body
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/bg.gif) repeat-x;
+  background-color: #ececec;
+  font-family: Tahoma, Geneva, Arial, Verdana, sans-serif;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+
+
+a
+{
+  color: #07519a; 
+  text-decoration: none;
+}
+
+a:visited 
+{ 
+  text-decoration: none ;
+} 
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+td, p, div, span	
+{ 
+    font-family: Tahoma, Geneva, Arial, Verdana, sans-serif;
+    font-weight: normal; 
+    font-size: 11px; 
+    color: #666666;
+}
+
+hr 
+{ 
+    color:#eee; 
+    height:1px; 
+}
+
+.pageContent
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 972px;
+}
+
+/* Generic Classes */
+
+/* Width */
+.w50per {width:50%;}
+.w150 { width:150px}
+.w175 { width:175px}
+.w176 { width:176px}
+.w225 { width:215px}
+.w250 { width:250px}
+.w260 { width:260px}
+.w270 { width:270px}
+.w280 { width:280px}
+.w300 { width:300px}
+.w313 { width:313px}
+.w320 { width:320px}
+.w334 { width:334px}
+.w370 { width:370px}
+.w400 { width:400px}
+.w485 { width:485px}
+.w513 { width:513px}
+.w550 { width:550px;}
+.w637 { width:637px;}
+.w640 { width:640px;}
+.w645 { width:645px;}
+.w660 { width:660px;}
+.w664 { width:664px;}
+.w668 { width: 668px;}
+.w700 { width: 700px;}
+.w800 {width:835px;}
+.w833 { width:833px;}
+.w100per {width:100%;}
+
+/* Border */
+.bl { border-left:solid 1px red}
+.borderwhite1px { border: solid 1px white }
+.gray_border1{ border:solid 1px #e1e1e1}
+
+/* Height */
+.h30 { height:30px; }
+.h60 { height: 60px; font-size:60px }
+.h100 { height: 100px; font-size:100px }
+.h156 { height: 156px; }
+.h250 { height: 250px; font-size:250px }
+.h300 { height:300px; font-size:300px }
+.h360 { height:360px; }
+
+/* display blocks */
+.pa { position:absolute}
+.pr { position:relative}
+.tl { text-align:left }
+.fl { float:left}
+.fr { float:right}
+.cl { clear:both}
+.dblock { display:block}
+.dinline { display:inline}
+.dblock{ display:block}
+.dnone { display:none}
+.dn{display:none}
+
+/* Complex Link */
+.MovieComplexLinkHeadLine
+{
+    clear:both;overflow: hidden; 
+    height: auto !important; height: 1%;
+    padding-bottom: 2px;
+}
+/*margin, padding */
+
+.lm10 { margin-left: 10px}
+.lm20 { margin-left: 20px}
+.tm10 {margin-top:10px}
+.tm15 { margin-top:15px }
+.tm20 { margin-top:20px }
+.tm40 { margin-top:40px }
+.rm10 { margin-right:10px}
+.bm10 {margin-bottom:10px}
+.p10  { padding: 10px 10px 10px 10px;}
+.rp5 { padding-right:5px }
+.rp10 { padding-right: 10px }
+.lp5 {padding-left:5px}
+.lp10 {padding-left:10px;}
+.tp5  { padding-top: 5px }
+.tp10 { padding-top:10px }
+.tp15{ padding-top:15px }
+.tp20 {padding-top:20px}
+.bp5 { padding-bottom:5px }
+.bp15 { padding-bottom:15px}
+.bp10 {padding-bottom:10px}
+.bp20 { padding-bottom:20px;}
+.tp20 {padding-top:20px}
+.tm40 {margin-top:40px}
+.lrt10  { padding: 10px 0px 10px 10px }
+
+/* position */
+.pr { position:relative}
+.tl { text-align:left }
+.tr { text-align:right;}
+.text_left { text-align: left} 
+.text_center { text-align:center} 
+.fl { float:left}
+.fr { float:right}
+.cl { clear:both}
+.cleft { clear:left }
+.fleft { float:left; clear:left}
+.fleft0 { float:left; padding-left:10px;}
+.fleft1 { float:left; padding-left:40px; margin-top:10px}
+.fleft2 { float:left; padding-left:40px; margin-top:10px}
+
+/*font */
+.fbold { font-weight:bold; color:#333333;}
+
+.lnk6			{ color: #07519a ; font-size: 12px; text-transform:lowercase;}
+.lnk7			{ color: #000000; font-size: 12px; font-weight: bold;text-transform:lowercase; }
+.lnk8			{ color: #07519a ; text-transform:lowercase;}
+.lnk9			{ color: #000000; font-weight: bold;text-transform:lowercase; }
+.lnh18 { line-height:18px}
+
+.lnk4			{ color: #07519a }
+a.lnk4			{ color: #07519a }
+a.lnk4:visited	{ color: #07519a }
+a.lnk4:hover	{ color: #07519a }
+.dlnk4           {color: #07519a; text-decoration: underline; cursor: pointer; }
+
+.lnk5			{ color: #07519a; font-weight: bold }
+a.lnk5			{ color: #07519a }
+a.lnk5:visited	{ color: #07519a }
+a.lnk5:hover	{ color: #07519a }
+
+/************ PageHeader *************/
+
+.pageHeader_control
+{
+  background-color: #222222;
+}
+
+.pageHeader_control a,
+.pageHeader_control a:hover,
+.pageHeader_control a:visited
+{
+  color: #FFFFFF;
+}
+
+.pageHeader_skinAd
+{
+  border-left: solid 1px #3f3f3f;
+  border-right: solid 1px #3f3f3f;
+}
+
+.pageHeader_menu
+{
+  height: 29px;
+  position: relative;
+  z-index: 10;
+  border-left: solid 1px #3f3f3f;
+  border-right: solid 1px #3f3f3f;
+}
+
+.pageHeader_verticalsNavigationBar
+{
+  margin: 3px 0 0 4px;
+}
+
+.pageHeader_verticalsButton,
+.pageHeader_verticalsButtonSelected
+{
+  border: 1px solid #717171;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  margin: 0 4px 0 0;
+  cursor: pointer;
+  width: 76px;
+  height: 20px;
+}
+
+.pageHeader_verticalsButton
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/btn_slice_vert_off.gif) repeat-x;
+}
+
+.pageHeader_verticalsButtonSelected
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/ch_link_select.gif) repeat-x;
+}
+
+.pageHeader_verticalsButtonSelected a,
+.pageHeader_verticalsButton a
+{
+  display: block;
+  width: 76px;
+  height: 18px;
+  padding-top: 2px;
+  text-align: center;
+}
+
+.pageHeader_verticalsButtonSelected a:hover,
+.pageHeader_verticalsButton a:hover
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/ch_link_select.gif) repeat-x;
+  text-decoration: none;
+}
+
+.pageHeader_networkNavigationBar
+{
+  float: right;
+  padding-top: 3px;
+}
+
+.pageHeader_networkLink
+{
+  border-right: 1px solid #6F6F6F;
+  float: left;
+  padding: 0 9px 0 9px;
+}
+
+.pageHeader_networkLink a:hover
+{
+  text-decoration: underline;
+}
+
+.pageHeader_lastNetworkLink
+{
+  float: left;
+  padding: 0 9px 0 9px;
+}
+
+.pageHeader_searchRow
+{
+  height: 64px;
+  border-left: solid 1px #3f3f3f;
+  border-right: solid 1px #3f3f3f;
+}
+
+.pageHeader_searchRow a
+{
+  color: #07519A;
+  display: block;
+}
+
+.pageHeader_searchRow a:hover
+{
+  color: #07519A;
+  text-decoration: none;
+}
+
+.pageHeader_searchRow a:visited
+{
+  color: #07519A;
+}
+
+.verticalLogo
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/glow.jpg);
+  height: 62px;
+  width: 275px;
+  float: left;
+  margin-right: 25px;
+}
+
+.verticalLogo img
+{
+	float: left;
+	display: inline;
+	margin-top: 15px;
+}
+
+.verticalLogoPromoLink
+{
+  margin-top:10px  
+}
+
+a.verticalLogoLink
+{
+	font-size: 22px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Arial, sans-serif;
+	display: inline;
+	float: left;
+	color: white;
+	margin-top: 25px;
+}
+
+a.verticalLogoLink:hover
+{
+	text-decoration: underline;
+    color: #FFFFFF;
+}
+
+a.verticalLogoLink:visited
+{
+  color: #FFFFFF;
+}
+
+.pageHeader_search
+{
+	width: 364px;
+	float: left;
+	margin-top: 30px;
+}
+
+.pageHeader_searchBox
+{
+}
+
+.pageHeader_searchBoxBlend
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/btn_slice_search_blend.gif);
+  width: 4px;
+  height: 20px;
+  float: left;
+  margin-top: 1px;
+}
+
+.pageHeader_searchTextBox
+{
+  border: solid 1px #2F2F2F;
+  border-right: none;
+  width: 215px;
+  height: 18px;
+  float: left;
+}
+
+.pageHeader_searchSite,
+.pageHeader_searchWeb
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/btn_slice_search.gif);
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  float: left;
+  height: 20px;
+  margin: 1px 8px 0 0px;
+  text-align: center;
+  width: 80px;
+}
+
+.pageHeader_searchSite a
+{
+  height: 18px;
+  padding-top: 2px;
+  width: 80px;
+}
+
+.pageHeader_searchWeb
+{
+  width: 42px;
+}
+
+.pageHeader_searchWeb a
+{
+  height: 18px;
+  padding-top: 2px;
+  width: 42px;
+}
+
+.pageHeader_horizNavBar
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/horiznav_bg.gif) repeat-x;
+  height: 20px;
+  border-top: solid 1px #ffffff;
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+  padding: 0 0 0 10px;
+}
+
+.pageHeader_horizNavBarButton
+{
+  height: 20px;
+  float: left;
+  padding: 0px 10px 0 10px;
+}
+
+.pageHeader_horizonalButtonSeparator
+{
+  padding: 5px 0 0 10px;
+  float: left;
+  display: block;
+  margin: 0 -5px 0 0;
+}
+
+.pageHeader_horizNavBarButtonSelected
+{
+  background-color: #e1e1e1;
+  height: 18px;
+  position: relative;
+  margin: 2px 0 -2px 0;
+  border-top: solid 1px #cccccc;
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+  float: left;
+  overflow: hidden;
+}
+
+.pageHeader_horizNavBarButton a
+{
+  float: left;
+  padding-top: 3px;
+  display: block;
+  height: 17px;
+  text-align: center;
+  color: #07519a;
+}
+
+.pageHeader_horizNavBarButton a:visited,
+.pageHeader_horizNavBarButton a:hover
+{
+  color: #07519a;
+}
+
+.pageHeader_horizNavBarButtonSelected a
+{
+  float: left;
+  padding-top: 0px;
+  display: block;
+  height: 12px;
+  text-align: center;
+  color: #333333;
+}
+
+.pageHeader_horizNavBarButtonSelected a:visited,
+.pageHeader_horizNavBarButtonSelected a:hover
+{
+  color: #333333;	
+}
+
+.pageHeader_ButtonAd
+{
+   padding: 20px 0 0 0;
+   margin-right:5px;
+}
+.MusicSignInBarDiv{width:100px;float:left}
+
+
+/* PageFooter */
+
+.pageFooter_control
+{
+  display: block;
+  width: 972px;
+  height: 100px;
+  position: relative;
+}
+
+.pageFooter_link
+{
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 5px 20px 0 0;
+}
+
+.pageFooter_link a
+{
+  color: #07519a;
+}
+
+.pageFooter_rightLink
+{
+  display: block;
+  float: left;
+  height: 30px;
+  margin-left: 402px;
+  padding: 5px 20px 0 20px;
+}
+
+.pageFooter_rightLink a
+{
+  color: #07519a;
+}
+
+.pageFooter_lastLink
+{
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 5px 0 0 0;
+}
+
+.pageFooter_lastLink a
+{
+  color: #07519a;
+}
+
+.pageFooter_ownership
+{
+  display: block;
+  width: 972px;
+}
+
+.pageFooter_copyright
+{
+  display: block;
+  float: right;
+  padding: 4px 9px 0 0;
+  color: #333333;
+}
+
+.pageFooter_logoSeparator
+{
+  display: block;
+  float: right;
+  color: #333333;	
+  padding: 4px 9px 0 0; 
+}
+
+.pageFooter_logo
+{
+  display: block;
+  float: right;
+}
+
+.pageFooter_machineLink
+{
+  text-align: center;
+}
+
+.pageFooter_machineLink a
+{
+  color: #ececec  
+}
+
+
+/* More Button */
+
+.moreButton
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/btn_slice_vert_off.gif) repeat-x;
+  border: 1px solid #717171;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  cursor: pointer;
+  width: 76px;
+  height: 20px;
+  position: relative;
+}
+
+.moreButton_hover
+{
+  background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/ch_link_select.gif) repeat-x;
+  border: 1px solid #717171;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  cursor: pointer;
+  width: 76px;
+  height: 20px;
+  position: relative;
+}
+
+.moreButton a
+{
+  display: block;
+  width: 56px;
+  height: 18px;
+  padding-top: 2px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.moreButton_hover a
+{
+  display: block;
+  width: 56px;
+  height: 18px;
+  padding-top: 2px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.moreButton img
+{
+	display:block;
+	position: absolute;
+	left: 50px;
+	top: 7px;
+}
+
+.moreButton_hover img
+{
+	display:block;
+	position: absolute;
+	left: 50px;
+	top: 7px;
+}
+
+.moreButton a:hover
+{
+  text-decoration: none;
+}
+
+.moreButton_hover a:hover
+{
+  text-decoration: none;
+}
+
+.moreButton_contentModule
+{
+	position: absolute;
+	left: 5px;
+	top: 25px;
+	width: 960px;
+	height: 85px;
+	display: block;
+	visibility: hidden;
+	z-index: 10;
+}
+
+.moreButton_content
+{
+	background-color: White;
+	margin: 2px 5px 2px 5px;
+	z-index: 10;
+}
+
+.more_contentColumn
+{
+	width: 157px;
+	float: left;
+}
+
+.more_contentToolLink img
+{
+	position: relative;
+	top: 4px;
+}
+
+.more_contentToolLink a
+{
+	font-size: 8pt;
+	color: #07519a;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	top: -6px;
+}
+
+.more_contentToolLink a:hover,
+.more_contentSiteLink a:hover
+{
+	text-decoration: underline;
+	color: #07519a;	
+}
+
+.more_contentSiteLink
+{
+	padding: 2px 0 2px 0;
+}
+
+.more_contentSiteLink a
+{
+	font-size: 8pt;
+	color: #07519a;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+.more_contentToolLink a:visited,
+.more_contentSiteLink a:visited
+{
+	color: #07519a;		
+}
+
+/* left navigation panel */
+
+.leftNav
+{
+    position:relative;
+	float: left;
+	top: 10px;
+	margin-left: 7px;	
+}
+
+.MusicleftNav,
+.MoviesleftNav
+{
+	float: left;
+	top: 10px;
+	position:relative;
+	top:30px;
+	left:5px;
+}
+
+.MusicleftNavGallery
+{
+  float: left;
+  top: 10px;
+  position:relative;
+  top:30px;
+  left:5px;
+  padding-right:3px
+}
+
+
+.MoviesleftNavEditorsPicks
+{
+	float: left;
+	top: 10px;
+	position:relative;
+	top:30px;
+	left:4px;
+}
+
+.leftNav_content
+{
+    position: relative;
+    width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.leftNav_bg
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+* html .leftNav_content
+{
+	position: static;
+}
+
+.MusicLeftNav_selected0102,
+.MusicLeftNav_selected01,
+.MoviesLeftNav_selected,
+.leftNav_selected
+{
+	width: 75px;
+}
+
+.leftNav_disabled
+{
+	color: #8e8e8e;
+}
+
+.MusicLeftNav_selected01 a,
+.MoviesLeftNav_selected01 a {color:White}
+.MoviesLeftNav_selected02 a {color:White}
+.MoviesLeftNav_selected a{color:White}
+
+.MusicLeftNav_selected01,
+.MusicLeftNav_selected0102,
+.MoviesLeftNav_selected01,
+.leftNav_selected01
+{
+	position: relative;
+	padding: 4px 15px 7px 9px;
+	margin-left: 7px;
+    width: 100%;
+    background-image: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/leftnav_on01.gif');
+   	background-repeat: no-repeat;
+}
+
+.MusicLeftNav_selected0102 .MusicLeftNav_selected01 
+{padding:0px 15px 0px 0px; margin-left:0px; background:none; width:75%; position:static;}
+
+.MusicLeftNav_selected0102,
+.MoviesLeftNav_selected02,
+.leftNav_selected02
+{
+	position: relative;
+	padding: 4px 15px 7px 9px;
+	margin-left: 7px;
+	width: 100%;
+    background-image: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/leftnav_on02.gif');
+	background-repeat: no-repeat;    
+}
+
+.MusicLeftNav_selected01 span,
+.MoviesLeftNav_selected01 span,
+.leftNav_selected01 span,
+.MoviesLeftNav_selected02 span,
+.leftNav_selected02 span,
+.MoviesleftNav_linkDiv a,
+.leftNav_linkDiv a,
+.MusicLeftNav_selected01 a,
+.MoviesLeftNav_selected01 a,
+.leftNav_selected01 a,
+.MoviesLeftNav_selected02 a:visited,
+.leftNav_selected01 a:visited,
+.MoviesLeftNav_selected02 a,
+.leftNav_selected02 a,
+.MoviesleftNav_linkDiv a,
+.leftNav_linkDiv a
+
+{
+    color: #FFFFFF;
+}
+
+.MusicLeftNav_selected01 a:hover,
+.MoviesLeftNav_selected01 a:hover,
+.leftNav_selected01 a:hover,
+.MoviesLeftNav_selected02 a:hover,
+.leftNav_selected02 a:hover,
+.leftNav_linkDiv a:hover
+{
+  text-decoration: underline;
+}
+
+.leftNav_linkDiv,
+.MoviesleftNav_linkDiv
+{
+	position: relative;
+	padding: 4px 9px 7px 9px;
+	margin-left: 7px;
+    width:90px;
+}
+
+/* TV styles */
+/* TV main body */
+.tv_body { overflow: hidden; height: auto !important; height: 1%; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; border-top: 1px solid #cccccc; background-color: #e2e2e2;
+ text-align:left; width: 970px; padding-bottom: 35px; }
+.tv_titlecontent { font-size: 19px; color:#6c6c6c; margin-left: 138px; margin-top:2px; }
+.tv_titlecontent a { color:#414141; }
+.tv_maintitletext { font-size: 19px; color:#414141; }
+.tv_subtitletext { font-size: 19px; color:#6c6c6c; }
+.tv_leftcontent { width: 124px; height: 500px; float: left; }
+.tv_middlecontent { width: 668px; float: left; }
+.tv_maincontent { width: 660px; background-color:#ffffff; }
+.tv_nodatamessage { padding: 10px 0px 0px 10px; }
+.tv_rightcontent { overflow: hidden; float: left; width: 160px; padding-left: 5px; }
+.tv_popoutdisplay { position: relative; left: -19px; width: 175px; overflow: visible; margin-top: 10px; padding-bottom: 10px; }
+.tv_info_nexton { background-color: #ffffff; }
+.tv_loading_image { width: 53px; text-align: center; padding: 10px 0px 5px 46px; overflow: hidden; }
+.tv_info_provider { background-color: #ffffff; }
+.tv_vertad { }
+
+        
+/* End TV Styles */
+      
+      
+/* Movies */
+.movies_668_body,
+.movies_editorspicks__body
+{ overflow: hidden; height: auto !important; height: 1%; border:1px solid #cccccc; background-color: #e2e2e2;
+ text-align:left; width: 970px; padding-bottom: 35px; }
+
+.movies_668_titlecontent,
+.movies_editorspicks__titlecontent 
+{ font-family: Tahoma; font-size: 19px; color:#6c6c6c; margin-left: 138px; margin-top:2px; }
+
+.movies_668_titlecontent a ,
+.movies_editorspicks__titlecontent a { color:#414141; }
+
+.movies_668_maintitletext ,
+.movies_editorspicks__maintitletext { font-family: Tahoma; font-size: 19px; color:#414141; }
+
+.movies_668_leftcontent,
+.movies_editorspicks__leftcontent { width: 120px; float: left; padding-top:5px }
+
+.movies_668_middlecontent { width: 677px; float: left; }
+.movies_668_maincontent { width: 677px; clear:both }
+.movies_668_nodatamessage { padding: 10px 0 0 10px; }
+.movies_668_rightcontent {overflow: hidden; float: left; width: 160px; padding-left: 5px; margin-top: 18px;}     
+
+.movies_668_info_nexton ,
+.movies_668_info_provider,
+.movies_editorspicks__info_nexton,
+.movies_editorspicks__info_provider { background-color: #ffffff; }
+
+.movies_668_vertad {}
+.movies_668_popoutdisplay, 
+.MovieTitleRightShowtimeHeadDivBaseRoot{ position: relative; left: -18px; width: 182px; overflow: visible;margin-top: 15px; padding-bottom:10px}
+
+/* movies_editorspicks main body */
+.movies_editorspicks__middlecontent { width: 843px; float: left; }
+.movies_editorspicks__maincontent { float:left;width: 843px;}
+.movies_editorspicks__nodatamessage { padding: 10px 0px 0px 10px; }
+.movies_editorspicks__rightcontent {overflow: hidden; float: left; width: 161px; padding-left: 0px; margin-top: 35px; }
+.movies_editorspicks__popoutdisplay { position: relative; left: -19px; width: 175px; overflow: visible; }
+.movies_editorspicks__vertad { width: 100%; text-align: right; padding-top: 10px;}  
+
+
+/* h1 and H2 tags for Movies */
+.HeadersCss{overflow: hidden; height: auto !important; height: 1%;}
+.H1Css{font-size:19px; color:#414141; padding-left:13px; float:left; font-weight:normal; margin-top:5px}
+.HeaderSeperator{float:left;font-size:19px; color:#414141;padding-left:0px; margin-top:5px}
+.H2Css{font-size:19px; color:#6C6C6C; padding-left:5px; float:left; font-weight:normal; margin-top:5px}
+.NewsH1Css{font-size:19px; color:#414141; padding-left:13px; float:left; font-weight:normal; margin-top:5px}
+.NewsRssIconClass{vertical-align:bottom; padding-left:5px}
+
+/* H1 tags for Music */
+.H1CssMus{font-size:19px; color:#414141; padding-left:0px; float:left; font-weight:normal; margin-top:0px; margin-bottom:0px;}
+.H2CssMus{font-size:19px; color:#6C6C6C; padding-left:5px; float:left; font-weight:normal; margin-top:0px; margin-bottom:0px;}
+
+.dlnk5          {color: #07519a; font-weight: bold ;text-decoration: underline; cursor: pointer; }
+.tactb4 tbody	{ padding: 3px 3px 3px 5px; }
+.tbl10r5		{ padding: 10px 5px 10px 10px }
+
+.mvp5	{ border-bottom: 1px solid #e6e6e6; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; text-align: left; padding: 0px 0px 5px 0px }	/* 8 Files */
+.mvp5n  { border-bottom: 1px solid #e6e6e6; text-align: left; padding: 0px 0px 5px 0px}
+.mvp5t	{ border-top: 1px solid #e6e6e6; text-align: left; height: 5px }
+.mvbb	{ width: 600px; border-top: 1px solid #e6e6e6; height:7px }	
+
+.brbg	{ background-color: #F1F1F1 }
+.mbbg	{ background-color: #E5EEF9 }
+.mnbg	{ background-color: #CCDEF2 }
+.ovrly	{color: #e6e6e6; font-size: 28pt; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+
+.pgtl 	{ text-align: left; color: #555555; white-space:nowrap;}
+.pgtp	{ width: 20px; text-align: right; padding: 0px 0px 0px 10px }
+.pgtn	{ width: 20px; text-align: right; padding: 0px 10px 0px 5px }
+.pgtm	{ color: #555555;word-spacing:9px;padding: 0px 0px 0px 10px;}
+
+.blt			{ font-family: wingdings }
+
+/* placeholder styles */
+.bltr			{ }
+
+
+
+/* new tab control default styles */
+.tabHeaderCell {text-align:center;vertical-align: middle;}
+.tabTitleLink   {font-family:Tahoma; font-size:11px;color:#07519a;padding-top:3px;vertical-align:top}    
+ 
+.tabHeaderMainDiv  {
+                background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/tabs/tabs_bg.gif');
+                background-repeat:repeat-x;
+                background-position:top right;
+                height: 19px;
+                border-left:1px solid #cccccc;
+                border-right:1px solid #cccccc;
+                text-align: center;
+                cursor:pointer; margin-left:0px; margin-right:0px; margin-top:7px; margin-bottom:0px
+                }
+
+.tabHeaderSelDiv             {
+                background:white;
+                margin: 0px 0px 0px 0px;
+                height: 25px;
+                border-top:1px solid #cccccc;
+                border-right:1px solid #cccccc;
+                border-left:1px solid #cccccc;
+                position:relative;
+                bottom:-1px;     
+}
+
+.tabHeaderSelDiv .tabTitleText  {padding-top:3px;}
+
+.tabTitleLDiv       {
+                vertical-align:top;
+                position: relative;
+                top: 0px;
+                text-align:center
+}
+
+.tabTitleRDiv      {
+                vertical-align:top;
+                padding: 0px 2px 0px 0px; 
+                margin:0px 0 0 0;
+}
+
+.tabContentMain             {
+                width:458px;
+                background-color:White;
+}
+
+.HomeGalleryTabItemDiv             {
+                float:left;
+                padding:0px 21px 0px 10px;
+                width:83px;
+                }
+
+.tabContentAreaDivCss, .NewstabContentAreaDivCss   {
+                padding:10px 0px 0px 0px;
+                overflow: hidden; 
+                width:458px;
+                border:1px solid #cccccc;              
+}
+
+.tabContentAreaDivCssNoRss    {
+                padding:30px 0px 0px 0px;
+                overflow: hidden;
+                width:458px;
+                border:1px solid #cccccc;
+}
+
+.tabMainContentCellDiv               {
+                background: white;
+                height: 100%;
+                margin-right:0px;
+                padding:0px 10px 5px 10px;
+                overflow: hidden; 
+}
+
+.tabTitleText      {
+                font-family:Tahoma;
+                font-size:11px;
+                color:#333333;
+                padding-right: 15px;
+                text-align: top;
+                vertical-align:middle;
+                text-align:center;
+                padding-left:15px;
+}
+
+.MovieDefaultTabContentArea {
+                width:458px;
+                background:white;
+                border: 1px solid #cccccc;
+}
+
+.MovieDefaultTabContentItemDiv           {
+                float:left;
+                width:101px;
+                margin-right: 9.5px;
+}
+
+
+
+
+/*similar movies */
+
+.SMovMainDiv { width: 100%;}
+.SMovItemDiv
+{
+  display:block;
+  float:left;
+  padding: 5px 0px 0 10px;
+  width: 312px;
+}
+
+.SMovItemTitleDiv
+{
+  float: left;
+}
+
+.SMovItemDateDiv{}
+
+
+/* Summary Stuff */
+
+.PhotosSummarytopnoborder, 
+.NewsSummarytopnoborder, 
+.SimilarMoviesSummarytopnoborder
+{
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_300x29.gif);
+  margin:0;
+  position: relative;
+  width: 100%;
+  height:24px;
+  font-size:24px;
+}
+
+.PhotosSummarytopcell, 
+.NewsSummarytopcell, 
+.SimilarMoviesSummarytopcell
+{ position: relative; }
+
+
+.PhotosSummaryheadertext, 
+.NewsSummaryheadertext, 
+.SimilarMoviesSummaryheadertext
+{
+  color: #333333;
+  position: absolute;
+  right: 240px;
+  top: 5px;
+}
+
+
+.PhotosSummarycontentcell,
+.NewsSummarycontentcell,
+.SimilarMoviesSummarycontentcell
+{
+  padding-left: 2px;
+  width: 293px;
+}
+
+.PhotosSummarytop,
+.NewsSummarytop, 
+.SimilarMoviesSummarytop
+
+{
+  margin: 0 2px 0 2px;
+  width: 100%;
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_300x29.gif);
+  height:24px;
+  font-size:24px;
+}
+
+
+/* News Summary Stuff */
+.NewsSummarycontentdiv { text-align:left; padding-left:0px;}
+
+/* View All */
+.NewsModuleViewAll
+{
+  color: blue; padding-right: 10px; text-align: right; background-color: White; position: relative;
+  text-align: left;   
+}
+
+.watchAllVideos
+{
+	position: relative;
+	top: -23px;
+	left: 450px;
+	width: 150px;
+	display: block;
+}
+
+/* White Straight No Shadow */
+
+.whiteTopStraightNoShadow, 
+.NewsModuleHeaderUCCellCss, 
+.NewsModuleFooterCenterCellCss
+{
+  background-color: white;
+  font-size: 8px;
+  height: 8px;
+  
+}
+
+.whiteSquareNoShadow8x8, 
+.NewsModuleFooterRightCellCss, 
+.NewsModuleHeaderURCellCss
+{
+  background-color: white;
+  font-size: 8px;
+  width: 10px;
+  height: 8px;
+}
+
+.whiteSideStraightNoShadow, 
+.NewsModuleContentRightCellCss, 
+.NewsModuleHeaderLRCellCss 
+{ background-color: white; }
+
+
+.bwhite, 
+.NewsModuleContentLeftCellCss,
+.NewsModuleHeaderLLCellCss,
+.NewsModuleContentCellCss, 
+.NewsModuleHeaderLCCellCss
+{
+  background-color: White;
+  position: relative;
+  text-align: left;
+}
+
+.InfoModLargeContentCellCss
+{
+  background-color: white;
+  position: relative;
+  text-align: left;
+  vertical-align:top;
+  height: 360px;
+}
+
+.InfoModLargeContentCellCssNoHeight
+{
+  background-color: White;
+  position: relative;
+  text-align: left;
+ }
+
+    
+.InfoModLargeContentCellCss833
+{
+  background-color: White;
+  position: relative;
+  text-align: left;
+  width: 833px;
+}
+
+.InfoModLargeContentCellCss668
+{
+  background-color: White;
+  position: relative;
+  text-align: left;
+  width: 668px;
+}
+
+.InfoHeaderTextDiv, 
+.NewsModuleTitleDivCss
+{
+  color: #333333;
+  font-weight: bold;
+}
+
+.ImageRssDiv, 
+.NewsModuleRSSDivCss
+{
+  left: 400px;
+  position: absolute;
+  top: 10px;
+}
+
+.NewsModuleRSSDivCss
+{
+  left: 440px;
+  position: absolute;
+  top: 0px;
+}
+.MovieOverViewdivNewsItemCss_Single { width:312px; float:left; padding-left:10px}
+.MovieOverViewdivNewsItemCss_Single2 { width:313px; float:left; padding-left:10px}
+.MovieOverViewdivNewsItemCss_Single3 { width:302px; float:left; padding:2px 10px 10px 10px}
+.MovieOverViewdivNewsItemCss_Multiple { width:654px; float:left; padding-left:10px}
+
+.GossipCelebsRssDiv,
+.CriticsReviewRssDiv,
+.MoreMoviesRssDiv
+{
+     float:right;
+}
+
+.ImageRssDiv1
+{
+  position: absolute;
+  left: 260px;
+  top: 0;
+}
+
+.ViewAll1
+{
+  color: blue;
+  padding-right: 0px;
+  text-align: right;
+  padding-top:10px
+}
+
+ /* movies home */
+.PageRootDiv 
+{
+    overflow: hidden; 
+    height: auto !important; height: 1%;    
+    width:970px; 
+    border:solid 1px #cccccc;
+    background-color:#e1e1e1;
+    padding-bottom:10px;
+    vertical-align:top;
+    background-repeat:no-repeat;
+    background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/content_bg.gif);
+ 
+}
+
+.PageFirstRowDiv
+{
+    width:969px;
+    height:260px;
+    margin:0px 0px 3px 0px;
+    overflow: hidden; height: auto !important; height: 1%;    
+}
+
+.PageRightColumn
+{
+    float:left;
+    width:308px;
+    padding-left:0px;
+}
+.PageCenterColumn
+{
+    float:left;
+    width:460px;
+    margin-left:10px;
+    padding-top:4px;
+}
+.PageLeftColumn
+{
+    float:left; 
+    padding: 4px 0 0 6px;
+    width:176px;
+}
+
+.PageLeftColumnModule
+{
+  width:161px;
+  background-color: white;
+  padding:15px 0 30px 10px;
+}
+
+.GenreListContentCell
+{
+  padding-top:0px;
+  width:160px;
+  background-color: white;
+}
+
+.GenreListHeaderText
+{
+    color:#333333;
+}
+.MoviesPopupRightModule
+{
+    position:absolute;left:658px;top:10px; width:183px;
+}
+.MoviesCriticsReviewPopupRightModule
+{
+    position:absolute;left:664px;top:10px; width:177px;
+}
+.HomeFlashControl
+{
+    float:left;
+    width:658px;
+    overflow: hidden; height: auto !important; height: 1%; 
+    padding:6px 0px 0px 2px
+ }
+ 
+.HomeGenreSelection{ padding: 10px 0px 0px 0px}
+.HomeRotator {padding-bottom:9px}
+.RotatorViewAll
+{
+  color: blue;
+  padding:10px 10px 0 0;
+  text-align: right;
+}
+
+.AdMedium 
+{
+    float:right;
+    width:300px;
+    padding:6px 7px 0 0;
+}
+
+.HomeShowtimesModuleMainDiv
+{
+    margin:0 0 0 7px;
+    width:308px
+}
+
+.HomeShowtimeContent
+{
+  background-color: white;
+  width:288px;
+  padding:0 0 10px 10px;
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/btmShadow.gif);
+  background-position:bottom;
+  background-repeat:repeat-x
+}
+
+.HomeShowtimeHeaderImageDiv
+{
+  background-color: #dfdfdf;
+  position: relative;
+  text-align: left;
+  padding:0 0 2px 10px;
+}
+
+.HomeTabRssDiv {width:440px; text-align:right; padding:0px 10px 10px 0px}
+
+.HomeGalleryTabItemDivCustom
+{
+    width:83px;
+    float:left;
+    margin:0 20px 0 10px;
+}
+
+.HomeLeftColumnSecondModuleDiv
+{
+   padding-top:0px; width:176px; 
+}
+
+.HomeLeftColumnThirdModuleDiv{ padding-top:5px;}
+
+.HomeCenterColumnFourthModuleDiv
+{
+    padding-top:0px;
+}
+.HomeRightColumnSecondModuleDiv,
+.HomeRightColumnFourthModuleDiv
+{
+    padding-top:10px;
+    width:302px;
+    margin:0px 0px 0px 10px;
+}
+
+
+.HomeCenterColumnFirstModuleDiv
+{
+    padding-bottom:10px;
+}
+.HomeCenterColumnArticleModuleDiv
+{
+    padding-top:0px;
+}
+.HomeCenterColumnSecondModuleDiv{}
+.HomeCenterColumnThirdModuleDiv,
+.HomeCenterColumnArticleModule2Div
+{
+    padding-top:10px;
+}
+
+.HomeTopCelebImgDiv
+{
+   
+    width:140px;float:left;
+    padding:0px 0px 15px 10px;
+    font-weight:bold;
+}
+.HomeTopCelebImgDiv_Image { float:left}
+.HomeTopCelebLinkDiv { float:left; padding-left:5px; width:85px}
+.HomeTopCelebTabRootDiv{}
+.HomeTabRSSDivCss
+{
+  padding-left:440px;
+  padding-bottom:5px;
+}
+
+.HomeTabRSSDivCssEditorial
+{
+  padding-left :430px;
+  padding-bottom:5px;
+}
+.HomeTabBottomLinkDivCss
+{
+    padding-bottom:10px;
+    margin-right:5px;
+    float:right;
+    font-weight:bold;
+}
+.HomePhotoTabMoreLinkDiv
+{
+    padding:10px 10px 10px 10px;
+    float:right;
+    font-weight:bold;
+    width:250px;
+    text-align:right
+}
+
+.HomeTopBoxOfficeLeftDiv
+{
+    float:left;
+    width:220px;
+    padding-left:10px;
+    border-right:solid 1px #e1e1e1;
+    margin-bottom:15px;
+}
+.HomeTopBoxOfficeRightDiv
+{
+    float:right;
+    width:210px;
+    padding-right:10px;
+    margin-bottom:15px;
+}
+
+.HomeTopBoxOfficeItemDiv
+{
+    width:210px;
+    padding:0px;
+    overflow: hidden; height: auto !important; height: 1%; 
+    padding:5px 0 5px 0;
+}
+
+.HomeTopBoxOfficeItemNameDiv
+{
+    padding-left:1px;
+    width:150px;
+    float:left;
+}
+.HomeTopBoxOfficeItemNumberSpan
+{
+    float:left;
+}
+.HomeTopBoxOfficeAmountDiv
+{
+    float:right;
+    width:38px;
+}
+
+.HomeNewsItemDiv
+{
+  margin:0px 10px 10px 10px;
+}
+
+
+.MovieSpecialContentCell{width:160px;}
+.MoreMoviesContentCell{width:160px;}
+.MovieHomeHeaderText { color:#333333;float:left}
+
+.ViewAllImageCss { position:relative; top:2px; left:3px }
+
+/* Data Page Ad */
+.DataPageAdClass { padding-right:5px;float:right;clear:both}
+
+/* PageMin Heights */
+.MiddleSectionMinHeight
+{
+   min-height:870px;
+}
+
+.EditorsPicksMinHeight
+{
+	min-height:350px;
+	position:relative;
+}
+
+/* Movie Blog on Homepage */
+.blogFilter { margin:0px 10px 10px 10px}
+
+/* Video Tab on HomePage */
+.VideoTabVideoDiv {float:left; padding:0 6px 0 10px;width:91px;}
+.VideoTabStillFrame {}
+.VideoTabPlayButton{float:left; padding:4px 2px 0 0}
+.VideoTabVideoTitle { float: left; margin-top: 5px; width:91px;}
+.VideoTabArtistName { float:left; margin-top:0px; width:91px;}
+.VideoTabArtistNameFont {font-size:10px; color:#666666;}
+.WatchVideoDiv{ float:left; padding-top:4px;}
+
+/* PhotoGallery Tab on HomePage */
+.tpg_img {float: left;width: 83px; height: 83px; background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photo_gallery.gif); background-repeat: no-repeat; text-align: left; position: relative; } /* note: relative positioning is required for the "disappearing background image" bug in IE 6. (The bug is an edge case though) */
+.tpg_container {margin-top:3px}
+
+
+.ViewAllLinkHome
+{
+    width:280px;
+    padding:0px;
+    text-align:right;
+    background-color:White
+}
+
+/* Custom Tab styles */
+.MovieFeatureTabContentArea
+{
+    width:460px;
+    background-color: #ede1bb;
+}
+.MovieFeaturetabContentCellDiv{}
+.MovieFeaturetabHeaderCell
+{
+    background-color:#ede1bb;
+}
+.MovieFeatureContentItemDivLeft,
+.MovieFeatureContentItemDivRight
+{
+    float:left;
+    width:210px;
+    padding:10px;
+}
+.MovieFeaturetabHeaderSelDiv
+{
+    background-color:#ede1bb;
+    font-weight:bold;
+    height:24px;
+}
+.MovieFeatureTabTitleText
+{
+  color:Yellow;
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* summary */
+.MusicSummaryTopNoBorder,
+.MoviesSummaryTopNoBorder
+{
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.gif);
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+  height:24px; 
+  font-size:24px;
+}
+
+.MoviesSummaryTopNoBorder833x29
+{
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_833x29.gif);
+  width: 833px;
+  height:24px; 
+  font-size:24px;
+}
+
+.MovSynopsisTitleDivCss,
+.MovOverviewSummaryTitleDivCss,
+.CelebBiographyTitleDivCss
+{
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_488x29.gif);
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+  height:24px; 
+  font-size:24px;
+}
+
+
+.CelebBiographyTitleCssDiv,
+.MusicSummaryHeaderText,
+.MoviesSummaryHeaderText,
+.MovOverviewTitleCssDiv
+{
+  color: #333333;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+} 
+
+.MoviesSummaryHeaderTextEditorsPicks
+{
+  color: #333333;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: -20px;
+}
+.MoviesSummaryContentCell
+{
+  padding-bottom: 0px;
+  padding-top: 10px;
+  width: 666px;
+}
+
+.MusicSummaryContentCell,
+.MoviesSummaryContentCellPaddingBottom
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 666px;
+}
+.MoviesSummaryContentCellNoPadding
+{
+  width: 666px;
+}
+
+.MoviesSummaryContentCellTopPadding
+{
+  padding-top: 10px;
+  width: 666px;
+}
+
+.MoviesSummaryContentCellBottomPadding
+{
+  padding-bottom: 10px;
+  width: 666px;
+}
+.MoviesSummaryContentCellNoTop
+{
+  
+  padding-bottom: 10px;
+  padding-top: 0px;
+  width: 666px;
+}
+
+.MusicSummaryContentCell833
+.MoviesSummaryContentCell833
+{
+  
+  width: 833px;
+}
+
+.MoviesSummaryContentCell668
+{
+	width: 668px;
+}
+
+.MusicSummaryItemStyle,
+.MoviesSummaryItemStyle
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.MoviesSummaryViewAll
+{
+  color: blue;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+} 
+
+/* User Reviews */
+.rvwmainDiv {   overflow: hidden; height: auto !important; height: 1%; width:600px}                
+
+.rvwfirstline ,
+.rvwsecondline, 
+.rvwthirdline { width:585px;  margin-left:10px; word-wrap:break-word;}
+
+.rvwfourthline { width:585px;  margin-left:10px; margin-top:10px;}
+.rvwposted { display:inline; float:right}
+
+.ReviewsBodyItemCssClass,
+.ReviewsBodyFinalItemCssClass {padding-top:35px}
+
+
+.MovieuserReviewsSignInMessage,
+.ReviewsBodyAlternatingItemCssClass{}
+
+.ReviewsBodyInitialItemCssClass {padding-top:15px; clear:both}
+.WriteRevieLinkCss { margin-left:10px; font-weight:bold}
+.ReviewsHeaderDiv {margin-left:10px; padding:10px 0px 10px 0px}
+
+.MovieuserReviewsSignInRoot{padding:10px 0px 0px 10px;}
+.MovieuserReviewsSignInLink{padding-top:10px}
+.MovieuserReviewsSignInMessageLabel{ color:#333333 }
+
+/* Write Reviews */
+.sbx1	{ width:103px; font-size: 8pt; font-family: Tahoma,Arial; }
+.txa1	{ width:430px; font-size: 8pt; font-family: Tahoma,Arial; }
+
+.WriteReviewSelectCss,
+.WriteReviewNameCss {}
+
+.WriteReviewTitleCss,
+.WriteReviewBodyCss {margin-left:10px}
+
+.WriteReviewDisclaimerCss { font-weight:bold; padding-top:10px; margin-left:10px}
+.WriteReviewsHeadingDiv { color:#333333;padding-top:10px; margin-left:10px}
+.WriteMusicReviewsHeadingDiv { color:#333333;padding-top:20px;}
+.WriteReviewsSubHeadingDiv { font-weight:bold; padding-top:20px; margin-left:10px}
+.WriteMusicReviewsSubHeadingDiv { font-weight:bold; padding-top:20px;}
+.WriteReviewSelectBoxCss {margin-left:10px; width: 300px; clear: both; }
+.WriteReviewSelectBoxCss span { font-weight: bold; }
+.WriteReviewInputButtonCss{ margin-left:10px; padding-top:10px}
+
+/* Preview Reviews */
+
+.ReviewPreviewMainDiv {margin-left:5px; margin-top:15px;}
+.ReviewPreviewButtonContainer {padding-top: 10px;}
+.ReviewPreviewFirstLine {margin-left:10px;}
+.ReviewPreviewReviewDiv {margin-top:10px;}
+
+.ReviewPreviewButton2,
+.ReviewPreviewNbsp,
+.ReviewPreviewButton3 { float:left; padding-left:10px;}
+
+.ReviewPreviewButton1 { float:left; clear:left }
+
+.ReviewPreviewLastLine { width:600px; padding-top:10px; padding-bottom:10px; float:left; clear:left }
+.GenreListRootDiv{ float:left;}
+.GenreListChildDiv{float:left; width:78px; line-height:18px;}
+.GenreListLeftRootDiv 
+{  
+    float:left; width:85px;
+    overflow: hidden; 
+    height: auto !important;
+    height: 1%;
+}
+
+.GenreListRightRootDiv
+{
+    float:left; width:70px;
+    overflow: hidden; 
+    height: auto !important;
+    height: 1%;
+}
+    
+.GenreListIndividualLink{}
+
+.NoDataGridTextDivCss {width:668px; height:500px; text-align:center; color:#333333; font-size:15px}
+.NoShowtimesGridTextDivCss {width:648px;  padding:20px 0px 0px 10px; height:430px; color:#666666; font-size:13px}
+
+/* Genre*/
+.GenreAwardsDropDownCss,
+.GenreReleaseDatesDropDownCss{height: 20px; font-size: 8pt;}
+
+.GenreAwardsDropDownItemCss,
+.GenreReleaseDatesDropDownItemCss{color: #07519a }
+
+/* Movie List Editors Picks */
+.MovieListEditorsMovieListDiv {    overflow: hidden;     height: auto !important;height: 1%;}
+.MoviesSummaryViewAllEditorsPicks { padding:10px 0px 30px 10px; float:left; width:636px; border-top:solid 1px #e1e1e1;text-align:right; margin-top:10px;margin-left:5px}
+.EditorsPicksPromoCss{height:270px;width:513px;float:left;}
+.EditorsPicksAdCss{height:270px;width:300px; padding-left:10px;float:left}
+
+/* Buy DVD Right Module */
+.MovieBuyDVDModuleClass{position: relative; left: -18px; width: 182px; overflow: visible;margin-top: 15px; padding-bottom:10px}
+
+/* News Module */
+.NewsClearingDivCss{ clear:both; padding-top:5px }
+
+/* Celeb Info */
+.CelebBornLabelDiv { font-weight:bold; float:left; color:#333333; padding-right:5px}
+.CelebBornTextDiv {}
+
+.CelebBiographyLabelDiv {font-weight:bold; color:#333333; padding-right:5px;}
+.CelebBiographyOverviewTextDiv {}
+
+/* Right Showtime Module */
+.RightShowtimesModuleHeaderLowerCenter{background-color: #dfdfdf}
+
+.MovieTitleRightShowtimeMainRootDiv,
+.MovieTitleRightShowtimeAskDiv,
+.MovieTitleRightShowtimeListingsDiv,
+.MovieTitleSynopsisDiv,
+.MovieTitleRightShowtimeInputRoot{}
+
+.sblb3{vertical-align:top }
+.MovieTitleRightShowtimeInputRootAskZipInput{width:120px; height:18px; border:solid 1px #b3ccea; display:block; float:left;color:#666666; font-size:8pt; padding-left:4px}
+.MovieTitleRightShowtimeInputDiv {  float:left;}
+.MovieTitleRightShowtimeInputBoxDiv { float:left; padding-top:5px}
+.MovieTitleRightShowtimeInputHiddenDiv{ padding-top:5px}
+.MovieTitleRightShowtimeButton{float:left; padding-left:1px}
+.mTbcell250 {width:230px;}
+/* Movie Series */
+.MovieSeriesItemCss { margin-top:10px; padding-left:10px; overflow: hidden; height: auto !important;height: 1%; }
+.MovieSeriesRootCss{ padding-bottom:30px }
+
+.MovieTitleSeriesInfoDiv{padding-top:20px }
+
+.MovOverviewSummarytopcell,
+.CelebBiographytopcell { position:relative }
+
+/* Movie Title Showtimes */
+.ShowtimesDateDropDown {height: 20px; font-size: 8pt;margin-top:5px;color:#666666}
+.NoLocationCss {color: #555; font-size: 14pt;margin-right: 3px }
+.NoShowtimesCss{color: #555; font-size: 14pt;}
+.MovieShowtimesItemCssClass 
+{
+     clear:both; padding-top:10px; padding-left:10px; 
+     border-bottom:solid 1px #e1e1e1;padding-bottom:10px;
+}
+.MovieShowtimesAlternatingItemCssClass {}
+.MovieShowtimesInitialItemCssClass 
+{   padding-top:10px; padding-left:10px;
+    border-bottom:solid 1px #e1e1e1;
+    padding-bottom:10px;border-top:solid 1px #e1e1e1; margin-top:10px
+ }
+.MovieShowtimesFinalItemCssClass
+{
+    padding-top:10px; padding-left:10px;
+    border-bottom:solid 1px #e1e1e1;padding-bottom:10px;
+}
+
+.MovieTitleShowtimesRootDiv{width:668px;}
+.MovieTitleShowtimesFirstLineDiv 
+{
+    overflow: hidden; 
+    height: auto !important;
+    height: 1%; padding-left:10px;padding-top:10px;
+}
+
+.MovieTitleShowtimesShowTitleLabel { color: #555; font-size: 14pt;}
+.MovieTitleShowtimesChangeLocationDiv {float:left; margin-left:30px; position:relative; top:5px; font-weight:bold; font-size:12px}
+.MovieTitleShowtimesFilterDiv{float:left; margin-left:100px; }
+
+/*left float modules */
+.MovieInfoWatchTrailerPlayButton,
+.MoviesVideoSummaryStillFrame,
+.MovieTitleIndividualCriticReviewStarDivCss_AMG,
+.MovieTitleNoFavouritesMessage,
+.MovieTitleShowtimesShowTitleDiv ,
+.MovieHomeShowtimeTheaterListSignIn,
+.MovieHomeShowtimeTheaterListFooterDiv,
+.MovieHomeShowtimeMoreTheatersDiv,
+.MovieHomeShowtimeDropDownButtonDiv,
+.MovieHomeShowtimeDropDownDiv,
+.MovieHomeShowtimeInputBoxDiv,
+.MovieTitleShowtimesShowTitleDiv,
+.MovieShowTimesItemNameDiv { float:left}
+
+.MovieShowTimesItemNameDiv{font-weight:bold; float:left}
+
+.MovieShowTimesItemFavDiv { float:left;clear:right; margin-left:20px}
+.MovieShowTimesItemFavIconDiv { float:left; padding-left:5px; padding-top:1px}
+.MovieShowTimesItemAddressDiv {clear:both}
+.MovieShowTimesItemLinksDiv {}
+
+
+/* Movie Home Showtimes */
+.MovieHomeShowtimeRootZip{}
+
+.MovieHomeShowtimeAskZip{border:solid 1px #b3ccea; height:16px;width:204px; color:#666666; font-size:8pt; margin-right:1px; margin-top:-1px; padding-left:4px}
+.MovieHomeShowtimeDropDownCss {font-size:8pt; color:#666666; width: 211px;margin-right:1px; border:solid 1px #b3ccea}
+
+.GenreShowtimeAskZip{border:solid 1px #b3ccea; height:16px;width:122px; margin-right:1px;margin-top:-1px;color:#666666; font-size:8pt;padding-left:4px}
+.GenreShowtimeDropDownCss {font-size:8pt; color:#666666; width: 129px;margin-right:1px;border:solid 1px #b3ccea}
+.MovieHomeShowtimeInputDiv{margin-bottom:3px;}
+.MovieHomeShowtimeInputHiddenDiv{float:left; padding-top:0px;}
+.MovieHomeShowtimeBottomDiv{clear:both;overflow: hidden; height: auto !important; height: 1%}
+.MovieHomeShowtimeDropDownRowDiv{overflow: hidden; height: auto !important; height: 1%}
+.MovieHomeShowtimeTheaterListHeaderTheatersDiv{ color:#333333}
+.MovieHomeShowtimeTheaterListDiv{ padding-top:5px;padding-bottom:10px}
+.MovieHomeShowtimeTheaterListBarCss{ float:left; padding-left:5px; padding-right:5px}
+.MovieHomeShowtimeAdDiv {float:left;padding-left:15px; margin-top:10px}
+.MovieHomeShowtimeCustomizationDiv { clear:both; padding-top:5px;padding-left:0px; font-size:9px}
+
+/* Movie Title Showtimes: Ask ZipCode*/
+.MovieTitleAskZipFirstLine { float:left; padding-bottom:5px}
+.MovieTitleAskZipShowtimesText{float:left;color:#333333;font-size:10pt; font-style:Tahoma; font-weight:700}
+.MovieTitleAskZipBarCss{float:left;font-size:15px; padding-left:10px}
+.MovieTitleAskZipSignInLinkDiv{float:left;font-size:9pt; padding-left:10px; margin-top:1px}
+.MovieTitleAskZipTextBoxCss{float:left; border:solid 1px #b3ccea; width:250px;height:18px;font-size:8pt; color:#666666;padding-left:4px}
+.MovieTitleAskZipButtonCss{float:left;overflow: hidden; height: auto !important; height: 1%;margin-left:1px}
+.MovieTitleAskZipInputLineCss{clear:both; float:left;overflow: hidden; height: auto !important; height: 1%;}
+.MovieTitleAskZipTextLine1Css{clear:both; padding-bottom:5px}
+.MovieTitleAskZipTextLine2Css{clear:both;padding-top:5px;padding-bottom:10px}
+.MovieTitleAskZipSignInLink{font-size:11px}
+
+/* Movie Title Showtimes */
+.NoLocationCss {color: #555; font-size: 14pt;margin-right: 3px }
+.NoShowtimesCss{color: #555; font-size: 14pt;}
+.MovieShowtimesItemCssClass 
+{
+     clear:both; padding-top:10px; padding-left:10px; 
+     border-bottom:solid 1px #e1e1e1;padding-bottom:10px;
+}
+.MovieShowtimesAlternatingItemCssClass {}
+.MovieShowtimesInitialItemCssClass 
+{   padding:10px 0 10px 10px;
+    border-bottom:solid 1px #e1e1e1;
+    border-top:solid 1px #e1e1e1; margin-top:10px
+ }
+.MovieShowtimesFinalItemCssClass
+{
+    padding:10px 0 10 10px;
+    border-bottom:solid 1px #e1e1e1;
+}
+
+.MovieTitleShowtimesRootDiv{width:668px;}
+.MovieTitleShowtimesFirstLineDiv 
+{
+    overflow: hidden; 
+    height: auto !important;
+    height: 1%; padding:10px 0 0 10px;
+}
+
+.MovieTitleShowtimesShowTitleLabel { color: #555; font-size: 14pt;}
+.MovieTitleShowtimesChangeLocationDiv {float:left; margin-left:30px; position:relative; top:5px; font-weight:bold; font-size:12px}
+.MovieTitleShowtimesFilterDiv{float:left; margin-left:100px; }
+
+.MovieShowTimesItemFavDiv { float:left;clear:right; margin-left:20px}
+.MovieShowTimesItemAddressDiv {clear:both}
+.MovieShowTimesItemLinksDiv {}
+
+/* Movie Title Showtimes: No Favorites */
+
+/* Showtimes Header */
+.MovieTitlesShowtimeHeaderRootDiv{clear:both}
+.MovieTitlesShowtimeHeader1{float:left;}
+.MovieTitlesShowtimeHeader2{float:left;padding:7px 0px 0px 10px}
+.ChangeDatesLinksDiv{}
+.FutureShowtimesLink{color:#07519a}
+
+/* End Header */
+.MovieTitleNoFavoritesShowtimeLocation{color:#333333;font-size:10pt; font-weight:700; font-style:Tahoma; float:left; margin-left:20px}
+.MovieTitleNoFavoritesSecondLine {width:400px;padding-top:0px;clear:both;overflow: hidden; height: auto !important; height: 1%;}
+.MovieTitleNoFavoritesThirdLine {margin-top:5px; border-top:solid 1px #e1e1e1; float:left;clear:both; margin-left:-10px; width:678px}
+.MovieTitleNoFavoritesFourthLine {padding-top:5px;clear:both}
+.MovieTitleNoFavoritesChangeLocation{float:left; margin-top:1px; padding-left:10px}
+.MovieTitleNoFavoritesMyTheaters{color:#333333;font-size:10pt; font-weight:700; font-style:Tahoma;float:left;}
+
+/* Movie Title: Location from Cookie */
+.MovieTitleCookieRoot,
+.MovieTitleCookieFirstLine{}
+
+.MovieTitleCookieShowtimeLocation{color:#333333;font-size:10pt; font-weight:700; font-style:Tahoma}
+.MovieTitleCookieAskZipBarCss {float:left;font-size:11px; padding:0 10px 0 10px;}
+
+.MovieTitleCookieSecondLine,
+.MovieTitleNoFavoritesThirdLine{ padding-top:5px}
+
+.MovieTitleCookieChangeLocation{float:left; font-size:11px}
+.MovieTitleCookieSignIn{font-size:15px}
+.MovieTitleCookieThirdLine{clear:both; padding-top:5px}
+.MovieTitleRightShowtimeHeaderImageDiv
+{
+  background-color: #dfdfdf;
+  position: relative;
+  text-align: left;
+  padding:2px 0 0 10px;
+}
+
+.MovieTitleRightShowtimeHeadDivRoot
+{
+    border-bottom:dotted 2px #cccccc;
+}
+
+.MovieTitleRightShowtimeZipSpan {display:block;margin-top:-1px; padding-left:10px}
+.MovieTitleRightShowtimeLinkSpan{display:block; padding-left:10px; padding-bottom:2px}
+.MovieTitleRightShowtimeFooterDiv{padding-top:10px}
+.MovieTitleRightShowtimeFooterSeperatorDiv{border-top: solid 1px #e1e1e1; margin:5px 10px 5px 0px}
+
+
+/* Movie Critics Reviews */
+
+.MusicCriticsReviewText,
+.MusicCriticsReviewText p,
+.MovieCriticsReviewText,
+.MovieCriticsReviewText p {font-size:13px}
+
+.MovieCriticsReviewTopListDivCss_Single {}
+.MovieCriticsReviewTopListDivCss_Multiple {padding-bottom:30px; margin-bottom:10px;border-bottom:solid 1px #e1e1e1;}
+
+/* Review List */
+.MovieTitleReviewListStarDivCss { display:block; width:65px; float:left; padding-top:2px}
+.MovieTitleReviewListNameDivCss {display:inline; float:left; padding-left:10px; font-size:13px}
+.MovieTitleReviewListAuthorDivCss {padding-left:75px; clear:left;font-size:23px}
+.MovieTitleReviewListAuthorDivCss span {font-size:13px}
+.MovieTitleReviewListRootDivCss {clear:both;padding:5px 0px 5px 0px;font-size:13px}
+
+.MovieTitleReviewListStarDivCss_AMG { display:inline;}
+
+.MovieTitleReviewListNameDivCss_AMG ,
+.MovieTitleReviewListAuthorDivCss_AMG {padding-left:10px; font-size:13px }
+.MovieTitleReviewListAuthorDivCss_AMG span { font-size:13px }
+
+
+.MovieTitleReviewListRootDivCss_AMG{clear:left}
+.MovieTitleIndividualCriticReviewRootDivCss {border-bottom:solid 1px #e1e1e1; margin-bottom:10px;}
+.MovieTitleIndividualCriticReviewRootDivCss_Single { margin-bottom:10px; }
+.MovieTitleIndividualCriticReviewStarDivCss { padding-bottom:4px;}
+.MovieTitleIndividualCriticReviewNameDivCss {font-weight:bold;color:#333333; padding-bottom:4px }
+.MovieTitleIndividualCriticReviewByDivCss { font-style:italic; font-size:12px}
+.MovieTitleIndividualCriticReviewSummaryDivCss {font-size:13px; clear:left;}
+.MovieTitleIndividualCriticReviewContentDivCss_AMG{font-size:13px; clear:left; padding-top:10px}
+.MovieTitleIndividualCriticReviewContentDivCss_AMG p{font-size:13px;}
+.MTVarietyReviewSummaryDivCss { clear:left;font-size:13px}
+.MTVarietyReviewSummaryDivCss p {font-size:13px}
+
+
+.MovieTitleIndividualCriticReviewNameDivCss_AMG { margin-left:5px;font-weight:bold; color:#333333; float:left }
+.MovieTitleIndividualCriticReviewByDivCss_AMG {float:left; margin-left:5px; font-style:italic}
+.MovieTitleIndividualCriticReviewBackToTopDivCss { margin:10px 0 10px 0;}
+
+/* Movie Cast and Crew */
+
+.MovieCast_CastDivCss,
+.MovieCast_CrewDivCss { float:left; width:322px;  overflow: hidden; height: auto !important; height: 1%;}
+
+.MovieCast_CastName,
+.MovieCast_CrewName { clear:left;float:left; width:159px;display:block;}
+
+.MovieCast_CastCharacterName ,
+.MovieCast_CrewTitle{ float:left; width:159px; display:block;}
+
+.MovieCastIndividualDiv,
+.MovieCrewIndividualDiv { margin-top:5px;overflow: hidden; height: auto !important; height: 1%;}
+
+/* Movie Featured Cast */
+.FeaturedCastRootDiv { padding:10px}
+.MovieFeaturedCast_EachCastDivCss { float:left; width: 322px; }
+.MovieFeaturedCast_Image { clear:left;float:left }
+.MovieFeaturedCast_Details { float:left; padding-left:10px; width:260px;}
+
+.MovieOverViewFeaturedCastRootDiv{padding:10px 12px 0px 10px;  overflow: hidden;height: auto !important; height: 1%;}
+.MovieOverViewFeaturedCast_EachCastDivCss {float:left; width: 149px; padding-right:12px;}
+
+.MovieOverViewFeaturedCast_Image,
+.MovieOverViewFeaturedCast_Details {}
+.
+/* Movies Video Summary */
+.MusicVideoSummaryVideoDiv{ width:320px;float:left; padding:0 0 10px 10px;}
+.MoviesVideoSummaryVideoDiv{ width:312px;float:left;padding:0 0 10px 10px;}
+.MusicVideoSummaryStillFrame { float:left; padding:0 0 20px 10px;}
+.MusicVideoSummaryPlayButton { float:left; margin-top:2px;}
+
+.MoviesVideoSummaryPlayButton,
+.MoviesVideoSummaryVideoTitle { float:left; margin-left:5px}
+
+.MusicVideoSummaryVideoTitle { float:left; font-weight:bold; width:208px;}
+.MusicVideoSummaryWatchVideoText { float:left; margin:2px 0 0 5px;}
+.muv_mainDiv {width:310px;float:left; padding:10px;}
+.mu_videoStillDiv {float:left;padding-bottom:10px;}
+.mu_videoLinksDiv { float:left; padding-left:10px;}
+
+/* MovieOverView, CelebOverView Page Modules*/
+.CelebOverViewRootDiv,
+.MovieOverViewRootDiv, 
+.MovieOverViewRootDiv_FirstLine
+{
+  clear:both;
+}
+
+.MovieOverViewMovieInfo { text-align:left; clear:both }
+ 
+.CelebOverViewPhotos,
+.CelebOverViewVideo,
+.CelebOverViewNews,
+.CelebOverViewFilmography,
+.CelebOverViewVideo,
+.MovieOverViewMoviePhotos,
+.MovieOverViewMovieVideo,
+.MovieOverViewSimilarMovies,
+.MovieOverViewNews,
+.MovieOverViewFeaturedCast
+{ clear:both; padding-top:10px }
+
+.CelebOverViewWorkedWith
+{
+  clear:both
+}
+
+.CelebOverViewPhotos table ,
+.MovieOverViewFeaturedCast table { width:100%}
+
+
+/* Movie Synopsis Page Modules : Also known as Summary Tab */
+.MovieSynopsisRootDiv { clear:both }
+.MovieSynopsisMovieInfo ,
+.CelebBiographyInfo {text-align:left; clear:both;}
+
+.MovieInfoSynopsisDiv {clear:both; padding-top:10px; width:485px;}
+
+.CelebBiographyText,
+.CelebBiographyText p,
+.MovieSynopsisText,
+.MovieSynopsisText p {font-size:13px}
+
+.MovieInfoDetailsRatingDiv {float:left; width:486px; margin-left:8px }
+
+.MovieTitleSynopsisTextDiv,
+.CelebBiographyTextDiv {padding:10px 0 10px 10px;}
+
+.CelebBiographyRootDiv{ clear:both; padding-bottom:10px;}
+
+
+/* Movie Info */
+.MovieInfoCommaSpan { margin-right:2px}
+.MovieInfoAdditionalLinksDiv { clear:both; padding-top:5px}
+.MovieInfoOverrideCss{border-collapse:collapse; width:676px}
+.MovieInfoWatchTrailerRoot { clear:left;padding-top:10px;overflow: hidden;height: auto !important; height: 1%;} 
+.MovieInfoWatchTrailerText { float:left; padding-left:5px}
+
+.MovieInfoRatingDiv{padding:0px 5px 7px 9px;float:right; width:221px; margin-right:10px; }
+.MovieInfoCriticsRatingDiv{clear: both; padding:8px 0 7px 0; overflow: hidden;height: auto !important; height: 1%; border-bottom: 1px solid #dddddd}
+.MovieInfoCriticsRatingTitle{float:left;}
+.MovieInfoReadReviewDiv {float:right; font-size: 9px; padding: 2px 0 0 5px; width: 63px;}
+
+.MovieInfoCriticsRatingStars,
+.MovieInfoAverageUserRatingStars{float:right; padding: 1px 0 0 0;}
+
+.MovieInfoAverageUserRatingDiv{clear:both; padding:5px 0 0 0; }
+.MovieInfoAverageUserRatingTitle{float:left;}
+.MovieInfoAverageUserRatingTotal {float:right; font-size: 9px; padding: 2px 0 0 5px; width: 63px; }
+
+.MovieInfoYourRatingDiv{ overflow: hidden;height: auto !important;height: 1%; padding:5px 0 0 0;clear: both; }
+.MovieInfoYourRatingTitle{ float: left; width: 153px; }
+.MovieInfoYourRatingTitle div{padding-top: 1px; }
+.MovieInfoWriteReviewDiv {float:left; font-size: 9px; padding: 2px 0 0 4px; width: 63px;}
+
+.MovieInfoGenresDiv,
+.MovieInfoReleaseDiv { padding-top:3px;  clear:both;  overflow: hidden;height: auto !important; height: 1%;}
+.MovieInfoDistributedByDiv{ clear:both; overflow: hidden;height: auto !important; height: 1%;}
+.BelowStarringDivCss{clear:both; overflow: hidden;height: auto !important; height: 1%;}
+
+.MovieInfoGenresLabel,
+.MovieInfoReleaseLabel
+{
+    font-weight:bold;
+    color:#333333;
+    float:left;
+    padding-right:4px;
+    display:block;float:left;
+}
+
+.MovieInfoGenreSpan,
+.MovieInfoGenresNameDiv
+{
+    float:left
+}
+.MovieInfoSynopsisLabel 
+{
+    font-weight:bold;
+    color:#333333;
+}
+
+.MovieInfoDistributedByLabel
+{
+    font-weight:bold;
+    color:#333333;
+    float:left;
+    clear:left;
+}
+
+.MovieInfoReleaseText
+{
+    margin-left:0px;
+    display:block;
+    float:left;
+}
+
+.MovieInfoDistributedByText
+{
+    margin-left:5px;
+    display:block;
+    float:left;
+}
+
+.MovieInfoDirectedByDiv,
+.MovieInfoCastDiv 
+{
+    font-weight:bold;
+    color:#333333;   
+    clear:left;
+    overflow: hidden; 
+    height: auto !important; height: 1%;
+    padding-top:5px;
+    clear:both;
+ }
+
+
+.MovieInfoDirectorCharacters,
+.MovieInfoCastDivCharacters
+{
+    display:inline;
+}
+
+.MovieInfoDirectedByLabel,
+.MovieInfoCastLabel
+{
+    display:inline;
+    font-weight:bold;
+    color:#333333;
+    float:left;
+    margin-right:5px;
+    height:20px;
+}
+
+.CelebWorkedWithSummary_Bio,
+.MoviesSummaryTabSimilarMovies
+{
+  padding:5px 0 0 5px;
+  width: 143px;
+}
+
+.CelebWorkedWithSummary_BioViewAllDiv,
+.MoviesSummaryTabSimilarMoviesViewAllDiv
+{
+    width:140px;
+    text-align:right;
+    padding:0px 0px 10px 0px;
+}
+
+.CelebWorkedWithSummary_BioViewAllLink,
+.MoviesSummaryTabSimilarMoviesViewAllLink
+{
+    float:right;
+    padding:10px 10px 10px 0px;
+}
+
+.CelebWorkedWithSummary_BioItemTitle
+{
+    float: left;
+    clear:both; 
+}
+
+.MoviesSummaryTabSimilarMoviesItemCss 
+{
+    clear:left;
+    padding-top:5px
+}
+
+.CelebWorkedWithSummary_BioItemCss
+{
+    clear:left;
+    padding-top:3px
+}
+
+.SMovSummaryTabItemTitle
+{
+    margin-top:5px;
+    float: left;
+    clear:both; 
+}
+
+.CelebWorkedWithSummary_BioBackground,
+.SMovSummaryTabBackground
+{
+    background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/similar_blend.gif);
+    border: solid 1px #e1e1e1;
+    margin-bottom:10px
+}
+
+.CelebWorkedWithMovieNameCss { display:block; width:250px;overflow: hidden; height: auto !important; height: 1%;}
+.CelebWorkedWithDotCss {}
+
+.CelebWorkedWithSummary_BioHeader,
+.SMovSummaryTabHeader
+{
+  color: #333333;
+  font-size:11px;
+  margin-right:1px;
+  margin-left:1px;
+  padding:5px 0px 0px 5px;
+} 
+
+/* Movie Trailers and Clips Page Modules */
+.MovieTrailersClipsRootDiv { clear:both }
+.MovieTrailersClipsInterviews,
+.MovieTrailersClipsTrailers,
+.MovieTrailersClipsClips
+{
+    text-align:left; clear:both; padding-bottom:10px; 
+}
+.CelebWorkedWithCastControlRoot {text-align:left; clear:both;}
+
+.MovieCastCrewRootDiv { clear:both }
+.MovieCastCrewFeatured,
+.MovieCastCrewDetails
+{ text-align:left; clear:both }
+.MovieCastCrew_DetailsRoot {padding:0px 10px 10px 10px;}
+
+
+/* Data Pages */
+.DataPageRootDiv
+{
+    width: 972px;
+    background-color:#e1e1e1;
+    overflow: hidden; 
+    height: auto !important; height: 1%;
+}
+.PageLeftNavitem
+{
+    Font-weight:bold; 
+    color:#fff;
+    padding:5px 0px 0px 10px;
+}
+.MenuLinkCss
+{
+    color:White;
+}
+
+/* Movie Details New Line Release for Movie Series Information */
+.MovieDetailsNewLineReleaseDiv{overflow: hidden; height: auto !important; height: 1%;}
+.MovieDetailsNewLineReleaseDiv_Label{ float:left; color:#333333}
+.MovieDetailsNewLineReleaseDiv_Date{ float:left; padding-left:3px; clear:right}
+
+.MovieDetailsNewLineCriticsRatingDiv{ clear:both;padding-bottom:2px}
+.MovieDetailsNewLineCriticsRatingText{}
+
+.MovieDetailsLinksDivCss{padding-top:2px;clear:both}
+/*Movie Details */
+.MovieTitle_MovieSimilarMoviesRootDiv {width:311px;float:left}
+.MovieTitle_MovieSimilarMoviesImageDiv {float:left;clear:left;}
+.MovieTitle_MovieSimilarMoviesDetailsDiv { float:left; padding-left:5px;width:262px; }
+
+/* CelebFilmography Movie Grid */
+.CelebFilmography_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:333px;
+}
+.CelebFilmography_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:333px;
+}
+.CelebFilmography_Column1_Content {float:left; clear:left; width:326px; padding-left:10px;}
+
+.CelebFilmography_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    font-size:22px; height:22px; width:180px;
+}
+.CelebFilmography_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:180px;
+}
+.CelebFilmography_Column2_Content {float:left;padding-left:8px; width:172px;}
+
+.CelebFilmography_Column3_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px;width:53px;
+}
+.CelebFilmography_Column3_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:53px;
+}
+.CelebFilmography_Column3_Content {float:left;width:31px;margin-left:8px; margin-right:14px; text-align:center}
+
+.CelebFilmography_Column4_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px;width:98px;
+}
+.CelebFilmography_Column4_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:98px;
+}
+.CelebFilmography_Column4_Content {float:left;padding-left:10px; width:85px}
+
+/* MovieSortedItemGrid*/
+.MovieGrid5Columns_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:323px;
+}
+.MovieGrid5Columns_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:323px;
+}
+.MovieGrid5Columns_Column1_Content {float:left; clear:left; width:310px; padding-left:10px;}
+
+.MovieGrid5Columns_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:101px;
+}
+.MovieGrid5Columns_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:101px;
+}
+.MovieGrid5Columns_Column2_Content {float:left; padding-left:15px; width:88px;}
+
+.MovieGrid5Columns_Column3_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px;width:63px;
+}
+.MovieGrid5Columns_Column3_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:63px;
+}
+.MovieGrid5Columns_Column3_Content {float:left;width:41px;padding-left:12px}
+
+.MovieGrid5Columns_Column4_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px;width:69px;
+}
+.MovieGrid5Columns_Column4_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:69px;
+}
+.MovieGrid5Columns_Column4_Content {float:left;padding-left:23px; width:63px}
+
+.MovieGrid5Columns_Column5_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px;width:108px;
+}
+.MovieGrid5Columns_Column5_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+     cursor:pointer; height:20px; font-size:20px;width:108px;
+}
+
+.MovieGrid5Columns_Column5_Content {float:left;padding-left:8px; width:8px; }
+
+.MovieGrid_BodyItemCssClass,
+.MovieGrid_BodyAlternatingItemCssClass,
+.MovieGrid_BodyFinalItemCssClass
+{padding-bottom:5px;padding-top:5px; border-bottom:solid 1px #eee;
+ overflow: visible; height: auto !important; height: 1%; clear:both}
+ 
+.MovieGrid_BodyInitialItemCssClass
+{
+ padding-bottom:5px;padding-top:10px; border-bottom:solid 1px #eee;
+ overflow: visible; height: auto !important; height: 1%; clear:both
+}
+
+.MovieGridFooterCss
+{
+    text-align:center;
+    clear:left;
+}
+
+/* Coming Soon LifeCycle */
+.MoviesLifeCycleComingSoon_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:398px;
+}
+.MoviesLifeCycleComingSoon_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:398px;
+}
+.MoviesLifeCycleComingSoon_Column1_Content {float:left; clear:left; width:391px; padding-left:10px;}
+
+.MoviesLifeCycleComingSoon_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:106px;
+}
+.MoviesLifeCycleComingSoon_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:106px;
+}
+.MoviesLifeCycleComingSoon_Column2_Content {float:left; padding-left:8px; width:98px;}
+
+.MoviesLifeCycleComingSoon_Column3_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px;width:78px;
+}
+.MoviesLifeCycleComingSoon_Column3_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:78px;
+}
+.MoviesLifeCycleComingSoon_Column3_Content {float:left;width:56px;margin-left:9px; margin-right:14px;}
+
+.MoviesLifeCycleComingSoon_Column4_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333;
+    cursor:pointer;font-size:22px; height:22px;width:83px;
+}
+.MoviesLifeCycleComingSoon_Column4_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:83px;
+}
+.MoviesLifeCycleComingSoon_Column4_Content {float:left;padding-left:12px; width:68px}
+
+/* Movies Genre Coming Soon */
+.MoviesGenreComingSoon_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:476px;
+}
+.MoviesGenreComingSoon_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:476px;
+}
+.MoviesGenreComingSoon_Column1_Content {padding-right:10px; float:left; clear:left; width:456px; padding-left:10px;}
+
+.MoviesGenreComingSoon_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:106px;
+}
+.MoviesGenreComingSoon_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:106px;
+}
+.MoviesGenreComingSoon_Column2_Content {float:left; padding-left:12px; padding-right:10px;width:86px;}
+
+.MoviesGenreComingSoon_Column3_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px;width:84px;
+}
+.MoviesGenreComingSoon_Column3_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:84px;
+}
+.MoviesGenreComingSoon_Column3_Content {float:left;width:70px;padding-left:12px; }
+
+
+/* Movie Awards Sorted Item Grid */
+.AwardInfoModLargeContentCellCss
+{
+  background-color: White;
+  position: relative;
+  text-align: left;
+  height:360px;
+  vertical-align:top;
+}
+.MovieAwardsGridColumn1Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:54px;
+}
+.MovieAwardsGridColumn1HeaderSelected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:54px;
+}
+.MovieAwardsGridColumn1Content {float:left; clear:left; width:46px; padding-left:10px}
+
+.MovieAwardsGridColumn2Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:78px;
+}
+.MovieAwardsGridColumn2HeaderSelected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:78px;
+}
+.MovieAwardsGridColumn2Content {float:left;width:70px;padding-left:10px}
+
+.MovieAwardsGridColumn3Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:240px;
+}
+.MovieAwardsGridColumn3HeaderSelected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:240px;
+}
+.MovieAwardsGridColumn3Content {float:left;width:232px;padding-left:8px}
+
+.MovieAwardsGridColumn4Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:135px;
+}
+.MovieAwardsGridColumn4HeaderSelected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:135px;
+}
+.MovieAwardsGridColumn4Content {float:left;width:127px;padding-left:10px }
+
+.MovieAwardsGridColumn5Header 
+{   vertical-align:middle; display: block; float: left; color:#333333;
+    cursor:pointer;font-size:22px; height:22px; width:157px;
+}
+.MovieAwardsGridColumn5HeaderSelected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:157px;
+}
+
+.MovieAwardsGridColumn5Content {float:left;width:143px;padding-left:10px }
+
+.MovieAwardsGridBodyItemCssClass,
+.MovieAwardsGridBodyAlternatingItemCssClass,
+.MovieAwardsGridBodyInitialItemCssClass,
+.MovieAwardsGridBodyFinalItemCssClass
+{padding-bottom:5px;padding-top:5px; border-bottom:solid 1px #eee;overflow: visible; height: auto !important; height: 1%; clear:both }
+
+ /* Celeb Worked With Crew */
+.CelebWorkedWithCrew_RootDivCss{}
+.CelebWorkedWithCrew_NameDivCss{ float:left; padding-right:124px;color:#333333;}
+.CelebWorkedWithCrew_CreditDivCss{float:left;padding-right:243px;color:#333333}
+.CelebWorkedWithCrew_MoviesDivCss{float:left;padding-right:165px;color:#333333;}
+
+.CelebWorkedWithCrew_ItemRootDivCss{clear:both; padding-top:5px;overflow: hidden; height: auto !important; height: 1%;}
+.CelebWorkedWithCrew_ItemNameDivCss{float:left; width:153px}
+.CelebWorkedWithCrew_ItemCreditsDivCss{float:left; width:280px}
+.CelebWorkedWithCrew_ItemMoviesDivCss{float:left; width:205px;}
+
+/* Critics Review Summary */
+.MovieOverViewCriticsReviews table {width:100%}
+.MovieOverViewCriticsReviews { clear:both; padding-top:10px;}
+.MovieCriticsReviewSummaryRoot{}
+.MovieCriticReviewSummaryIndividualRoot_Multiple {float:left; float:left; width:312px;padding-left:10px;}
+.MovieCriticReviewSummaryIndividualRoot_Single {float:left; float:left; width:655px;padding-left:10px;}
+.MovieCriticReviewSummaryIndividualFirstLine {overflow: hidden; height: auto !important; height: 1%;}
+.MovieCriticReviewSummaryIndividualAuthor{ float:left; font-weight:bold}
+.MovieCriticReviewSummaryIndividualDistributor{float:left; font-weight:bold; padding-left:5px}
+.MovieCriticReviewSummaryIndividualDistributorNoAuthor{float:left; font-weight:bold;}
+.MovieCriticReviewSummaryIndividualRating {float:left;padding-left:5px}
+.MovieCriticReviewSummaryIndividualContentDiv {clear:both; color:#333333; padding-top:5px}
+
+/* Movies On DVD Tab */
+.MovieOnDVDTabContentCellCss {width:668px; background-color:white; vertical-align:top; height:360px; position:relative}
+.DVDReviewBottomRootDiv {}
+.DVDReviewHeaderDiv{background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_488x29.gif); height:29px; width:488px}
+.DVDReviewHeaderText {color:#333333; font-weight:bold; padding-top:6px; padding-left:10px}
+.DVDReviewByDiv{font-weight:bold; padding-top:5px; padding-left:10px}
+.DVDReviewContentDiv { padding-left:10px; width:478px; padding-top:5px}
+.DVDReviewListRootDiv{ padding-bottom:15px}
+.DVDReviewContentDiv p {font-size:13px}
+.MovieTitleIndividualCriticReviewSummaryDivCss p {font-size:13px}
+
+/* DVD Guide */
+
+/* On DVD Guide Top DVD Rentals Chart 300px */
+.MoviesChart300RootDiv{overflow: hidden; height: auto !important; height: 1%;padding:0px 10px 0px 10px}
+.MoviesChart300RightRootDiv{float:left; width:135px;}
+.MoviesChart300LeftRootDiv{float:left; width:135px;}
+.MoviesChart300ItemDiv{clear:both;padding-top:5px}
+
+.TopDVDRentalsModuleItemLink,
+.MoviesChart300ItemNumber{float:left}
+.MoviesChart300ItemLink{float:left; padding-left:1px}
+
+.MovieTitleRightShowtimeMyTheatesHeader{padding-left:10px}
+.MovieTitleRightShowtimeMyTheatesViewAll{padding-left:5px}
+.MovieTitleRightShowtimeMyTheatesIcon { padding-left:3px}
+
+.MovieTitleRightShowtimeFavsMoreTheatersLink,
+.MovieTitleRightShowtimeFavsLocation,
+.MovieTitleRightShowtimeFavsChangeLocation{display:block}
+
+.MovieTitleRightShowtimeChildDiv{padding-top:5px}
+.MovieHomeShowtimeListDiv{padding-top:5px; margin-bottom:3px}
+
+
+/* Top DVD Chart Right Module */
+.TopDVDRentalsModuleRootCss{ position: relative; left: -18px; width: 182px; overflow: visible;margin-top: 15px; padding-bottom:10px}
+.TopDVDRentalsRootDiv{}
+.TopDVDRentalsModuleItem{clear:left;overflow: hidden; height: auto !important; height: 1%;padding-bottom:3px}
+.TopDVDRentalsModuleItemNumber{float:left; display:block;}
+
+/* DVD Features */
+
+.MovieOnDvdHeaderCss{ background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_488x29.gif); height:29px; width:488px}
+.MovieOnDvdHeaderTextCss{color:#333333; font-weight:bold; padding-top:6px; padding-left:10px}
+.MovieOnDvdItemsCss{}
+.MovieDVDClickDiv 
+{ overflow: hidden; height: auto !important; height: 1%; 
+  cursor:pointer;
+}
+.MovieDVDClickDivHover 
+{ overflow: hidden; height: auto !important; height: 1%; 
+  cursor:pointer;
+  background-color:#e1e1e1;
+}
+
+
+.DVDListNameSpan 
+{ width:452px; float:left; padding-top:3px; padding-bottom:3px; padding-left:10px; color:#07519a
+}
+.DVDExpandLinkDivCss{  float:left;padding-top:3px; padding-bottom:3px;}
+.DVDExpandLinkCss ,
+.DVDExpandLinkImageCss{ vertical-align:middle}
+
+.DVDListItemDiv 
+{
+    vertical-align:middle;
+    border-left:solid 1px #e1e1e1;
+    border-right:solid 1px #e1e1e1;
+    border-bottom:solid 1px #e1e1e1;
+    clear:both; 
+    overflow: hidden; height: auto !important; height: 1%;
+    width:486px 
+}
+
+
+.DVDFeaturesListDiv{ margin:0px 0px 10px 10px}
+.BulletSpan{}
+.DVDInfoText{ color:#333333;font-size:12px; padding-top:10px}
+.DVDFeatureItem{ padding-top:5px; padding-left:10px}
+.DVDLabelText,
+.DVDInfoItemText{ padding-left:5px}
+.DVDFeaturesText{color:#333333;font-size:12px; padding-top:10px}
+.TopBoxOfficeRootDiv{padding:5px 10px 5px 0px;}
+.TopBoxOfficeItemDiv {padding-bottom:5px;overflow: hidden; height: auto !important; height: 1%;}
+.TopBoxOfficeItemNameDiv {float:left;width:95px;padding-left:2px}
+.TopBoxOfficeItemNumberSpan{clear:left; display:block; float:left; width:15px; text-align:right;padding-right:1px}
+.TopBoxOfficeAmountDiv {float:right;clear:right}
+.GenrePagesItemRootDiv {width:354px;float:left}
+.GenrePagesItemImageDiv {float:left;clear:left;}
+.GenrePagesItemDetailsDiv { float:left; padding-left:10px;width:281px;}
+
+/* Movie News */
+.NewsContentCellCss { width:668px;background-color:white;position:relative; vertical-align:top; height:360px}
+.NewsBodyFinalItemCssClass {padding-bottom:25px;margin: 10px 0px 0px 10px;border-bottom:solid 1px #e1e1e1;width:648px}
+.NewsHubFinalItem{padding-bottom:25px;margin: 10px 0px 0px 10px;border-bottom:solid 1px #e1e1e1;width:500}
+.NewsBodyInitialItemCssClass,
+.NewsBodyItemCssClass { padding: 10px 0px 5px 10px}
+
+/* Movie Similar Movies Tab */
+.MovieSimilarMoviesTabContentCellCss {width:668px; background-color:white}
+
+
+/* Photos Tab */
+.GalleryTitle
+{
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.png);
+  width: 100%;
+  height:29px; 
+  font-size:29px;
+}
+
+
+/* Particular Photo Tab */
+.PhotosRootDivCss { width:833px }
+.PhotosLeftRootDivCss {float:left; width:513px;}
+.PhotosRightRootDivCss {float:left; margin-right:5px;margin-left:10px}
+.PhotosRightRootDivElement0Css {  padding-top:10px; width:300px;}
+.PhotosRightRootDivElement1Css {  padding-top:20px; width:300px;}
+.PhotosRightRootDivElement2Css {  padding-top:20px;width:300px; padding-bottom:10px;}
+.RelatedPhotoGalleryContentCell{ border-left:solid 1px #e1e1e1; border-bottom:solid 1px #e1e1e1; 
+                                  border-right:solid 1px #e1e1e1;width:300px;
+                                  padding-bottom:10px;}
+                                  
+.RelatedPhotoGalleryHeaderText, .RelatedVideosHeaderText
+{
+  color: #333333;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  font-weight:bold;
+}
+.RelatedPhotoGalleryTopNoBorder, .RelatedVideosTopNoBorder, .RecentPhotoGalleryTopNoBorder
+{
+  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_300x29.gif);
+  margin-left: 1px;
+  margin-right: 1px;
+  position: relative;
+  width: 100%;
+  height:24px;
+  font-size:24px;
+}
+
+.RelatedPhotoGalleryViewAll, .RelatedVideosViewAll
+{
+  color: blue;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+} 
+
+
+/* Related PhotoGalleries */
+.MoviesPhotoRootDiv {overflow: hidden; height: auto !important; height: 1%; padding-top:10px }
+.MoviesPhotoItemDiv { padding-left:10px;width:129px; float:left}
+.MoviesPhotoPicDiv { width:120px}
+.MoviesPhotoTitleDiv{ margin-top:5px; width:120px;}
+.MoviesPhotoLeadinDiv{ margin-top:3px; width:120px}
+
+
+
+/*VPhotoGallery Viewer */
+.VPhotoGalleryRootDivCss {border:solid 1px #e1e1e1; margin-top:10px; margin-left:9px; margin-bottom:10px; padding-bottom:10px}
+.VPhotoGalleryFirstLineCss {padding-top:5px; padding-left:10px;overflow: hidden; height: auto !important; height: 1%; }
+.VPhotoGalleryReturnDivCss { float:left;width:85px; margin-top:3px}
+.VPhotoGalleryPhotoCountCss {width:100%; padding-top:5px;text-align:center}
+.VPhotoGalleryPrevNextDivCss { float:right; padding-right:10px;margin-top:3px}
+.VPhotoGalleryPrevDivCss {float:left;}
+.VPhotoGallerySeperatorDivCss {float:left; margin-left:4px; margin-right:4px;}
+.VPhotoGalleryNextDivCss {float:left;}
+.VPhotoGalleryDropDownDivDivCss {float:left; padding-left:20px}
+.VPhotoGalleryImageDivCss { padding-top:10px;  text-align:center}
+.VPhotoGalleryDetailsDivCss {overflow: hidden; height: auto !important; height: 1%; padding-top:10px; margin-left:10px;margin-right:10px}
+.VPhotoGalleryCaptionDivCss {display:inline}
+.VPhotoGalleryRatingDivCss {padding:5px 0px 5px 0px; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/ratings_slice.gif);float:right; border:solid 1px #e1e1e1; overflow: hidden; height: auto !important; height: 1%; width:184px;}
+
+.VPhotoGalleryYourRatingDivCss,
+.VPhotoGalleryAverageRatingDivCss  {clear:both; margin-top:5px}
+
+.VPhotoGalleryYourRatingTextDivCss,
+.VPhotoGalleryAverageRatingTextDivCss{float:left;  padding-left:10px;}
+
+.VPhotoGalleryYourRatingControlDivCss,
+.VPhotoGalleryAverageRatingControlDivCss {float:right; margin-left:5px; padding-right:10px;}
+
+.VPhotoGalleryBottomSeperatorDivCss { border-top: 1px solid #e6e6e6; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:10px}
+.VPhotoGalleryRemainingDetailsDivCss {overflow: hidden; height: auto !important; height: 1%; }
+.VPhotoGalleryRemainingDetailsDivLower{width:497px; float:left}
+.VPhotoGallerySeeMoreGalleriesDivCss {float:left; padding-left:10px}
+.VPhotoGallerySeeFullLinkDivCss {padding-top:5px}
+
+
+/* Related Movie Videos */
+.MoviesRelatedVideoVideoDiv   {float:left; width:129px; padding-bottom:10px; padding-left:10px}
+.MoviesRelatedVideoStillFrame { }
+.MoviesRelatedVideoPlayButton { margin-top:5px;  float:left}
+.MoviesRelatedVideoVideoTitle { width:103px;margin-left:3px; margin-top:5px;  float:left;}
+.RelatedVideosContentCell
+{   border-left:solid 1px #e1e1e1; border-bottom:solid 1px #e1e1e1; 
+    border-right:solid 1px #e1e1e1;padding-top:10px;width:298px;
+    padding-bottom:10px;
+}
+
+/* MovieSortedItemGrid*/
+.MovieGrid4Columns_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:374px;
+}
+.MovieGrid4Columns_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:374px;
+}
+.MovieGrid4Columns_Column1_Content {float:left; clear:left; width:364px; padding-left:10px;}
+
+.MovieGrid4Columns_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:110px;
+}
+.MovieGrid4Columns_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:110px;
+}
+.MovieGrid4Columns_Column2_Content {float:left;padding-left:12px; width:98px;}
+
+.MovieGrid4Columns_Column3_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px;width:69px;
+}
+.MovieGrid4Columns_Column3_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:69px;
+}
+.MovieGrid4Columns_Column3_Content {padding-left:14px;float:left;width:63px;}
+
+.MovieGrid4Columns_Column4_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333;
+    cursor:pointer;font-size:22px; height:22px;width:112px;
+}
+.MovieGrid4Columns_Column4_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:112px;
+}
+.MovieGrid4Columns_Column4_Content {float:left;padding-left:6px; width:73px;}
+.GenreLifeCycleFirstRowDivCssClass {padding: 10px 0 28px 0;overflow: hidden; height: auto !important; height: 1%;}
+.GenreLifeCycleHeadingDivCssClass {float:left; padding-left:10px;height:20px;}
+.GenreLifeCycleHeadingCssClass { font-size:12px; color:#333333; font-weight:bold}
+.GenreLifeCycleFilterDivCssClass { float:right; padding-right:10px;}
+
+/*headings */
+.MainHeadingLabel {font-size:15pt; color:#414141; padding-left:13px; font-family:Segoe UI Semi-bold;font-weight:600; display:inline}
+.SubHeadingLabel {margin-left:-3px;font-size:15pt; color:#414141; font-family:Segoe Semi-bold;}
+.PageHeadingsCss { margin:5px 0px 2px 0px }
+
+.leftNavBar
+{
+    float:left; 
+    position:relative; top:20px; left:4px
+}
+
+.leftNavBarTest
+{
+    overflow: hidden; height: auto !important; height: 1%;
+    width:117px;
+    float:left;
+    position:relative;
+    top:30px; left:4px;
+    
+}
+
+.GenrePagesOverallDiv
+{
+    width: 972px;background-color:#e1e1e1;
+    overflow: hidden; height: auto !important; height: 1%;
+}
+
+.GenreShowtimesplaceholder,
+.GenrePagesRightModuleContainersDiv
+{
+    padding-left:0px;
+    position:relative;
+    margin-left:-70px;
+    margin-top:40px;
+    float:right;
+}
+
+.GenreShowtimesplaceholderTest,
+.EditorsPicksRightModulesDiv
+{
+    padding-left:0px;
+    position:absolute;
+    margin-left:788px;
+    margin-top:325px;
+    z-index:2;
+
+}
+
+.MovieTitleText
+{
+    font-family:Tahoma;
+    font-weight:bold;
+    color: #07519a;
+    font-size:11px;
+    padding-bottom:2px;
+    float:left;
+}
+
+.FinerDetailText
+{
+    font-family:Tahoma;
+    color: #333333;
+    font-size:11px;
+    display:block;
+    padding-bottom:3px;
+    clear:both;    
+}
+
+.SynopsisText
+{ 
+    font-family:Tahoma;
+    color: #666666;
+    font-size:11px;
+    clear:both;
+}
+
+/* Celeb worked With Cast */
+.CelebWorkedWithCast_RootDivCss {padding:0px 10px 0px 10px;overflow: hidden; height: auto !important; height: 1%;}
+
+.CelebWorkedWithCast_LeftDivCss ,
+.CelebWorkedWithCast_RightDivCss{float:left; width:320px;}
+
+.CelebWorkedWithCast_EachCastDivCss
+{   
+    width:310px;
+    padding-bottom:10px;
+    clear:both;
+    overflow: hidden; height: auto !important; height:1%;
+}
+.CelebWorkedWithCast_DetailsCss {float:left; margin-left:5px;width:250px}
+.CelebWorkedWithCast_ImageCss {float:left;}
+.CelebWorkedWithCast_NameCss{font-weight:bold}
+.CelebWorkedWithCast_MoviesCss{ margin-top:0px}
+
+                                  
+/* CelebOverView */
+.CelebOverViewInfo { overflow: visible; height: auto !important; height:1%}
+.CelebBiographyDiv{clear:both;padding-top:5px}
+.CelebBiographyDiv_BioTab {clear:both; width:485px; padding-top:15px} 
+
+/* Celeb Worked With Summary */
+.CelebWorkedWithSummaryItemTitleCss {}
+.CelebWorkedWithSummaryItemCss { padding-left:9px;float:left;width:313px; padding-top:5px }
+
+/*lifecycle */
+.LifeCycleEditorsPicksRootDivOdd {width:317px;float:left; clear:left;padding-left:10px; padding-top:10px; padding-bottom:10px}
+.LifeCycleEditorsPicksRootDivEven  {width:317px;float:left;padding-left:10px; padding-top:10px; padding-bottom:10px}
+.LifeCycleEditorsPicksImageDiv {float:left;clear:left;}
+.LifeCycleEditorsPicksDetailsDiv { float:left; padding-left:10px;width:251px;}
+.LifeCycleEditorsPicksInputWidth { width:105px}
+
+
+.rightDiv {margin-right:5px; }
+
+.SideGenreContentCellCss
+{
+  width:174px;
+  background-color: white;
+  padding:5px 5px 10px 10px
+}
+
+.SideShowtimesContentCellCss
+{
+  background-color: white;
+  width:174px;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom: 10px;  
+}
+
+.SideShowtimesContentCellCssNewGenre
+{
+  background-color : white;
+  width:164px;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom: 10px;  
+
+}
+
+.SideShowtimesContentCellCssEditorsPicks
+{
+  background-color: white;
+  width:168px;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom: 10px;  
+}
+.SideTopBoxOfficeContentCellCss
+{
+  background-color: white;
+  width:186px;
+  padding-left:5px;
+  padding-top:5px
+}
+
+.TopBoxOfficeHeaderImageDiv,
+.ShowtimesHeaderImageDiv
+{
+  background-color: #dfdfdf;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: dotted 2px #cccccc
+}
+
+.GenreHeaderImageDiv
+{
+  background-color: #dfdfdf;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.GenrePageGenreHeaderImageDiv
+{
+  background-color: #dfdfdf;
+  position: relative;
+  left:-1px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.HomeShowtimesHeaderImageDiv
+{
+  background-color: white;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 2px;  
+}   
+
+.LinksCssClass {color:#07519a;}
+
+/* Pulled over from e.css */
+.tmi{width:75;height:75;border:0px}
+.galtbTest{Width:50%;padding-top:10px; padding-right:10px; text-align:left}
+.adText{font-size:7pt;font-family:tahoma;text-align:right; color:#999999; background-color:transparent; padding: 0px 0px 1px 0px;}
+.adTextGray {font-size:7pt;font-family:tahoma;text-align:right; color:#999999; background-color:#e1e1e1; padding: 0px 0px 1px 0px;}	
+.sblb1	{ width: 140px; height: 20px; font-size: 8pt;margin-top:5px;}
+.LifeCycleEditorsPicksDropDown,.sblb1	{ width: 130px; height: 20px; font-size: 8pt;margin-top:5px; color:#666666}
+.sblb	{ width: 120px; height: 20px; font-size: 8pt; }	
+.shtInput { width: 115px; height: 20px; font-size: 8pt;vertical-align:top;margin-right:3px }
+.pgtp	{ width: 5px; text-align: right; padding: 0px 5px 0px 0px;  }	/* 13 Files */
+.pgtn	{ width: 5px; text-align: right; padding: 0px 0px 0px 0px; }	/* 13 Files */
+.pgtm	{ color: #555555; padding: 0px 0px 0px 0px}
+
+/* sorted item grid*/
+.sort_column {vertical-align:middle;display: block; float: left; color:#333333;border-right:solid 1px white; cursor:pointer;font-size:22px; height:22px;}
+.selected_sort_column {float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px}
+.sort_item { margin-left:10px; margin-right:10px;color:#333333; float:left;}
+.header_sorter {float:left; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_light.gif); background-repeat:repeat;font-size:22px; height:22px;overflow: hidden; height: auto !important; height:1%; width:668px; height:22px;}
+.Sort_Image {vertical-align:bottom;  padding-bottom:1px; margin-left:4px; margin-right:4px}
+.GridViewNonSelectedColumnNameCss a{ padding-left:9px; padding-right:0px; color:#333333; position:relative; font-weight:normal; }
+.GridViewSelectedColumnNameCss a{padding-left:9px; color:#333333; position:relative; font-weight:bold; }
+.NonSelectedColumnNameCss { padding-left:10px; color:#333333;padding-top:5px; position:relative; top:2px; }
+.SelectedColumnNameCss{padding-left:10px; color:#333333;padding-top:5px; position:relative; top:2px; font-weight:bold; }
+.NonSortableColumnNameCss{padding-left:10px; color:#333333;padding-top:5px; position:relative; top:3px; font-weight:bold}
+
+.paginationitemrange { padding-top:20px;padding-bottom:20px; float:left;padding-left:10px}
+.pageselection { padding-top:20px;padding-bottom:20px;float:right;padding-right:21px;}
+.pageselection span { font-weight:bold;}
+.perpagelabel { padding-left:5px;position:relative; top:10px;display:inline;height:20px; font-size:20px;}
+.perpagelist { display:inline; vertical-align:middle;position:relative; top:12px;}
+.ItemsPerPageDropDownCss {color:#333333; font-size:11px}
+
+.bordered_pagination { border-top: solid 1px #e1e1e1; margin: 20px 0 0 5px; width: 648px;}
+.bordered_paginationitemrange { padding-left: 0;}
+
+.rvwmainDiv { width: 668px}
+
+.rvwfirstline,
+.rvwsecondline {padding:0px 0px 10px 0px}
+
+.rvwhelpfulspan,
+.rvwPostedSpan  { float:right}
+
+
+  /* Similar Movies Tab */
+.genrecol1 { float:left; clear:left; }
+
+.genrecol2, 
+.genrecol3,
+.genrecol4 { float:left; margin-top:10px;text-align:center;}
+
+.leftnavcontainerdiv { background-color:#555; width :90px;padding-top:10px;padding-bottom:20px; text-align:left;}
+.lefnavtabselected {margin-left:10px;width:80px;height:20px;background-color:Yellow;border:solid 1px green; vertical-align:middle; padding-top:5px}
+.lefnavtabnotselected {margin-left:10px;width:80px;height:20px;background-color:Gray;border:solid 1px green; vertical-align:middle; padding-top:5px}
+.genretab1 {float:left;border:solid 1px #b3ccea;height:1%; margin-top:10px}
+.genretab2 {float:left;border:solid 1px green;overflow: hidden; height: auto !important; height: 1%; width:900px; margin: 0px 0px 0px 0px}
+.genretabcontainer { border:solid 1px #333333; height:1%;}
+
+.albumGrid,
+.artistGrid { float:left; border-bottom:solid 1px #eee;clear:both; min-height:65px; width:668px;}
+.songGrid {border-bottom:solid 1px #eee;height:27px; clear:both}
+.focusModuleGrid {padding-top:10px; padding-bottom:10px}
+.artistSummGrid {float:left;}
+.albumSummGrid {float:left; width:164px;}
+.songIndex {float:left; clear:left; padding:5px 10px 5px 10px; text-align:center; width:16px;}
+.songSummIndex,.creditIndex,.albumIndex,.artistIndex  { float:left; clear:left; padding:5px; text-align:center;width:26px;}
+.songName    { float:left; padding-left:5px; padding-top:6px; }
+.songPlayButtonDiv { float:left; padding-left:10px; padding-bottom:5px; padding-top:6px;}
+.songArtistName,.songAlbumName,.songRatingItem { float:left; padding:6px 10px 5px 10px;} 
+.songSummLeftmostColumnTitleSearch {float:left; padding-left:29px; padding-top:6px;}
+.songSummLeftmostColumnTitleAlbum {float:left; padding-left:64px; padding-top:6px;}
+.songSummColumnTitleFont {color:#333333;}
+.Composer  { float:left; padding:5px;}
+.albumName  { float:left; padding-top:7px; padding-left:10px;width:168px; }
+.albumLongName  { float:left; padding-top:7px; padding-left:5px;width:245px;}
+.albumArt { float:left; padding:7px 0px 7px 8px; width:50px;}
+.albumNameLink { font-weight:bold; }
+.albumGenre { float:left; padding-left:10px; padding-top:7px; width:75px;}
+.albumSummName {float:left; padding-left:10px; width:92px; margin-right:10px;}
+.albumSummNameLink { font-weight:bold; }
+.albumSummArt { float:left; padding-top:2px;}
+.artistSummArt {float:left; padding-bottom:10px;}
+.artistSummName { float:left; padding-left:10px; padding-bottom:10px;}
+.artistArt { float:left; padding:7px 0px 7px 8px;}
+.albumArtGenre,
+.artistArtGenre { float:left; padding:7px 0px 7px 10px;}
+.artistName{ float:left; padding-top:7px; padding-left:10px; width:256px;}
+.artistListName{ float:left; padding-top:7px; padding-left:5px; width:256px;}
+.artistNameLink { font-weight:bold;}
+.keyAlbumGrid {float:left; width:329px;}
+.albumInfoDiv {float:left; padding-left:5px; width:235px;}
+.albumInfoLine {float:left; padding-bottom:3px; width:240px;}
+.albumDescriptionDiv { float:left; padding-top:3px; padding-right:10px; width:320px;}
+.moreAlbumGrid {float:left; width:640px; padding:20px 10px 10px 0px;}
+.ratingItem  { padding:10px 10px 10px 10px; float:left; width:65px;}
+.durationItem  { float:left; padding:5px 10px 5px 10px; width:39px;}
+.yearItem{ float:left; padding:5px 5px 5px 10px; width:39px;}
+.genreItem { float:left; padding-top:7px; padding-left:10px; padding-right:10px; width:71px;}
+.creditSummName     {float:left; padding-left:5px;width:140px;}
+.creditSummDesc     {float:left; padding-left:5px;width:140px;}
+.creditSummDiv  {float:left; padding:5px; width:324px;}
+.creditListName     {float:left; padding-left:5px;width:230px;}
+.creditListDesc     {float:left; padding-left:10px;width:400px;}
+.creditListSmallDesc    {float:left; padding:5px 10px;width:170px;}
+.creditGrid        {float:left; padding-left:5px; padding-right:5px;padding-top:2px; padding-bottom:2px; width:650px;border-bottom:solid 1px #eee;min-height:15px;}
+.focusImg { float:left; padding-left:10px;}
+.focusHeadline { font-weight:bold; }
+.focusTextDiv { float:left; padding-left:10px;}
+.videoLinksDiv { float:left; padding:10px; }
+.artistDetailLink {color: #07519a}
+.searchSummaryContent { text-align: left; float: left; padding: 10px 0px 10px 10px; width:658px;}
+.partnerLogo { vertical-align:middle; margin-left:10px;}
+.ffItemText { float:left; margin-top:1px; margin-bottom:6px; }
+.songDownloadTitleDiv { float:left; padding: 6px 10px 5px 20px;}
+.songBuyButton { padding-top: 3px; padding-left:15px;}
+/*************************************/
+
+/* Music Homepage */
+.browseGenreBoxDiv {float:left; padding:0px;}
+.genreDropdownDiv {float:left; padding-top:10px; }
+.topGenreTextDiv {float:left; padding: 10px 0px 10px 0px; width:180px;}
+.topGenreText {font-family: tahoma; font-weight: bold; text-align:left; color:#999999;}
+.topGenreLinkColumnDiv {float:left; padding:0px; width:130px;}
+.topGenreLinkDiv {float:left; padding-top:2px; padding-bottom:2px; width:100px;}
+.topGenreLinks {}
+.genreDropdownText {padding:0px; width: 200px;}
+.browseAllLinkDiv { float:right; padding-top:10px; padding-bottom:10px;}
+.browseAllLink { font-weight:bold; }
+.MusicHomeGenreSelection {background-color:White;width:300px;}
+.MusicHomeListeningBooth
+{
+    width:300px;
+    margin: -10px 3px 10px 10px;
+}
+.rightNavGenreDropDownBox { border:solid 1px #b3ccea; width:145px; font-family:Tahoma;}
+.musicRightNavBuyButtonCell { padding-top:5px;}
+
+.MusicHomeLiveLocalModule {width:298px; margin:10px 3px 10px 10px; border:solid 1px #cccccc;}
+.LocalMusicHeader {float:left; width:280px; padding-bottom:10px; border-bottom:solid 1px #ededed;}
+.LocalMusicHdrImg {float:left;}
+.LMHeaderLinks {float:right; width:140px; position:relative; top:-2px;}
+.LMHeaderLinks a {cursor:pointer;}
+.LocalMusicHeader span {float:right;}
+.LocalMusicHeader a {float:right; padding-left:3px;}
+.LMZipRow, 
+.LMZipRowShow {float:left; padding-top:8px; width:100%; text-align:center; vertical-align:middle; height:22px; overflow:hidden; display:none;}
+.LMZipRowShow {display:block;}
+.LMPrompt {float:right; width:110px; padding-right:5px; padding-top:5px;}
+.LMEntry {float:right; width:110px;}
+.LMZipBox {float:left; width:80px; height:18px; border:solid 1px #b3ccea; font-size:8pt; color:#666666;}
+.LMZipGo {float:left;}
+.LMMsg,
+.LMErr {float:left; text-align:center;width:100%; margin:10px 0px 0px 0px;}
+.LMErr {color:Red;}
+.LocalMusicBody {float:left;}
+.LMRow{float:left; padding:3px 0 3px; border-bottom:solid 1px #ededed;}
+.LMCol1{float:left; width:30px;}
+.LMCol2{float:left; padding-left:10px; width:130px;}
+.LMCol3{float:left; padding-left:10px; width:100px;}
+
+
+/* Music styles */
+/* Music main body */
+.mu_body { overflow: hidden; height: auto !important; height: 1%; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; border-top: 1px solid #cccccc; background-color: #e2e2e2;
+ text-align:left; width: 970px; padding-bottom: 35px; font: Tahoma, Geneva, Arial, Verdana, sans-serif; }
+.mu_titlecontent { font-size: 19px; color:#6c6c6c; margin-top:2px; padding-left:10px;}
+.mu_titlecontent a { color:#414141; }
+.mu_maintitletext { font-size: 19px; color:#414141; }
+.mu_subtitletext { font-size: 19px; color:#6c6c6c; }
+.mu_leftcontent { width: 120px; height: 500px; float: left; }
+.mu_middlecontent { width: 676px; float:left; }
+.mu_maincontent { clear:both; overflow:hidden; }
+/*{ width: 660px; background-color:#ffffff; }*/
+.mu_nodatamessage { padding: 10px 0px 0px 10px; }
+.mu_rightcontent {overflow: hidden; float: left; width: 160px; padding-left: 5px; margin-top: 18px;}
+.mu_popoutdisplay { position: relative; left: -19px; width: 175px; overflow: visible; margin-top: 20px; padding-bottom: 10px; }
+.mu_info_nexton { background-color: #ffffff; }
+.mu_loading_image { width: 53px; text-align: center; padding: 10px 0px 5px 46px; overflow: hidden; }
+.mu_info_provider { background-color: #ffffff; }
+.mu_vertad { }
+
+/*muisc rt nav*/
+.rtHeadCell{position:relative; }
+.rtHeadImgDiv {background-color: #dfdfdf; position:relative; text-align:left; padding-left:10px;  padding-top:2px; padding-bottom: 2px; width:165px;}
+.rtHeadTextDiv{position:absolute; top:0px;left:0px;width:165px;height:30px;}
+.rtSmallTitleFr{ padding-top:12px; font-size:7pt;padding-left:70px;}
+/*album buy */
+.grdvw_hdr{ background-color: #dfdfdf;  font-weight:normal; font-size:8pt; text-align:justify ;background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_light.gif) repeat-x; height:20px;padding-left:10px;}
+.grdvw_item{ padding:10px; border:none; border-bottom:solid 1px #dfdfdf;}
+.grbg {background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/music/ratings_slice.gif); background-repeat:repeat-x;}
+.grltxt{color:#dfdfdf;}
+/*music news*/
+.mun_main { text-align: left; float: left; padding: 5px 10px 20px 10px; }
+.mun_item { width: 320px; float:left; vertical-align: top; }
+.mun_separator { clear: both; font-size: 1px; width:100%; height:10px; } /* putting float:left breaks this in IE, font-size is required by IE to avoid default 10px height */
+.mun_main2 { text-align: left; float: left; padding: 5px 0px 20px 0px; margin-right:2px;}
+
+.mun_title { }
+.mun_summary { }
+.mun_date { }
+.mua_item { width: 154px; float:left; vertical-align: top; padding-right:10px;}
+
+/*music sorts*/
+.mu_sort_item { margin-left:10px; margin-right:10px;color:black; float:left;}
+.mu_header_sorter {background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_light.gif); background-repeat:repeat;font-size:22px; height:22px;overflow: hidden; height: auto !important; height: 1%; width:668px; height:22px;}
+.mu_sort_Image {vertical-align:sub; margin-left:3px;}
+.mu_sort_column_artistName,
+.mu_sort_column {padding:2px; padding-left:5px; color:Black;position:relative; text-align:left;float:left; cursor:pointer;}
+.mu_sort_column_artistName { padding-left:4px;}
+.mu_sel_sort_column {padding:2px; padding-left:5px; color:Black; position:relative; text-align:left;float:left;cursor:pointer;font-weight:bold; }
+.mu_song_hdr_small{width:160px;  padding-left:10px;border-right: solid 1px white;}
+.mu_song_hdr_medium{width:223px;border-right: solid 1px white;}
+.mu_song_hdr_lrg{width:316px;border-right: solid 1px white;}
+.mu_crdt_hdr_lrg{width:232px;border-right: solid 1px white;}
+.mu_comp_hdr{width:145px;border-right: solid 1px white;}
+.mu_time_hdr{width:51px; border-right: solid 1px white;}
+.mu_time_hdr_medium {width:80px; border-right: solid 1px white;}
+.mu_rate_hdr{width:95px;}
+.mu_rate_hdr_small {width:86px;}
+.mu_idx_hdr{ width:29px;border-right: solid 1px white;}
+.mu_album_hdr{width:168px;padding-left:10px;border-right: solid 1px white;}
+.mu_album_hdr_last { width:178px;}
+.mu_album_hdr_medium { width:243px;padding-left:5px;border-right: solid 1px white;}
+.mu_crdt_album_hdr{width:235px;padding-left:5px;border-right: solid 1px white;}
+.mu_album_hdr_lrg{width:299px;border-right: solid 1px white;}
+.mu_album_hdr_genre {width:339px;border-right: solid 1px white; padding-left:3px;}
+.mu_album_hdr_browse {width:265px;border-right: solid 1px white; padding-left:3px;}
+.mu_album_hdr_exlrg {width:441px;border-right: solid 1px white;}
+.mu_artist_hdr{width:160px;padding-left:5px;border-right: solid 1px white;}
+.mu_artist_hdr_small {width:137px;padding-left:5px;border-right: solid 1px white;}
+.mu_artist_hdr_lrg {width:175px; padding-left:5px;border-right: solid 1px white;}
+.mu_artist_hdr_genre {width:154px; padding-left:5px;border-right: solid 1px white;} 
+.mu_year_hdr{width:46px; border-right: solid 1px white;padding-left:5px;}
+.mu_genre_hdr {width:83px;border-right: solid 1px white;}
+
+/*music tabs*/
+.mu_alb_tabContentMain {width:668px; background-color:#ffffff;}
+.mu_alb_tabHeaderMainDiv{height: 20px;  margin: 4px 1px 0px 0px;  text-align: center;  width: 100;  cursor:pointer;background-color: #cccccc;}
+.mu_alb_tabHeaderSelDiv{ background-color:#6699cc; background-repeat:repeat-x;  color:white;border-left: solid 1px #ffffff; border-right: solid 1px #ffffff; margin: 4px 1px 0px 0px; height: 20px; }
+.mu_alb_reviewTextArea { float:left; padding:10px 20px 20px 10px;}
+.mu_alb_tabTitleText { color:White; font-weight:bold; font-family:Tahoma; font-size:11px; padding: 5px 15px 0px 5px; text-align: center; vertical-align:middle;}
+.mu_alb_tabTitleLink {font-family:Tahoma; font-size:11px;color:white; font-weight:bold;}
+.mu_artistListModule { float:left; padding:10px 0px 10px 10px;} 
+.mu_modulecontainer { float:left; padding-right:20px;}
+
+/* suumary controls */
+.mu_alb_criticReviewTitle,
+.summ_title_div_flex,
+.summ_title_div,
+.semisumm_title_div { overflow: hidden; height: auto !important; height: 1%; padding: 6px 10px 5px 10px; }
+.mu_alb_criticReviewTitle,
+.summ_title_div,
+.summ_title_div_flex { background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.png); }
+.mu_alb_criticReviewTitle { min-width:450px;}
+.semisumm_title_div { background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_single_329x29.png); }
+.summ_heading, 
+.title_leftText { padding-bottom: 3px; float: left; font-size: 11px; }
+
+.summ_link, 
+.summ_link2,
+.title_rightText { position: relative; padding-bottom: 3px; float: right; font-size: 11px; }
+.summ_link2 { margin-right:-4px;}
+
+.summ_heading,
+.title_leftText span { color: #333333; font-weight: bold; }
+
+.summ_text_bold { font-size: 12px; color: #333333; font-weight: bold; }
+.summ_text_regular { font-size: 12px; color: #333333; font-weight: normal; }
+.mu_artistlistContainer { text-align:left; float:left;}
+
+/*music videos */
+.musicVideosBrowseGenre
+{
+	float:left; padding:0px;width:100%;
+}
+
+/* music photos*/
+
+.summPhotos_PhotoDiv{  padding-left: 10px;  padding-right: 9px;  padding-top: 10px;  padding-bottom: 10px;  width: 75px;  float: left;  overflow: hidden; }
+.summPhotos_Div {  width: 660px;  padding-bottom: 10px;  background-color: #ffffff;}
+
+/* music album */
+.albumInfoInnerTable { padding:10px 10px 10px 0px;}
+
+/**music text*/
+.blTxt{color: #07519a;}
+
+/* Virtual PhotoGalleries */
+ .tmi{width:75;height:75;border:0px}
+ .PhotoGalleryDropDownCss{width:250px; height: 20px; font-size: 8pt;}
+ .PaginatedPhotoGalleryItemRangeDiv {padding-top:10px; padding-left:9px; float:left;}
+ .PaginatedPhotoGalleryDropDownDiv {float:left; padding-top:6px; padding-bottom: 10px;} 
+ .PaginatedPhotoGalleryDropDown {float:right; width:250px; height: 20px; padding:10px 10px 10px 0px;}
+ .PaginatedPhotoGalleryDropDown select {float:right; color: #07519A; font-size: 8pt; padding:0px;}
+ .DropDownCss { padding:10px 10px 0px 0px  }
+ .DropDownCss select {color: #07519A; font-size: 8pt;width:300px;font-family:Tahoma; font-size:8pt;}
+ .TopRowCss {margin: 0px 0px 15px 0px;}
+ .MainLabelCss {font-size: 8pt; vertical-align:middle; padding-left:7px}
+ .DropDownItemCss { color: #07519a}
+ .pgTitle{color: #333333; font-weight:bold; font-size: 10pt;padding:0px 10px 0px 10px;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.gif);}
+ .phCell{width: 75px;padding-bottom:15px;}
+ .catTitle{color: #333333; font-weight:bold;font-size: 10pt; padding-top:0px; padding-bottom:20px; margin:0px 0px 20px 10px; }
+ .catCell { padding-bottom:0px; height:29px; font-size:29px;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.gif)}
+ .gallery { width: 668px; padding-top:10px}
+ .Gallery_SeeFullCss {margin-left:10px; padding-bottom:10px}
+ .gallery a { display: block; float: left; padding: 0px 10px 15px 10px;}
+ .CelebGalleryExtSearch {clear:left; margin-left:10px; padding-bottom:10px; font-family: tahoma; font-size: 11px; color: #07519a;}
+
+/* Photo Page */
+ .PhotoPageHeaderCssClass {height: 31px; overflow: hidden;}
+ .PhotoPageThumbnailView {padding-top:10px; padding-left:9px; width:102px; float:left;}
+ .PhotoPageDropDownDiv {padding: 7px 26px 10px 0; float: left;}
+ .PhotoPageDropDown {color: #07519A; font-size: 8pt; height: 20px; width: 250px;}
+ .PhotoPageNavigationDiv {padding-top:10px;}
+ .PhotoPageBodyItemCssClass {clear: both; text-align: center; padding-bottom: 5px;}
+ .PhotoPageFinalItemCssClass { padding: 5px 5px 0 10px;}
+ .PhotoPageFooterCssClass { border-top: solid 1px #e1e1e1; margin: 23px 10px 16px 10px; padding-top: 9px; width: 488px;}
+
+/*new on dvd */
+.topDVDRentalHeader
+{
+  background-color: #dfdfdf;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: dotted 2px #cccccc  
+} 
+.NewOnDVDMainModule
+{
+  float:left;
+  padding:0px 10px 10px;
+  width:813px;
+}
+.NewOnDVDViewAllListControl,
+.NewOnDVDDefault
+{
+   width:668px;
+}
+
+.NewOnDvdRightColumn { float:left;width:300px}
+.NewOnDvdLeftColumn { float: left; width: 503px; padding-right: 10px;}
+.NewOnDvdTopChartSummaryModule,.NewOnDvdGossipModule,.NewOnDvdPhotoGalleryModule,.NewOnDvdVideoSummaryModule
+{
+ padding-top:10px; 
+}
+.t5r2
+{
+    padding: 2px 0px 2px 0px; 
+    width: 100%;
+}
+.FirstRow{float:left;width:668px}
+
+.TopLeft,
+.BottomLeft{float:left;padding: 0px 10px 10px 10px; }
+
+.TopRight{float:left;border-left:solid 1px #e1e1e1; padding: 0px 10px 10px 10px;}
+.SecondRow{float:left; border-top:solid 1px #e1e1e1;width:668px}
+
+.BottomRight{float:left;border-left:solid 1px #e1e1e1;padding: 0px 10px 10px 10px; }
+
+.dvdhed,
+.dvdhed a,
+.dvdhed a:hover,
+.dvdhed a:visited,
+.dvdhed a:visited:hover{ font-size: 18px; }
+
+.bdmbdr { border-bottom: 1px solid #e1e1e1; margin-left:10px; margin-right: 10px; }
+
+
+/*New on Dvd: featured Article */
+.ArticleRootDiv
+{
+ padding:10px 0px 0px 10px;
+ width:500px;
+}
+.ArticleImageDivCss
+{
+ float:left;
+ margin-right:10px;
+}
+.ArticleRightModule
+{
+   padding-top:10px;
+}
+.ArticleCaptionCss
+{
+   width:150px; 
+}
+.ArticleTextDiv
+{
+    float:left;
+    display:inline;
+    width:100%;
+    font-size:12px;
+}
+.ArticleTitleDivCss
+{
+ font-size:18px;
+}
+.ArticleDateDivCss{}
+.ArticleCopyrightDivCss
+{
+    padding:10px 0 10px 0;
+    font-size:10px;
+}
+.DownloadToolHelpTextStyle { font-size:9px; color: #07519a;}
+
+/* Music Genre Pages */
+.subGenreLeftColumn
+{
+	float:left;
+	width:44%;
+	padding:20px;
+}
+
+.subGenreRightColumn
+{
+	float:right;
+	width:44%;
+	padding:20px;
+}
+
+.genreNameDiv
+{
+	padding-top:10px;
+}
+
+/* Movies Search*/
+.section_title_div,
+.semisection_title_div 
+{ overflow: hidden; height: auto !important; height: 1%; 
+  padding: 6px 13px 5px 10px;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.gif);
+}
+
+.section_title_div_668
+{ overflow: hidden; height: auto !important; height: 1%; 
+  padding: 6px 13px 5px 10px;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.gif);
+  width:645px;
+}
+
+
+.MovieDetailsTitleCriticsRatingDiv{padding-left:10px;float:left;clear:right;}
+.movieSearchSummary
+{
+    display: block;
+	width: 100%;
+}
+.movieSearchSummaryModule{}
+.MovieSearchHeadersRoot{width:658px;margin:10px 0px 10px 10px} 
+.MovieSearchAdultSearchDiv{width:640px; padding:5px 0px 5px 5px; border:solid 1px #cccccc; margin-bottom:5px}
+.MovieSearchNoInformation{width:658px;margin-top:10px; margin-left:10px}
+.section_title_div{clear:both}
+.MovieSearchRootDiv{}
+.movieSearchSummaryModule,
+.movieSearchSummaryModuleFinalItem,
+.movieSearchSummaryModuleInitialItem
+{
+	padding-bottom:10px
+}
+.focusModuleGrid{clear:both;overflow: hidden; height: auto !important; height: 1%;}
+
+/* Movie Search Summary */
+.MovieSearchSummaryMovieRoot{overflow: hidden; height: auto !important; height: 1%; padding-top:10px;padding-left:10px;width:656px}
+.MovieSearchSummaryMovieDetailsRoot{float:left;width:411px;overflow: hidden; height: auto !important; height: 1%;}
+.MovieSearchSummaryMovieDetailsImage{float:left;clear:left;}
+.MovieSearchSummaryMovieDetailsDetailsDiv{float:left; padding-left:5px;width:362px;}
+
+.CelebDetailsImageDivCss,
+.MovieSearchSummaryMovieTitleDiv{float:left}
+
+.MovieSearchSummaryMovieSummarySpan{clear:both}
+.MovieSearchSummaryInTheaters{ float:left; height:35px; width:140px; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/intheaters_box.gif); background-repeat:no-repeat}
+
+.MovieSearchSummaryMovieDetails,
+.MovieSearchSummaryInTheatersBg{}
+
+.MovieSearchSummaryInTheatersLink{ padding-top:15px; padding-left:10px;}
+
+/* Celeb Search Summary */
+.CelebDetailsRootDiv{padding:10px 0px 0px 10px; width:658px;}
+.CelebDetailsDetailsDivCss{float:left; margin-left:5px; width:580px}
+.CelebDetailsFilmographyRoot{ float:left; padding-top:2px;}
+.CelebDetailsFilmographyLabel{float:left; color:#333333}
+.CelebDetailsFilmographyMovieListDiv{float:left; padding-left:5px}
+.CelebDetailsFilmographyYear{padding-left:2px; padding-right:2px}
+
+/* Celeb Search Control */
+.MovieSearchMoviePerson_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:35px;
+}
+.MovieSearchMoviePerson_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:35px;
+}
+.MovieSearchMoviePerson_Column1_Content {float:left; clear:left; width:25px; padding-left:10px;}
+
+.MovieSearchMoviePerson_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px; width:623px;
+}
+.MovieSearchMoviePerson_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:632px;
+}
+.MovieSearchMoviePerson_Column2_Content {float:left;padding-left:0px; width:613px;}
+
+.MovieSearchCastCelebDetailsRootDiv{ margin:0px 0px 0px 10px; width:558px;}
+.MovieSearchCastImageDivCss{float:left}
+.MovieSearchCastDetailsDivCss{ float:left; margin-left:5px; width:480px}
+
+
+/* Movie Search Control */
+.MovieSearchMovieDetailsRootDiv{ margin:0px; width:347px;}
+.MovieSearchMovieImageDivCss{float:left}
+.MovieSearchMovieDetailsDivCss{ float:left; margin-left:5px; width:299px;}
+
+
+/* MovieSearch Movie Grid */
+.MovieSearchMovie_Column1_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:38px;
+}
+.MovieSearchMovie_Column1_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:38px;
+}
+.MovieSearchMovie_Column1_Content {float:left; clear:left; width:28px; padding-left:10px;}
+
+.MovieSearchMovie_Column2_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px; width:359px;
+}
+.MovieSearchMovie_Column2_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:359px;
+}
+.MovieSearchMovie_Column2_Content {float:left;padding-left:8px; width:350px;}
+
+.MovieSearchMovie_Column3_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+    cursor:pointer;font-size:22px; height:22px;width:105px;
+}
+.MovieSearchMovie_Column3_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    border-right:solid 1px white; cursor:pointer; height:20px; font-size:20px;width:105px;
+}
+.MovieSearchMovie_Column3_Content {float:left;width:103px;text-align:center}
+
+.MovieSearchMovie_Column4_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px;width:78px;border-right:solid 1px white;
+}
+.MovieSearchMovie_Column4_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:78px;border-right:solid 1px white;
+}
+.MovieSearchMovie_Column4_Content {float:left;padding-left:17px; width:68px}
+
+.MovieSearchMovie_Column5_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px;width:72px;
+}
+.MovieSearchMovie_Column5_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:84px;
+}
+.MovieSearchMovie_Column5_Content {float:left;padding-left:11px; width:60px}
+
+
+.MovieSearchMovie_Column6_Header 
+{   vertical-align:middle; display: block; float: left; color:#333333; 
+    cursor:pointer;font-size:22px; height:22px;width:103px;
+}
+.MovieSearchMovie_Column6_Header_Selected 
+{   float: left;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_dark.gif); background-repeat:repeat;
+    cursor:pointer; height:20px; font-size:20px;width:103px;
+}
+.MovieSearchMovie_Column6_Content {border:solid 1px blue;float:left; width:78px}
+
+/* Entertainment Error Page */
+#rulesdiv {text-align:left;background: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/bginner.gif') repeat-x; background-color: #ffffff; border: solid 1px #e1e1e1;width:811px;}
+.vRHd { font-size:12pt; color: #333333;padding: 10px 0 0 10px; font-weight:bold}
+.contentRuSpacing{padding: 10px 0 0 10px; color:black}
+
+/* Movies Homepage Rotator */
+.RotatorbbButtons{width:70px;padding-bottom:10px;padding-left:10px;overflow: hidden; height: auto !important; height: 1%; display:block; float:left }
+.bbButton   { color: #07519a; /* dark blue */ border: 1px solid #07519a; cursor: pointer; } 
+.bbButtonHL { color: #999999; border: 1px solid #999999; cursor: default; } 
+.bbButtonHL, .bbButton /* properties common to both selected/un-selected bb pager buttons */
+{
+	text-align: center;
+	font-size: 10px;
+	margin-right: 4px;
+
+	/* IE boxmodel hack: ie = 15px; other = 13px */
+	width: 13px !important;
+	width /**/:15px;
+    
+	/* IE boxmodel hack: ie = 15px; other = 13px */
+	height: 13px !important;
+	height /**/:15px;
+}							
+
+.usrname	{ color:#fff;}
+a.usrname	{ color:#fff;}
+a.usrname:visited	{ color:#fff;}
+.usrname2	{ font-weight:bold;color: #366ab3;}
+
+/*new floating header */
+.flspan {position:absolute; text-align:left; z-index:200; white-space:nowrap; visibility:hidden; top:-17px; width:auto; min-width:100px; background-color:#ffffff; border:solid 1px #ADC3DF; }
+.inc	{ padding: 3px 5px 3px 5px; cursor:default;white-space:nowrap;}
+.flc	{ padding: 3px 5px 3px 5px; cursor: pointer; color: #366ab3;}
+.flch	{ padding: 3px 5px 3px 5px; cursor: pointer; background-color: #E5EEF9; color: #366ab3;}
+.flc_h	{ padding: 3px 5px 3px 5px; cursor: pointer; background-color: #E5EEF9; color: #366ab3;}
+.loginCell {padding-top:35px; text-align:left;}
+.summ_header_div {overflow: hidden; height: auto !important;  background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.png); }
+.disc_info {padding:5px 10px 0px 10px;height:20px; font-weight:bold; }
+.testfont { font-size:11px; color:Green; font-family:Arial;}
+
+
+/* Music Photos Grid */
+
+.muPhotosGrid_controlDiv {
+  background-color: #ffffff;
+  float: left;
+  padding-bottom: 20px;
+  width: 660px;
+}
+
+.muPhotosGrid_episodePhotoDiv {
+  padding-left: 10px;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 75px;
+  float: left;
+  overflow: hidden; 
+}
+
+
+.musection_heading { padding-bottom: 3px; float: left; font-size: 11px; color: #333333; font-weight: bold; }
+.MusicTopVideoRankDiv { float:left; margin-top:-40px; padding-left:2px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+.PaginatedPageBottomSeparatorDiv { float:left; width:620px; padding-left:20px; padding-right:20px; margin-bottom:-10px;}
+
+/* News Hub */
+
+.NewHubReadMoreCss{font-size:13px;}
+.divNewsItemCss {clear:both}
+.NewsHubDivNewsItemDescCss{font-size:13px;}
+.NewsHubDivNewsItemCss{}
+.NewsHubDivNewsItemTitleCss{font-size:18px; color: #07519a}
+.NewsHubDivNewsItemDateCss{padding-bottom:5px;}
+
+.NewsHubRightColumn { float:left;width:300px}
+.NewsHubLeftColumn { float: left; width: 513px; padding-right: 10px;}
+
+
+/* News Vertical */
+.NewsHubMainModule
+{ 
+  float:left;
+  padding:0px 10px 10px 0px;
+  width:823px;
+}
+.NewsVerticalRootDiv{width:495px;clear:both; overflow: hidden; height: auto !important; height: 1%; border-bottom:solid 1px #e2e2e2; padding-bottom:15px }
+.NewsVerticalLeftDiv{float:left}
+.NewsVerticalRightDiv{float:left;padding-left:10px;width:375px}
+
+.NewsVerticalDivNewsItemDescCss{font-size:13px;}
+.NewsVerticalDivNewsItemCss{}
+.NewsVerticalDivNewsItemTitleCss{font-size:18px; color: #07519a}
+.NewsVerticalDivNewsItemDateCss{padding-bottom:5px;}
+
+/* Gossip Summary Module */
+.GossipSummaryRootDiv{}
+.GossipSummaryContentDiv{padding:5px 5px 5px 10px}
+.GossipSummaryItemDiv{padding-top:5px; font-weight:bold}
+.GossipSummaryItemLink{font-weight:500}
+
+/* News Article */
+.NewsArticleMainModule
+{
+  float:left;
+  padding:0px 10px 10px 10px;
+  width:813px;
+}
+.NewsArticleRightColumn{float:left;width:300px;}
+.NewsArticleLeftColumn{float: left; width: 503px; padding-right: 10px;}
+
+.NewsArticleContentControlCss
+{ overflow: hidden; 
+  height: auto !important; height: 1%;
+}
+.NewsArticleRelatedNewsControlCss{}
+.MoreNewsControlTitleDivCss {}
+/* More News Control */
+.MoreNewsRootDiv{border:none 1px #e1e1e1; width:498px;}
+.MoreNewsTitleDiv{ padding:5px 0px 10px 10px; font-size:18px; color:red}
+.MoreNewsTitleLink{}
+.MoreNewsNewsListDiv{}
+
+/* News Article Expiry*/
+.ArticleRootDivExpiry{padding:10px 0px 10px 0px;}
+.ArticleExpiryMessageDiv{font-size:16px}
+.ArticleExpiryMessageDiv2{padding:10px 0px 100px 0px}
+.ArticleExpiryMessageLabel{font-size:12px}
+
+/* News Article Variety*/
+.ArticleLeadinDivCss{padding:5px 0px 0px 0px; font-size:15px}
+.ArticleVarietyAuthorDivCss{padding:10px 0px 0px 0px; font-style:italic}
+.ArticleVarietyDivCss{padding:0px 0px 20px 0px;font-style:italic}
+
+.VarietyCopyrightDivCss{overflow: hidden; height: auto !important; height: 1%;}
+.VarietyNGCopyrightDivCss{overflow: hidden; height: auto !important; height: 1%;padding:20px 0px 0px 0px}
+.VarietyCopyrightLogoCss{float:left;}
+.VarietyCopyrightTextCss{float:left; padding:9px 0px 0px 5px}
+
+/* News Article Content Ads */
+.NewsArticleContentAdCss{width:300px; padding:20px 0px 0px 10px}
+
+/* Editorial 11(Gossip, HitList) Content Ads */
+.Editorial11ContentAdCss{width:300px; padding:20px 0px 0px 5px}
+
+/* Showtimes Hub */
+
+/* Individual Theaters */
+.MovieShowTimesHubTheaterRootDiv{width:668px;}
+.MovieShowHubTimesTheaterNameDiv{padding-left:10px;float:left;padding-top:5px; font-weight:bold}
+.MovieShowTimesHubTheaterFavDiv{padding-left:20px;float:left;padding-top:5px}
+.MovieShowTimesHubTheaterFavIconDiv{float:left; padding-left:5px; padding-top:6px}
+.MovieShowTimesHubTheaterAddressDiv{padding-left:10px; clear:both; padding-top:3px; padding-bottom:5px}
+.MovieShowTimesHubTheaterInfoDiv{background-color:#e1e1e1}
+
+
+.MovieShowTimesHubTheaterMoviesDiv{}
+.ShowtimesHubMovieRootDiv{float:left; width:324px; padding:10px 0px 10px 10px;}
+.MovieShowTimesHubMoviesRowDiv{border-bottom:solid 1px #e1e1e1; overflow: hidden; height: auto !important; height: 1%;  }
+.MovieShowTimesHubMoviesLastRowDiv{overflow: hidden; height: auto !important; height: 1%;  } 
+.MovieShowTimesHubNoShowtimes{padding:10px;}
+.HearingIconCss{vertical-align:middle}
+
+/* Theater List */
+.ShowtimesHubItemCssClass 
+{
+     clear:both;
+}
+.ShowtimesHubInitialItemCssClass 
+{ 
+	margin-top:10px
+ }
+.ShowtimesHubFinalItemCssClass
+{
+	border-bottom:solid 1px #e1e1e1;
+}
+
+.ByTheatersNoFavoritesDiv{padding:10px 0px 10px 10px; width:660px}
+.ByTheatersNotSignedInDiv{padding:10px 0px 10px 10px; width:660px}
+
+/* Showtimes Header */
+.ShowtimesHubHeaderDiv{margin:10px;}
+.ShowtimesHubLocationDiv{float:left}
+.ShowtimesHubLocationCss{font-weight:bold; color:Black; font-size:12px}
+.ShowtimesHubChangeLocationDiv{float:left; padding-left:10px}
+.ShowtimesHubChangeLocationCss{font-size:12px}
+.ShowtimesHubHeaderSecondRowDiv{clear:both;}
+.ShowtimesHubTheaterListBox{width: 210px; font-size:9pt; color:#666666;border:solid 1px #b3ccea}
+.ShowtimesHubDateListBox{width: 180px; font-size:9pt; color:#666666;border:solid 1px #b3ccea}
+.ShowtimesHubGoButton{font-size: 11px;}
+
+/*Showtime Ask Zip */
+.ShowtimesHubAskZipRoot {width:644px;padding:10px}
+.ShowtimesHubAskZipEntryBox {margin-top:4px;float:left; border:solid 1px #b3ccea; width:250px;height:18px;font-size:8pt; color:#666666;padding-left:4px}
+.ShowtimesHubAskZipButton {position:relative; top:4px;}
+.ShowtimesHubAskZipExampleLine{position:relative; top:5px;}
+.ShowtimesHubAskZipAmbiguousResults{padding-top:15px }
+.ShowtimesHubAskZipErrorLabelDiv{padding-top:10px}
+.ShowtimesHubAskZipErrorLabel{color:#9B0707; font-weight:bold}
+ 
+.ts_row { float:left; overflow: hidden; height: auto !important; height: 1%; }
+    .ts_news { clear: both; }
+    .ts_news_half { width: 329px; float: left; overflow: hidden; }
+		.ts_news_half .tn_main_alternate { display: none; }
+	.ts_messageboard { clear: both; }
+    .ts_messageboard_half { width: 329px; float: left; }
+    
+.movie_news_half { width: 323px; float: left; overflow: hidden; }
+.movie_messageboard_half { width: 335px; float: left; }
+
+/* TVMsgBoardCtrl */
+.smb_main { float:left; padding: 10px 0px 0px 0px; }
+	.smb_body { margin-bottom: 10px; overflow: hidden; height: auto !important; height: 1%; }
+	.smb_heading { width: auto; clear: both; border-bottom: 1px solid #cccccc; padding: 2px 10px 2px 0px; }
+		.smb_titleCol { min-width: 65%; width:65%; float: left; color: #333333; padding-left: 10px; }
+		.smb_dateCol { width: 15%; float: right; text-align: right; color: #333333; padding-right:20px;}
+		.smb_postsCol { width: 10%; float: left; text-align: left; color: #333333; }
+	.smb_itemOdd { background-color: #eeeeee; }
+	.smb_item, .smb_itemOdd { clear: both; padding: 3px 0px 3px 10px; }
+		.smb_number { float: left; }
+		.smb_threadTitleDiv { min-width: 65%; width: 65%; float: left; }
+			.smb_threadTitle { padding-left: 0px; float: left; }
+		.smb_noneTitleDiv { width: 70%; float: left; }
+			.smb_noneTitle { width: 70%; float: left; }
+			.smb_noneTitleLinkDiv { width: 25%; float: right; padding-right:15px;}
+				.smb_noneTitleLink { font-weight: bold; float:right; }
+		.smb_postCountDiv { width: 10%; text-align: left; float: left; }
+		.smb_dateStartedDiv { width: 20%; text-align: right; float: right; padding-right:10px;}
+		.smb_clearDiv { clear: both; }
+		
+/* titletext for TP and TSNO */
+.short_title_div { overflow: hidden; height: auto !important; height: 1%; padding: 6px 13px 5px 10px; }
+.short_title_div { background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_668x29.png); }
+	
+	.section_heading, 
+	.title_leftText { padding-bottom: 3px; float: left; font-size: 11px; }
+	
+	.section_link, 
+	.title_rightText { position: relative; padding-bottom: 3px; float: right; font-size: 11px; }
+	
+	.section_heading,
+	.title_leftText span { color: #333333; font-weight: bold; }
+	
+	.section_text_bold { font-size: 12px; color: #333333; font-weight: bold; }
+	.section_text_regular { font-size: 12px; color: #333333; font-weight: normal; }
+
+/* VE showtimes */
+.VELocation,
+.VELocationApp {padding:7px 5px 0px 5px; width:636px; height:28px; background: url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/veBg.gif) repeat-x; border-bottom:solid 1px #cbcbcb;}
+.VEMap,
+.VEMapApp{float:left; position:relative; width:646px; height:600px; vertical-align:middle;}
+.VETextDiv {margin-top:4px; color:#333333}
+.VETextBoxDiv{float:left; margin-left:1px;}
+.VETextBox{float:left; border:solid 1px #b4cdeb; height:18px;width:203px; color:#666666; font-size:11px;}
+.VEGo{float:left; padding-left:1px;}
+.VEErrorMessage{color:#9B0707; font-size:11px;padding:2px 5px 0px 5px;}
+.VESpinner{padding:2px 5px 0px 4px; position:relative; top:4px;display:none}
+.VEDropDownDiv{float:right;}
+.VEDropDown{margin-top:1px; width:280px; font-family:Tahoma; font-size:9pt; color:#555555; border-color:#b4cdeb;}
+
+
+.VEDisambiguationControlRoot{border:solid 1px black; background-color:White}
+.VEDisambiguationBox{}
+.VEDisambiguationBoxHeader{padding:10px 0px 5px 10px; color:Black; font-size:larger; background-color:#e1e1e1}
+.VEDisambiguationBoxItems{padding:5px 0px 10px 0px}
+.VEDisambiguationItem{padding:5px 10px 5px 10px; cursor:pointer; color: #366ab3}
+
+#MSVE_navAction_modeCell div{color:White}
+#MSVE_navAction_styleGroup div{color:White}
+
+/* VE showtime app */
+.VEMapApp{border-bottom:solid 1px #cbcbcb; height:450px;}
+.AppFooter{clear:left; float:left; height:43px; width:646px;}
+.AppFtLegal{float:right; padding-top:12px; padding-right:10px; color:Gray;}
+.AppFtLegal a{color:Gray;}
+
+/* New Genre Editors Pick Pages */
+
+.GenrePageSideGenreContentCellCss
+{
+  width :174px;
+  background-color: white;
+  padding:5px 5px 10px 10px;
+  position:relative;
+  left:-1px
+}
+
+.GenrePageGenreHeaderImageDiv
+{
+  background-color: #dfdfdf;
+  position: relative;
+  left:-1px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* News Toolbar */
+
+.msgbrdSpan{}
+	        
+.newsToolBarBodyDiv{border:solid 1px #e1e1e1; padding:10px 0px 10px 10px;overflow: hidden; 
+    height: auto !important; height: 1%;}
+
+/* COMMENTS */
+
+.newsToolBarCommentsRootDiv{float:left;width:129px;}                
+.newsToolBarCommentsDiv{float:left;}
+.newsToolBarCommentsIconDiv{float:left; cursor:pointer;padding-top:2px}
+.newsToolBarCommentsLinkDiv{padding-left:5px;color:#07519a;float:left;padding-top:2px}
+.newsToolBarCommentsLinkDivMouseOver{padding-left:18px;color:#07519a;text-decoration:underline;cursor:pointer;padding-top:2px}
+
+/* MAIL */
+.newsToolBarMailRootDiv{float:left; padding-left:10px;width:83px;}                
+.newsToolBarMailDiv{float:left;}
+.newsToolBarMailIconDiv{float:left; cursor:pointer; padding-top:2px}
+.newsToolBarMailLinkDiv{padding-left:5px;color:#07519a;float:left;padding-top:2px}
+.newsToolBarMailLinkDivMouseOver{padding-left:18px;color:#07519a;text-decoration:underline;cursor:pointer;padding-top:2px}
+
+/* DIGG */
+.newsToolBarDiggRootDiv{float:left; padding-left:10px;width:70px;}                
+.newsToolBarDiggDiv{float:left;margin-top:0px}
+.newsToolBarDiggIconDiv{float:left; cursor:pointer;}
+.newsToolBarDiggLinkDiv{padding-left:5px;color:#07519a;float:left;padding-top:2px}
+.newsToolBarDiggLinkDivMouseOver{padding-left:18px;color:#07519a;text-decoration:underline;cursor:pointer;padding-top:2px}
+
+/* FACEBOOK */
+.newsToolBarFaceBookDiv{width:89px;padding-left:15px;float:left;padding-top:2px;}
+
+/* SPACES */
+.newsToolBarSpacesRootDiv{float:left; padding-left:20px}                
+.newsToolBarSpacesDiv{float:left;margin-top:0px}
+.newsToolBarSpacesIconDiv{float:left; cursor:pointer;}
+.newsToolBarSpacesLinkDiv{padding-left:5px;color:#07519a;float:left;padding-top:2px}
+.newsToolBarSpacesLinkDivMouseOver{padding-left:18px;color:#07519a;text-decoration:underline;cursor:pointer;padding-top:2px}
+
+
+
+/* MUSIC HOMEPAGE MIDDLE TABS */
+
+.HomeGalleryTabItemDivCustom
+{
+     width:83px;
+     float:left;
+     margin-right: 20px;
+     margin-left: 10px;
+}
+
+ 
+.HomeArtistTabItemDivCustom
+{
+     width:104px;
+     float:left;
+     margin-left: 10px;
+}
+ 
+.HomeArtistTabItemDivCustom .t5r2{padding-bottom:10px}
+.vidThumbCss { border-width:0px; width:92px; height:69px;}
+
+/* Top Box Office */
+.TopBoxOfficeEditorialRoot{width:785px;}
+.TopBoxOfficeGridRoot{width:785px;}
+.TBOHeadersCss{overflow: hidden; height: auto !important; height: 1%;padding-left:5px}
+
+.tbo_leftcontent{dsplay:none}
+.tbo_body
+{ overflow: hidden; height: auto !important; height: 1%; border:1px solid #cccccc; background-color: #e2e2e2;
+ text-align:left; width: 970px; padding-bottom: 35px; }
+.tbo_middlecontent { width: 677px; float: left; }
+.tbo_maincontent { width: 777px; clear:both; z-index:100 }
+.tbo_rightcontent {overflow: hidden; float: left; width: 160px; padding-left: 5px; margin-top: 18px;}     
+
+
+/* TBO Grid */
+.TBOheader_sorter {background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/boxOffHdr.gif); background-repeat:repeat;font-size:33px; height:33px;overflow: hidden; height: auto !important; height:1%; width:785px; height:33px;}
+
+.TBOColumns_Column1_Header, .TBOColumns_Column2_Header, .TBOColumns_Column3_Header,
+.TBOColumns_Column4_Header, .TBOColumns_Column5_Header, .TBOColumns_Column6_Header,
+.TBOColumns_Column7_Header, .TBOColumns_Column8_Header, .TBOColumns_Column9_Header
+{vertical-align:middle; display: block; float: left; color:#333333; border-right:solid 1px white; 
+ font-size:33px; height:33px;}
+ 
+.TBOColumns_Column1_Header {width:45px;}
+.TBOCol1_NonSelColName {padding:15px 0px 0px 0px; color:#333333;display:block; float:left;text-align:center; width:45px}
+.TBOColumns_Column1_Content {padding-right:1px; margin-top:-5px;float:left; clear:left; width:45px; text-align:center; color:#bdbdbd; font-family:Tahoma; font-size:28px}
+
+.TBOColumns_Column2_Header {width:47px;}
+.TBOCol2_NonSelColName {padding:4px 0px 0px 0px;height:30px;width:47px;color:#333333;text-align:center;display:block; float:left; line-height:11px}
+.TBOColumns_Column2_Content {padding-right:1px;float:left;width:47px; text-align:center}
+
+.TBOColumns_Column3_Header {width:223px;}
+.TBOCol3_NonSelColName {padding:15px 0px 0px 10px; color:#333333;display:block; float:left;}
+.TBOColumns_Column3_Content {padding:0px 11px 0px 10px;float:left;width:203px;}
+.TBODetailsRoot{width:185px;float:left}
+.TBOImageRoot{float:left;clear:left;}
+.TBODetailsText{float:left; padding-left:5px; text-align:left}
+
+.TBOColumns_Column4_Header {width:138px;}
+.TBOCol4_NonSelColName {height:30px;padding:15px 0px 0px 10px; color:#333333;display:block; float:left}
+.TBOColumns_Column4_Content {padding-right:11px;float:left;width:118px;padding-left:10px}
+
+.TBOColumns_Column5_Header {width:64px;}
+.TBOCol5_NonSelColName {padding:4px 0px 0px 0px;height:30px;width:64px;color:#333333;text-align:center;display:block; float:left; line-height:11px}
+.TBOColumns_Column5_Content {padding:0px 12px 0px 0px;float:left;width:54px;text-align:right;}
+
+.TBOColumns_Column6_Header {width:74px;}
+.TBOCol6_NonSelColName {padding:4px 0px 0px 0px;height:30px;width:74px;color:#333333;text-align:center;display:block; float:left; line-height:11px}
+.TBOColumns_Column6_Content {padding:0px 15px 0px 0px ;float:left;width:59px;text-align:right}
+
+.TBOColumns_Column7_Header {width:63px;}
+.TBOCol7_NonSelColName {padding:4px 0px 0px 0px;line-height:11px;height:30px;color:#333333;text-align:center;display:block; float:left; width:63px}
+.TBOColumns_Column7_Content {padding:0px 18px 0px 0px;float:left;width:46px;text-align:right}
+
+.TBOColumns_Column8_Header {width:60px;}
+.TBOCol8_NonSelColName {padding:4px 0px 0px 0px;line-height:11px;height:30px;width:60px; color:#333333;text-align:center;display:block; float:left}
+.TBOColumns_Column8_Content {padding:0px 16px 0px 0px;float:left;width:45px;text-align:right;}
+
+.TBOColumns_Column9_Header {width:62px; border:none}
+.TBOCol9_NonSelColName {padding:4px 0px 0px 0px;line-height:11px;height:30px;width:62px; color:#333333;text-align:center;display:block; float:left}
+.TBOColumns_Column9_Content {float:left;width:62px;text-align:center;}
+
+/* Copyright */
+.TBOPageCopyRight{float:right; padding-right:10px}
+.TBOPageVarietyCopyrightLogoCss{float:left; padding-top:10px}
+.TBOPageCopyRightText{padding-top:10px}
+.TBOPageBackToTopCss{padding:0px 0px 15px 10px; }
+.TBOPageBackToTopLinkDivCss{padding-top:10px}
+
+/* MOVIE HOME TOP BOX OFFICE */
+.TBOModuleBorder{border:solid 1px #cccccc; background-color:white; width:298px}
+.HomeTBORootDiv{width:298px;}
+.HomeTBORSSCss{float:right; padding-right:10px}
+.HomeTBODatesDiv{ width:278px;padding:5px 10px 5px 10px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/homeTBOhdrBg.GIF'); background-repeat:repeat; background-position:bottom}
+.HomeTBOVideoDiv{display:none; padding:4px 4px 4px 4px; border-bottom:solid 1px #cccccc; background-color:#eaf5f7}
+.HomeTBOItemsDiv{padding:0px 0px 0px 0px;width:298px; }
+.HomeTBOItemRootDiv, .HomeTBOItemRootDivSelected, .HomeTBOItemRootDivBeforeSelected
+{
+	 clear:both;overflow: hidden; 
+     height: auto !important; height: 1%;
+}
+
+.HomeTBOItemRootDiv
+{
+    border-bottom:solid 1px #cccccc;padding:3px 0px 3px 0px; 
+    margin:0px 10px 0px 10px;
+    width:278px;
+}
+.HomeTBOItemRootDivSelected
+{
+	border-bottom:solid 1px #cccccc;padding:3px 0px 3px 10px; 
+	width:288px; background-color:#eaf5f7
+}
+
+.HomeTBOItemRootDivBeforeSelected
+{
+	border-bottom:solid 1px #cccccc;padding:3px 0px 3px 10px; 
+	width:288px;
+}
+
+
+.HomeTBOHdrImg	{float:left; padding-left:10px}
+.HomeTBOItemCountDiv{float:left;text-align:left;}
+.HomeTBOItemMovieDiv{float:left;padding-left:3px; padding-right:5px; width:171px;}
+.LastHomeTBOItemMovieDiv{float:left;padding-left:3px; padding-right:5px; width:165px;}
+.HomeTBOItemMovieSpan{}
+.HomeTBOItemGrossSpan{}
+.HomeTBOItemMovieLinksDiv{font-size:10px;float:left;text-align:left; color:#07519a; cursor:pointer}
+.HomeTBOMovLinks{font-size:10px;}
+.HomeTBOFinalRowRoot{padding-left:10px;clear:both; padding-top:10px}
+.HomeTBOViewMoreRoot{float:left;padding-left:18px;}
+.HomeTBOCopyrightRootCss{float:left}
+.HomeTBOCopyrightLogoCss{float:left}
+.HomeTBOCopyrightTextCss{float:left; font-size:10px; padding-left:2px}
+
+
+
+#TBOVideo_t{display:none}
+#TBOVideo_m{display:none}
+#TBOVideo_a{display:none}
+.video1{width:260px}
+
+/****************MOVIES HOMEPAGE REDESIGN **************************/
+
+/* Movie Home News */
+.divMoviesHomeNewsItemCss{padding-bottom:5px;}
+.MovNewsViewAll{text-align:right;width:280px;}
+.MovHomeNewsCss{padding:10px 0px 0px 0px;}
+.MovNewsModuleBorder{border:solid 1px #cccccc; background-color:white; width:155px}
+.HomeRightColumnThirdModuleDiv
+{
+    padding-top:10px;
+    margin:0px 0px 0px 10px;
+}
+.MovHomeNewsViewAll{text-align:right;width:155px;}
+
+/* MOVIES HOME BORDER */
+.MovHomeModuleBorder{border:solid 1px #cccccc;}
+
+/* More Movies Module */
+.MoreMoviesModuleBorder{border:solid 1px #cccccc;}
+.MoreMoviesModuleBorder div.whiteSquareNoShadow8x8 { width: 9px; }
+
+/* MOVIES HOME Genre List */
+.MovHomeGenreListBox	{ width: 150px; height: 20px; font-size: 8pt;color:#666666}
+.HomeGenreHdrImg{padding:0px 0px 10px 0px}
+
+/* MOVIES HOME Tabs with Images */
+.TabSelectedImageDivCss
+{
+	padding-right: 10px;
+	padding-left:10px;
+    vertical-align:middle;
+    padding-top:7px
+}
+
+.ReviewErrorText{ color:red; }
+
+
+/* PHOTOS GRID */
+.PhotosGrid_HeaderSorter {float:left; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/band_light.gif); background-repeat:repeat;font-size:22px; height:22px;overflow: hidden; height: auto !important; height:1%; width:668px; height:22px;}
+.PhotosGrid_BodyItemCssClass,
+.PhotosGrid_BodyAlternatingItemCssClass,
+.PhotosGrid_BodyFinalItemCssClass,
+.PhotosGrid_BodyInitialItemCssClass
+{float:left; padding-bottom:5px;padding-top:5px; border-bottom:solid 1px #e2e2e2;
+ width:668px; overflow: hidden; height: auto !important; height: 1%;
+}
+.PhotosGrid_BodyItemCssClass:hover,
+.PhotosGrid_BodyFinalItemCssClass:hover,
+.PhotosGrid_BodyInitialItemCssClass:hover
+{background-color:#DDDDDD;}
+
+.PhotosGridThumbnailDiv {float: left; width:75px; height:75px; overflow:hidden;}
+.PhotosGridThumbDetailRootDiv {float:left; overflow: hidden; height: auto !important; height: 1%;}
+.PhotosGridDetailsDiv {float: left; padding-left:5px; overflow: hidden; height: auto !important; height: 1%;}
+
+/* columns shared */
+.PhotosGrid2Columns_Column1_Header,
+.PhotosGrid2Columns_Column2_Header,
+.PhotosGrid3Columns_Column1_Header,
+.PhotosGrid3Columns_Column2_Header,
+.PhotosGrid3Columns_Column3_Header,
+.PhotosGrid4Columns_Column1_Header,
+.PhotosGrid4Columns_Column2_Header,
+.PhotosGrid4Columns_Column3_Header,
+.PhotosGrid4Columns_Column4_Header
+{
+	float:left; height:22px; vertical-align:middle; display: block; border-right:solid 1px white; cursor:pointer;
+	font-size:22px; color:#333333; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/hdr_unselected.gif); background-repeat:repeat;
+}
+.PhotosGrid2Columns_Column2_Header_No_Sort,
+.PhotosGrid3Columns_Column3_Header_No_Sort,
+.PhotosGrid4Columns_Column4_Header_No_Sort
+{
+	cursor:default;
+}
+
+.PhotosGrid2Columns_Column1_Header_Selected,
+.PhotosGrid2Columns_Column2_Header_Selected,
+.PhotosGrid3Columns_Column1_Header_Selected,
+.PhotosGrid3Columns_Column2_Header_Selected,
+.PhotosGrid3Columns_Column3_Header_Selected,
+.PhotosGrid4Columns_Column1_Header_Selected,
+.PhotosGrid4Columns_Column2_Header_Selected,
+.PhotosGrid4Columns_Column3_Header_Selected,
+.PhotosGrid4Columns_Column4_Header_Selected
+{
+	float:left; height:22px; border-right:solid 1px white; cursor:pointer;
+	font-size:20px; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/hdr_selected.gif); background-repeat:repeat;
+}
+
+.PhotosGrid2Columns_Column1_Header_Hover,
+.PhotosGrid2Columns_Column2_Header_Hover,
+.PhotosGrid3Columns_Column1_Header_Hover,
+.PhotosGrid3Columns_Column2_Header_Hover,
+.PhotosGrid3Columns_Column3_Header_Hover,
+.PhotosGrid4Columns_Column1_Header_Hover,
+.PhotosGrid4Columns_Column2_Header_Hover,
+.PhotosGrid4Columns_Column3_Header_Hover,
+.PhotosGrid4Columns_Column4_Header_Hover
+{
+	float:left; height:22px; border-right:solid 1px white; cursor:pointer;
+	font-size:20px; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/hdr_hover.gif); background-repeat:repeat;
+}
+
+.PhotosGrid2Columns_Column1_Content,
+.PhotosGrid2Columns_Column2_Content,
+.PhotosGrid3Columns_Column1_Content,
+.PhotosGrid3Columns_Column2_Content,
+.PhotosGrid3Columns_Column3_Content,
+.PhotosGrid4Columns_Column1_Content,
+.PhotosGrid4Columns_Column2_Content,
+.PhotosGrid4Columns_Column3_Content,
+.PhotosGrid4Columns_Column4_Content
+{
+    float:left; padding-left:10px; padding-right:15px;
+    overflow: visible; height: auto !important; height: 1%;
+}
+
+/* 2 columns */
+.PhotosGrid2Columns_Column1_Header,
+.PhotosGrid2Columns_Column1_Header_Selected,
+.PhotosGrid2Columns_Column1_Header_Hover {width:595px;}
+
+.PhotosGrid2Columns_Column2_Header,
+.PhotosGrid2Columns_Column2_Header_Selected,
+.PhotosGrid2Columns_Column2_Header_Hover {width:72px; border-width:0px;}
+
+.PhotosGrid2Columns_Column1_Content {width:571px;}
+.PhotosGrid2Columns_Column2_Content {width:47px;}
+
+/* 3 columns */
+.PhotosGrid3Columns_Column1_Header,
+.PhotosGrid3Columns_Column1_Header_Selected,
+.PhotosGrid3Columns_Column1_Header_Hover {width:454px;}
+
+.PhotosGrid3Columns_Column2_Header,
+.PhotosGrid3Columns_Column2_Header_Selected,
+.PhotosGrid3Columns_Column2_Header_Hover {width:139px;}
+
+.PhotosGrid3Columns_Column3_Header,
+.PhotosGrid3Columns_Column3_Header_Selected,
+.PhotosGrid3Columns_Column3_Header_Hover {width:73px; border-width:0px;}
+
+.PhotosGrid3Columns_Column1_Content {width:430px;}
+.PhotosGrid3Columns_Column2_Content {width:115px;}
+.PhotosGrid3Columns_Column3_Content {width:48px;}
+
+/* 4 columns */
+.PhotosGrid4Columns_Column1_Header,
+.PhotosGrid4Columns_Column1_Header_Selected,
+.PhotosGrid4Columns_Column1_Header_Hover {width:330px;}
+
+.PhotosGrid4Columns_Column2_Header,
+.PhotosGrid4Columns_Column2_Header_Selected,
+.PhotosGrid4Columns_Column2_Header_Hover {width:124px;}
+
+.PhotosGrid4Columns_Column3_Header,
+.PhotosGrid4Columns_Column3_Header_Selected,
+.PhotosGrid4Columns_Column3_Header_Hover {width:138px;}
+
+.PhotosGrid4Columns_Column4_Header,
+.PhotosGrid4Columns_Column4_Header_Selected,
+.PhotosGrid4Columns_Column4_Header_Hover {width:73px; border-width:0px;}
+
+.PhotosGrid4Columns_Column1_Content {width:306px;}
+.PhotosGrid4Columns_Column2_Content {width:100px;}
+.PhotosGrid4Columns_Column3_Content {width:113px;}
+.PhotosGrid4Columns_Column4_Content {width:49px;}
+
+/* Photos:Events Filter Module */
+.PhotosGridEventFilterRootDiv,
+.PhotosGridEventFilterRow1,
+.PhotosGridEventFilterRow2
+{float:left; clear:left; width:100%; overflow: visible; height: auto !important; height: 1%;}
+.PhotosEventFilterBox
+{	float:left; width:550px; height:71px; position:relative; left:55px; top:14px; padding-bottom:10px;
+	background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/eventsFilter.gif); background-repeat:no-repeat;
+}
+.PhotosEventFilterContent {float:left; width:532px; margin-top:36px; padding-left:16px;}
+.PhotosEventFilterDropDownDiv {float:left; border:solid 1px #b4cceb; margin-right: 2px;}
+.PhotosEventFilterEvtDropDown {font-family:Tahoma; font-size:11px; width:215px; height:18px; border:solid 2px #b4cceb; }
+.PhotosEventFilterMonthDropDown {font-family:Tahoma; font-size:11px; width:96px; height:18px; border:solid 1px #b4cceb;}
+.PhotosEventFilterYearDropDown {font-family:Tahoma; font-size:11px; width:87px; height:18px; border:solid 1px #b4cceb;}
+.PhotosEventFilterOrText {float:left; margin:2px 20px 0px 20px; font-family:Tahoma; font-size:11px; font-weight:bold; color:#333333}
+.PhotosEventFilterGoDiv {float:left}
+
+/* CustomFilterColumnControl */
+.CustomFilterColumnSelected {font-weight:bold; color:#333333;}
+
+/* PhotosGridFilterControl */
+.PhotosGridFilterTitleTextDiv {float:left; padding: 6px 0px 5px 10px;}
+.PhotosGridFilterHeadingCssClass { font-size:16px; font-weight:600; color:#333333;}
+.PhotosGridFilterFirstRowDivCssClass {float:left; padding: 6px 0px 0px 0px; overflow: visible; width:100%; height: auto !important; height: 1%;}
+.PhotosGridFilterDivCssClass { float:right; padding-top: 10px; padding-right:10px;}
+
+/****** Photos Pop up *******/
+.PhotoPopUpArrowLeft,
+.PhotoPopUpArrowRight
+{	float:left; z-index:1000; width: 9px; height: 19px;
+	background-image : url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/arrowLeft.gif'); background-repeat:no-repeat;
+}
+.PhotoPopUpArrowRight{ background-image: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/arrowRight.gif'); }
+
+.PhotoPopUpFrame
+{	float:left; z-index:1000; width: 342px; height: 214px; color: #4e4e4e; font-size: 10px; line-height: 1.3;
+	background-color:#3c3c3c;
+}
+.PhotoPopUpSpinner
+{	float:left; width:29px;height:29px; position:relative; top:80px; left:155px;
+ 	background-image: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/spinner.gif');background-repeat:no-repeat;
+}
+.PhotoPopUpBody {float:left; width:327px;height:214px; z-index:2; padding:0px 15px 0px 0px; margin:0px;}
+.PhotoPopUpBg 
+{	float:left; position:absolute; left:6px; top:-2px; z-index:-1; width:352px; height:224px; display:block;
+ 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://entimg.msn.com/i/grandprix/popOverBgShadow.png', sizingMethod='scale');
+}
+
+.PhotoPopUpHeader {float:left; width: 327px; height:17px; padding: 6px 0px 0px 13px; overflow:hidden;}
+.PhotoPopUpClose {z-index:1001; float:right; margin-right:4px; color:White; cursor:pointer;}
+.PCloseBox
+{	width:9px; height:9px; float:right; margin-left:4px; margin-top:3px; margin-right:19px;
+	background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/close.gif'); background-repeat:no-repeat; cursor:pointer;
+}
+.allThumbsDiv{float:left; width:325px;height:130px;}
+.thumbsPad
+{	float:left; position:relative; left:10px; top:5px; width:58px; height: 58px; margin:0px 7px 7px 0px;
+	background-image: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/thumbBg.gif');background-repeat:no-repeat;
+}
+.PhotoPopUpThumb,
+.PhotoPopUpThumbHover{float:left; padding: 3px; position:relative; top:-1px; height:50px;width:50px;}
+.PhotoPopUpThumbHover{padding: 2px; border: solid 1px #9e9e9e; cursor:pointer;}
+.PhotoPopUpCaption
+{	clear:left; float:left; width: 234px; height:33px;
+ 	margin-left:11px; margin-top:6px; padding:5px 7px 5px 7px; font-size:10px; line-height:14px;
+ 	background-image: url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/captionBg.gif');background-repeat:no-repeat;
+}
+.PhotoPopUpCaptionText{color:white; height:29px; overflow:hidden; font-size:10px;}
+.PhotoPopUpViewAll {margin-top:5px;}
+.wtxt {color: #ffffff;font-size:10px;}
+
+/****** Photos Home *****/
+.PhotoHomeBG {width:668px; background-color:#555555; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photosHubBg.jpg'); overflow:hidden; height:auto;}
+.PhotosPromoFlash {width:668px; height:287px; background-color:#1C1D1F;}
+
+/* Photos Search Box*/
+.PhotoHomeSearchDiv {width:648px; height:260px; margin:10px 10px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/angelina_648x263.jpg'); background-repeat:no-repeat; overflow:hidden;}
+.PHSearchBox {float:left; position:relative; left:50%; top:80%; margin-left:-200px; border:1px solid #3a3a3a; background-color:White;}
+.PHSInput {float:left; width:366px; height:26px; padding-left:3px; font-family:Tahoma; font-size:21px; vertical-align:middle; border:solid 0px white; color:#c2c2c2;}
+.PHSBtn {float:left; width:24px; height:24px; border:solid 2px white;}
+
+/****** Photos Thumbnails *********/
+.PhotosItemRangeDiv {padding-top:10px; padding-left:9px; width:300px; float:left; display:none;}
+.PThumbVItem {padding-left:10px; padding:10px; width:75px; height:75px; float:left; overflow: hidden;}
+.PhotosDropDown {float:right; padding:5px 12px 5px 0px;}
+.PhotosDropDown select {float:right; color: #07519A; font-size: 8pt; width:300px}
+.PThumbVCount {padding:10px 0px 0px 10px;}
+
+/****** Photos Home Carousel ******/
+.CModule {width:628px; height:180px; margin:10px 8px 10px 8px; padding:12px 12px 11px 12px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/hubCarouselBg.jpg'); background-repeat:no-repeat;}
+.CHdr {clear:both; overflow: hidden; width:628px; height:19px;}
+.CBody {clear:both; overflow: hidden; width:628px; height:147px;}
+.CHdrTitle {float:left; width:300px;}
+.CHdrNavBar {float:right;}
+.CHdrNavInd {float:left; margin-top:4px; margin-right:15px;}
+.CHdrNavIndOn,
+.CHdrNavIndOff,
+.CHdrNavIndHover {float: left; width:10px; height:10px; margin-left:5px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavOff.gif'); background-repeat:no-repeat;}
+.CHdrNavIndOn {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavOn.gif'); background-repeat:no-repeat;}
+.CHdrNavIndHover {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavHover.gif'); background-repeat:no-repeat; cursor:pointer;}
+.CHdrNavBtnL,
+.CHdrNavBtnLHover {float:left; width:25px; height:19px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavLeft.gif'); background-repeat:no-repeat;}
+.CHdrNavBtnLHover {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavLeftHover.gif'); cursor:pointer;}
+.CHdrNavBtnR,
+.CHdrNavBtnRHover {float:left; width:26px; height:19px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavRight.gif'); background-repeat:no-repeat;}
+.CHdrNavBtnRHover {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoHubNavRightHover.gif'); cursor:pointer;}
+.CWindow {float:left; clear:both; width:628px; overflow: hidden; height: 134px; position:absolute;}
+.CBelt {float:left; width:2712px;}
+.CPage {float:left; width:652px; overflow: visible; height: auto !important; height: 1%;}
+.CImgDiv {float:left; width:75px; height:75px; padding: 8px;}
+.CImgDivImg {width:75px; height:75px; overflow:hidden;}
+.CItem {float:left; width:91px; margin: 6px 25px 0px 12px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/thumbBg75.jpg'); background-repeat:no-repeat;}
+.CDescDiv {float:left; clear:left; width:91px; position:relative; top:-3px; left:8px;}
+.CDescDiv a{font-family:Tahoma; font-size:11px;}
+.CViewAll {float:right; font-weight:bold; font-size:10px;}
+.CRssLink {float:left; font-weight:bold; font-size:10px; padding-right:5px;}
+.CFtr {float:left; clear:both; width:628px; height: 15px;}
+.CFtrLDiv {float:left;width:300px;}
+.CFtrRDiv {float:right;width:300px;}
+
+/****** Photo Viewer ******/
+.PhotoViewerRoot {float:left; clear:left; width:833px; padding-bottom:50px; height: auto !important; overflow:hidden;}
+.PViewerTopBanner {float:left; width:833px; height:0px;}
+.PViewerTopNav {float:left; width:833px; height:30px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/photoTopNavBg.gif')}
+.PVTopNavLeft {float:left; width:493px; height:20px; padding:7px 10px;}
+.PVCount {float:left;}
+.PVSlide {float:left; display:none;}
+.PVPrevNext {float:right;}
+.pipe {padding:0px 3px;}
+.PVDropDown{float:right; width:300px; margin:5px 10px; font-family:Tahoma; font-size:8pt; color:#666666;}
+.PVBodyLeft {float:left; width:503px; padding-left:10px;}
+.PVImage {float:left; width:503px; padding:10px 0px; text-align:center; overflow:hidden;}
+.PVCap {float:right; width:300px; padding:0px 10px 15px 0px;}
+.PVCap H2 {font-weight:normal; color:#333333; font-family:Tahoma; font-size:15px; margin:0px; padding-bottom:5px;}
+.PVCap SPAN P {margin:0px; padding-top:5px; clear:left;}
+.PVAd {float:right; width:300px; padding-right:10px;}
+.PVRelated {float:right; width:300px; padding-right:10px; padding-top:13px;}
+.PVBottomBar {float:left; width:483px; padding:9px; border:solid 1px #e1e1e1;}
+.PVThumbLink {float:left; width:135px; height:14px;}
+.BBRating {float:left; width:200px; position:relative; padding:5px 0px;}
+.BBRatRow1 {float:left; padding-left:25px;}
+.BBRatRow2 {clear:left; padding-left:21px;}
+.BBRatText {float:left;}
+.BBRatRatingText {clear:left; float:left; font-size:10px; padding-left:74px; width:100px; text-align:center;}
+.BBRatStars {float:left; padding: 0px 10px;}
+.BBSep {float:left; width:100%; height:0px; padding-top:5px; border-bottom:solid 1px #e1e1e1}
+.BBGLink {float:left; width:465px; padding-top:5px;}
+.PVSharingTB {float:left; padding-top:10px;}
+.PVShareItemDiv {float:left; padding-left:10px; padding-right:60px;}
+.PVTBCommentsDiv{float:left;width:151px;}
+.PVTBMailDiv{float:left; width:144px;}
+.PVTBDiggDiv{float:left; width:144px;}                
+.PVTBFaceBookDiv{float:left; padding-top:2px; width:144px;}
+.PVTBSpacesDiv{float:left;}
+
+/* Photos Explore Module */
+.PhotoExpSmall,
+.PhotoExpSmallWS
+{ float:left; width:143px; height:105px; position:relative; left:-5px; top:10px; padding:35px 10px 10px 15px; 
+  line-height:16px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/exploreIndexBg.gif'); background-repeat:no-repeat;
+}
+.PhotoExpSmallWS {background-image:url('https://web.archive.org/web/20090307230104im_/http://mainentwba02/i/grandprix/exploreIndexBg2.gif');}
+.PESmallLinkDiv {float:left; clear:left; width:100%;}
+
+.PhotoExpLarge,
+.PhotoExpLargeWS
+{ width:289px; height:100px; position:relative; padding:35px 3px 10px 14px;
+  background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/exploreBg.gif'); background-repeat:no-repeat;
+}
+.PhotoExpLargeWS {background-image:url('https://web.archive.org/web/20090307230104im_/http://mainentwba02/i/grandprix/explorePhotoBg2.gif');}
+.PELargeLinkDiv {float:left; width:134px; height:18px; padding-right:10px; line-height:16px;}
+.PELargeHBar {float:left; height:3px; margin-top:3px; width:255px; border-top:solid 1px #e1e1e1;}
+.PVExploreDiv {float:right; padding-top:9px; padding-right:7px;}
+
+.PExpSchSm {float:left; margin-top:10px; border:1px solid Gray; background-color:White;}
+.PExpSInputSm {float:left; width:115px; height:18px; padding-left:2px; font-family:Tahoma; font-size:14px; vertical-align:middle; border:solid 0px white; color:#c2c2c2;}
+.PExpSchLg {float:left; margin-top:10px; border:1px solid Gray; background-color:White;}
+.PExpSInputLg {float:left; width:214px; height:18px; padding-left:2px; font-family:Tahoma; font-size:14px; vertical-align:middle; border:solid 0px white; color:#c2c2c2;}
+
+.PExpSchBtn {float:left; width:18px; height:18px; border:solid 1px white; background-color:White;}
+
+/* TV Home */
+.tvNewsBlogDiv {width: 295px;}
+.tvRatingsDiv{padding-top:9px;}
+
+/* News Tab */
+.HomeTVNewsTabContentMain{background-color:White;}
+.HomeTVNewsTabContent{padding:10px 0px 0px 0px;overflow: hidden;width:300px;border:1px solid #cccccc;}
+.TVHomeNewsTabRootDiv {padding-left:10px}
+.HomeTVNewsTabMoreLinkDiv{padding:10px 10px 10px 10px;float:right;font-weight:bold;width:250px;text-align:right}
+.TVHomeNewsTabRss {float:right; padding-right:10px;}
+
+/* Blog Tab */
+.HomeTVBlogTabContentMain{background-color:White;}
+.HomeTVBlogTabContent{padding:10px 0px 0px 0px;overflow: hidden;width:300px;border:1px solid #cccccc;}
+.TVHomeBlogTabRootDiv {padding-left:10px}
+.HomeTVBlogTabMoreLinkDiv{padding:0px 10px 10px 10px;float:right;font-weight:bold;width:250px;text-align:right}
+.TVHomeBlogTabRss {float:right; padding-right:10px;}
+
+/* Ratings Tab */
+.TVHRtabTitleText{font-family:Tahoma;
+                font-size:11px;
+                color:#333333;
+                padding-right: 10px;
+                text-align: top;
+                vertical-align:middle;
+                text-align:center;
+                padding-left:10px;}
+                
+.HomeTVRTabContent{padding:10px 0px 0px 0px;overflow: hidden;width:300px;border:1px solid #cccccc;}
+.HomeTVRTabRssHeaderTextDiv
+{
+	clear:both;overflow: hidden; 
+     height: auto !important; height: 1%;  padding:0px 10px 0px 10px;
+     background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/homeTBOhdrBg.GIF'); background-repeat:repeat; background-position:bottom
+}
+.HomeTVRTabHeaderTextDiv{ color:#333333;float:left; padding:0px 0px 5px 0px; }
+.HomeTVRTabRssDiv{float:right;}
+.HomeTVRItemsDiv{padding:0px 10px 0px 0px}
+.HomeTVRItemRootDiv
+{
+	 clear:both;overflow: hidden; 
+     height: auto !important; height: 1%;
+     border-bottom:solid 1px #cccccc;padding:3px 0px 3px 0px; 
+}
+
+
+.HomeTVRItemCountDiv{float:left;text-align:left;}
+.HomeTVRItemTVSeriesDiv{float:left;padding-left:3px; padding-right:5px; width:225px;}
+.HomeTVRLastItemTVSeriesDiv{float:left;padding-left:3px; padding-right:5px; width:219px;}
+.HomeTVRItemTVSeriesSpan{}
+.HomeTVRItemNetworkSpan{}
+.HomeTVRItemRatingDiv{float:right; padding-right:0px}
+.HomeTVRFinalRowRoot{padding:10px 10px 10px 0px;clear:both;overflow: hidden; 
+     height: auto !important; height: 1%;}
+.HomeTVRCopyrightRootCss{float:left}
+.HomeTVRViewMoreRoot{float:right}
+
+/* Artist & Celeb page user rating */
+.RatingsDiv { width:240px; height:43px; margin-left:10px;}
+.AvgRatingDivCss {float: left; padding: 3px 0px 3px 10px; }
+.RatingTextDiv { clear:left; float:left; padding: 5px 0px 0px 10px; color: #333333;}
+.ArtistAvgText { color: #333333; float:left;}
+.ArtistUserRatingStarsDiv { float:left; padding: 0px 5px 5px 2px;}
+.CelebUserRatingStarsDiv { float:left; padding: 5px 5px 5px 2px;}
+.ArtistRatingStarsDiv {float:left; padding:3px 0px 0px 5px;}
+.CelebRatingsDiv { width:235px; height:43px; }
+.CelebRatingStarsDiv {float:left; padding:0px 0px 0px 5px;}
+.ArtistRatingText { float:left; padding: 3px 0px 0px 18px; color: #333333;}
+
+/* ENTERTAINMENT SEARCH */
+.EntSearchRootDiv{width:785px}
+
+.EntSearchHeaderRootDiv{}
+.EntSearchResultsRootDiv{height:300px;overflow: hidden; height: auto !important; height: 1%; clear:both;}
+.EntSearchLeftRootDiv{float:left; width:780px}
+.EntSearchRightRootDiv{float:left;}
+.EntSearchResultsAdDiv{}
+
+/* Spell Checker */
+.EntSearchSCRoot{padding:10px 0px 0px 20px}
+.EntSearchSCSpan{padding-right:5px; color:red}
+.EntSearchSCLink{ font-weight:bold}
+
+
+/* Title */
+.EntSearchTitleRoot{width:745px;overflow: hidden; height: auto !important; height: 1%; clear :both; padding:10px 20px 10px 20px;}
+.EntSearchFooterRoot{overflow: hidden; height: auto !important; height: 1%; clear :both; padding:10px 20px 20px 20px;}
+.EntSearchTitleResults{float:left; font-size:12px; color:#333}
+.EntSearchTitleST{width:540px; padding-left:3px;float:left; font-size:12px; font-weight:bold; color:#333}
+.EntSearchTitlePagination{float:right}
+.EntSearchPaginationItem{font-size:11px;float:left; padding-left:5px}
+.EntSearchpaginateNonSelected{font-size:11px;}
+.EntSearchpaginateSelected{font-size:11px;color:#333333; font-weight:bold}
+
+.EntSearchHeaderTitleResults{padding-top:5px;float:left; font-size:15px; color:#333}
+.EntSearchHeaderTitleST{padding-top:5px;width:500px; padding-left:3px;float:left; font-size:15px; font-weight:bold; color:#333}
+
+/*Filter */
+.EntSearchFilterDivRoot{margin:0px 21px 0px 13px; 
+						 padding-bottom:5px}
+.EntSearchPoweredByDiv{float:right; padding:0px}
+.EntSearchLabel{float:left; padding:5px 20px 5px 5px}
+.EntSearchLabelCss{ font-size:12px; font-weight:bold; color:#333333}
+.EntSearchFilterDiv{float:left}
+.EntSearchSelectedFilter{font-weight:bold}
+.EntSearchFilterItemVeryLong{float:left;padding:6px 10px 0px 0px; width:130px}
+.EntSearchFilterItemLong ,
+.EntSearchFilterItemShort{float:left;padding:6px 35px 0px 0px;}
+
+.LiveSearchBrowseTabContentAreaCss{padding: 0px 0 5px 15px;  background-color:#FAFEFF; border: 1px solid #cccccc; width: 737px;}
+
+
+/* Search Results */
+.EntSearchNoResultsDiv{float:left;padding:20px 0px 200px 20px; font-size:16px}
+.EntSearchItemsRootDiv{}
+.EntSearchItemRoot{padding:10px 10px 10px 20px; clear:both}
+.EntSearchTitleDiv{font-size:14px}
+.EntSearchDescriptionDiv{}
+.EntSearchDescriptionLabel{font-size:12px;color:#666; line-height:16px}
+.EntSearchUrlDiv{}
+.EntSearchUrlLabel{font-size:12px;color:#009900; line-height:16px}
+
+/* Expand Search */
+.EntSearchExpandRoot{ clear:both; float:right; margin-top:10px;padding:30px 18px 0px 0px;width:165px; height:85px; background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/expandSrchBg.gif); background-repeat:no-repeat}
+.EntSearchExpandTitle{display:none;padding:10px}
+.EntSearchExpandSelectedLabel{font-weight:bold}
+.EntSearchExpandFilterItemSelected{ margin: 0px 4px 0px 4px; background-color:#e9e9e9; padding:5px 0px 5px 11px; border-top:solid 1px #d3d3d3;border-bottom:solid 1px #d3d3d3;}
+.EntSearchExpandFilterItem{margin: 0px 4px 0px 4px;padding:5px 0px 5px 11px;}
+
+/* Image Search */
+.PhotosSearchResultRootDiv {width:785px; float:left;}
+.SImgDiv {float:left; width:75px; height:75px; padding:18px;}
+.SImgInDiv {width:75px; height:75px; overflow:hidden;}
+.Simg {vertical-align:middle;}
+.SImgSortRoot {padding:5px 15px;}
+.SImgSortRoot span {padding: 0px 4px;}
+.SImgSortRoot a {padding:0px 4px;}
+
+.SImgPopFrame {float:left; width:400px; z-index:1000;background:White; border:solid 1px gray;}
+.SImgPopImg {float:left; padding:5px; overflow:hidden;}
+.SImgPopImg a, .SImgPopImg a img {border:solid 0px black;}
+.SImgPopDesc {float:left; padding:5px 5px 5px 0px; width:100px; background-color:White; overflow:hidden;}
+
+/* ENT Focus Module */
+.ENTFocusModuleRootDiv{clear:both; padding:10px 0px 10px 20px;overflow: hidden; height: auto !important; height: 1%;}
+.ENTFocusModuleLeftRootDiv{float:left}
+.ENTFocusModuleRightRootDiv{float:left; padding-left:10px;width:450px}
+.ENTFocusModuleHeadLine{clear:both; font-size:18px; font-family:Tahoma}
+.ENTFocusModuleDescription{clear:both; font-size:13px; font-family:Tahoma; line-height:18px; color:#666666}
+.ENTFocusModuleRightDivLink{}
+.ENTFocusModuleRightDivText{}
+
+/* Celeb Buzz */
+.CelebBuzzHdr{width:833px; height:55px;background-image:url(https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/celebBuzzhdr.GIF);background-repeat:no-repeat}
+.CelebBuzzTopFlash{height:302px; width:833px; }
+.CelebBuzzMiddle{padding-top:6px}
+.CelebBuzzBelowHeader{background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/buzz/buzzBg.jpg');background-repeat:no-repeat; background-color:#373737; }
+
+.CelebBuzzLowerSection{ overflow: hidden; height: auto !important; height: 1%;}
+.CelebBuzzLowerLeft{width:493px;float:left;}
+.CelebsBuzzLowerFlash{margin:10px; width:500px; height:600px}
+.CelebBuzzLowerRight{width:302px; padding-right:8px;float:right; }
+.CelebBuzzGossipDiv{padding-top:10px; padding-bottom:10px}
+/* Top Celeb Carousel */
+.TopCelebsCModule {width:506px; height:228px; margin:10px 8px 10px 8px; padding:12px 0px 11px 0px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebsCarouselBg.gif'); background-repeat:no-repeat;}
+.TopCelebsCHdr {clear:both; overflow: hidden; width:494px; height:19px;}
+.TopCelebsCPage {padding:10px 0px 0px 16px;float:left; width:496px; overflow: visible; height: auto !important; height: 1%;}
+.TopCelebsCFtr {overflow: hidden; height: auto !important; height: 1%;clear:both; width:494px; height: 15px; padding-top:10px; }
+.TopCelebsCFtrRDiv {float:right;width:200px;}
+.TopCelebsCFtrLDiv {float:left;width:200px; padding-left:15px}
+.TopCelebsCBelt {float:left; width:2412px;}
+.TopCelebsCWindow {float:left; clear:both; width:506px; overflow: hidden; height: 190px; position:absolute;}
+.TopCelebsCBody {clear:both; overflow: hidden; width:506px; height:187px;}
+.TopCelebsCItem {float:left;padding: 0px 10px 0px 0px;}
+.TopCelebCarouselItemDiv_Name{padding:4px 0px 0px 2px}
+.TopCelebCarouselItemDiv_Name a{color:#ededed}
+
+.TopCelebCHdrNavBtnL,
+.TopCelebCHdrNavBtnLHover {float:left; width:25px; height:19px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavLeft.gif'); background-repeat:no-repeat;}
+.TopCelebCHdrNavBtnLHover {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavLeftHover.gif'); cursor:pointer;}
+.TopCelebCHdrNavBtnR,
+.TopCelebCHdrNavBtnRHover {float:left; width:26px; height:19px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavRight.gif'); background-repeat:no-repeat;}
+.TopCelebCHdrNavBtnRHover {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavRightHover.gif'); cursor:pointer;}
+
+.TopCelebCHdrNavInd {float:left; margin-top:4px; margin-right:15px;}
+.TopCelebCHdrNavIndOn,
+.TopCelebCHdrNavIndOff,
+.TopCelebCHdrNavIndHover {float: left; width:10px; height:10px; margin-left:5px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavOff.gif'); background-repeat:no-repeat;}
+.TopCelebCHdrNavIndOn {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavOn.gif'); background-repeat:no-repeat;}
+.TopCelebCHdrNavIndHover {background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/topCelebNavHover.gif'); background-repeat:no-repeat; cursor:pointer;}
+
+.TopCelebsCFtrRDiv a {color:#ededed}
+/* Gossip */
+.CelebBuzzGossipHdr1
+{
+  background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/gossipHdr.GIF'); 
+  background-repeat:no-repeat;
+  position: relative;
+  height:24px;
+  font-size:24px;
+  width:300px;
+  display:none;
+}
+
+.CelebBuzzGossipTitle{position:relative;background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/hdrHotGossip.GIF'); background-repeat:no-repeat;}
+
+.CelebBuzzGossipContent
+{
+ border-left:solid 1px #1e1e1e; border-bottom:solid 1px #1e1e1e; 
+ border-right:solid 1px #1e1e1e;text-align:left;
+ padding-bottom:10px; background-color:#2c2c2c;width:298px; margin-left:10px
+}
+
+.CelebBuzzGossipContent a {color:#ededed}
+
+.CBuzzSummaryViewAll a {color:#ededed}
+.CBuzzSummaryTopCellGossip, .CBuzzSummaryTopCellNews
+{ background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/gossipHdr.GIF'); 
+  background-repeat:no-repeat;
+  position: relative;
+  height:28px;
+  font-size:28px;
+  width:300px;}
+  
+.CBuzzSummaryTopCellNews
+{
+	background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/grandprix/gossipHdr.GIF'); 
+}
+
+.CBuzzSummaryViewAll
+{
+	float:right; padding-right:10px
+ 
+} 
+
+/* DVD Features */
+.NewOnDVDFeaturesMainModule{float:left;padding:0px 10px 0px 10px;width:813px;}
+.NewOnDvdFeaturesLeftColumn { float: left; width: 503px; padding-right: 5px;}
+.DVDdivNewsItemDescCss{font-size:13px}
+.DVDdivNewsItemCss{clear:both;padding-left:10px}
+.DVDNewsBodyFinalItemCssClass{font-size:13px;padding-bottom:25px;margin: 10px 0px 0px 10px;border-bottom:solid 1px #e1e1e1;width:492px}
+.DVDNewsBodyItemCssClass { padding: 10px 0px 5px 0px; font-size:13px}
+.DVDNewsBodyItemCssClass {font-size:13px}
+.DVDNewsBodyItemCssClass div{font-size:13px;}
+.DVDNewsBodyFinalItemCssClass div{font-size:13px;}
+.DVDNewsBodyInitialItemCssClass{padding-top:10px}
+.DVDNewsBodyInitialItemCssClass div{font-size:13px;}
+.DVDNewsBodyFinalItemCssClass div{padding-left:0px}
+
+.unknownArtist,
+.unknownArtist:hover,
+.unknownArtist:a
+{   font-family:Tahoma;
+    color: #666666;
+    font-size:11px;
+    clear:both;
+    text-decoration:none; 
+}
+
+/* New Gossip */
+.GossipHdrImg
+{
+	background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/test/gos/header.gif');
+	background-repeat:no-repeat;
+	height:49px;
+	width:833px;
+}
+	
+.GossipMainModule
+{
+  float:left;
+  padding:0px 0px 10px 0px;
+  width:833px;
+  background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/test/gos/bg.gif');
+  background-repeat:repeat-y;
+  background-position:top right
+}
+.GossipRightColumn{float:right;width:320px}
+.GossipLeftColumn{float:left; width:513px}
+
+.GossipContentAdCss{width:300px; padding:20px 0px 0px 10px}
+.GossipAd{height:278px; background-image:url('https://web.archive.org/web/20090307230104im_/http://entimg.msn.com/i/test/gos/adBg.jpg');}
+
+
+/* Gossip Header */
+.GossipHeaderRoot{}
+.GossipHeaderLabelDiv{padding:10px 10px 0px 10px}
+.GossipHeaderLabel{font-size:18px; color:#333333}
+
+.GossipNextRootDiv{padding:0px 0px 10px 10px}
+.GossipNextRootSpan{font-weight:bold;font-size:13px; color:#474747}
+.GossipNextSpan{font-size:13px;color:#474747}
+.GossipNextLinkspan{font-size:13px; padding-left:5px}
+.GossipNextLinkSpan a{font-size:13px; padding-left:5px}
+
+/*Gossip Navigation*/
+.GossipNavigation{position:relative}
+.GossipNavigationRoot{width:320px;overflow: hidden; height: auto !important; height: 1%;}
+.GossipNavigationRightDiv{float:left;width:320px;}
+
+.GossipNavigationItemRoot,
+.GossipNavigationItemRootSelected,
+.GossipNavigationItemRootSelectedmouseOver
+{clear:both; padding:7px 10px 7px 9px; width:320px; background-color:#DBEBFA; border-left:solid 1px #7a9ccb; border-bottom:solid 1px #7a9ccb;
+}
+.GossipNavigationItemRootSelected{}
+.GossipNavigationItemRootmouseOver{overflow: hidden; height: auto !important; height: 1%;clear:both; padding:7px 10px 7px 9px; width:320px; background-color:#7a9ccb; border-left:solid 1px #7a9ccb; border-bottom:solid 1px #7a9ccb; cursor:pointer}
+.GossipNavigationItemRootmouseOver a{ text-decoration:underline}
+
+.GossipNavigationItemLeftDiv{float:left;}
+.GossipNavigationItemRightDiv{float:left;width:155px; padding-left:10px}
+
+.GossipNavigationItemRootSelected, .GossipNavigationItemRootSelectedmouseOver{background-color:#FFFFFF}
+.GossipNavigationItemLink{color:#07519a}
+.GossipNavigationItemLinkSelected{color:#07519a;}
+.GossipNavImage{width:50px; height:50px}
+.GossipNavigationSelectedText{color:#333333}
+
+.GossipSharingToolBar{padding:10px 10px 10px 10px}
+
+.GossipPointerImage{position:absolute;left:-12px;z-index:100; display:block}
+.GossipPointerDiv{}
+.GossipVideoWidget{width:319px; background-color:#DCEBF9; margin-left:1px}
+
+/*
+     FILE ARCHIVED ON 23:01:04 Mar 07, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:12:17 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.86
+  exclusion.robots: 0.123
+  exclusion.robots.policy: 0.112
+  cdx.remote: 0.07
+  esindex: 0.01
+  LoadShardBlock: 511.171 (3)
+  PetaboxLoader3.datanode: 222.171 (4)
+  PetaboxLoader3.resolve: 387.646 (2)
+  load_resource: 150.779
+*/

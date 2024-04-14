@@ -1,0 +1,700 @@
+.msnVideoGalleryWidget
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+
+.msnVideoGalleryWidget .widgetContainer
+{
+	border: 1px solid #AACCEE;
+	width: 100%;
+	height: 100%;
+}
+
+.msnVideoGalleryWidget .widgetContainerBlank
+{
+	width: 100%;
+	height: 100%;
+}
+
+.msnVideoGalleryWidget .widgetContainerHeader
+{
+	color: #666666;
+	background-color: #EBF3FB;
+	height: 18px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-right: 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #AACCEE;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .widgetContainerTitle 
+{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.msnVideoGalleryWidget .widgetContainerContents
+{
+	background:#ffffff;
+	padding-top: 2px;
+	position: absolute;
+	left: 1px;
+	right: -1px;
+	top: 23px;
+	bottom: -1px;
+}
+
+.msnVideoGalleryWidget .videoWidget 
+{
+	width: 100%;
+	height: 100%;
+}
+
+.msnVideoGalleryWidget .videoRequestControlContent
+{
+	background-color: White;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 28px;
+	bottom: 0px;
+}
+
+.msnVideoGalleryWidget .videoRequestControlContentTabbed
+{
+	background-color: White;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 28px;
+	bottom: 0px;
+	border-left: 1px solid #AACCEE;
+	border-right: 1px solid #AACCEE;
+	border-bottom: 1px solid #AACCEE;
+}
+
+.msnVideoGalleryWidget .videoWidgetHeader 
+{
+	position: absolute;
+	height: 16px;
+	left: 8px;
+	right: 8px;
+	top: 5px;
+	z-index: 10;
+}
+
+.msnVideoGalleryWidget .videoWidgetContent 
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 26px;
+	bottom: 21px;
+	z-index: 1;
+}
+
+.msnVideoGalleryWidget .videoList 
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.msnVideoGalleryWidget .videoListInner 
+{
+	position: absolute;
+	left: 4px;
+	right: 4px;
+	top: 2px;
+	bottom: 2px;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .videoControl
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .videoControlPlaying
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding: 5px;
+	overflow: hidden;
+	background-color: #EFEFEF;
+}
+
+.msnVideoGalleryWidget .videoControlHover
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding: 4px;
+	overflow: hidden;
+	background-color: #EFEFEF;
+	border: 1px solid #CECFCE;
+}
+
+.msnVideoGalleryWidget .videoPlayButton 
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/play_button.gif");
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.msnVideoGalleryWidget .videoImageContainer
+{
+	position: relative;
+	float: left;
+	margin-right: 5px;
+}
+
+.msnVideoGalleryWidget .videoImageContainerGrid
+{
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.msnVideoGalleryWidget .videoImageContainerList
+{
+	margin: 8px;
+	margin-right: 5px;
+	border: 1px solid #07519A;
+}
+
+.msnVideoGalleryWidget .videoPreview
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.msnVideoGalleryWidget .videoPreviewList
+{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	cursor: pointer;
+}
+
+.msnVideoGalleryWidget .videoImage
+{
+	float: left;
+	cursor: pointer;
+	border: 0;
+}
+
+.msnVideoGalleryWidget .videoImageHover
+{
+	float: left;
+	cursor: pointer;
+	border: 1px solid #CECFCE;
+	background-color: White;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	color: #666666;
+	padding: 4px;
+}
+
+.msnVideoGalleryWidget .videoImageHoverContent
+{
+	max-height: 50px;
+	overflow: hidden;
+	color: #666666;
+	text-decoration: none;
+}
+
+.msnVideoGalleryWidget .videoTitle 
+{
+	max-height: 28px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.msnVideoGalleryWidget .videoTitleGrid
+{
+	max-height: 31px;
+	overflow: hidden;
+	text-indent: 0px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	line-height: 15px;
+}
+
+.msnVideoGalleryWidget .videoTitleList
+{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: left;
+
+	margin-left: 3px;
+}
+
+.msnVideoGalleryWidget .otherTextList
+{
+	float: right;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+	height: 14px;
+	position: relative;
+}
+
+.msnVideoGalleryWidget .videoSource 
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 14px;
+	width: 100%;
+}
+
+.msnVideoGalleryWidget .videoDate 
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 14px;
+	position: relative;
+	width: 100%;
+}
+
+.msnVideoGalleryWidget .videoDescription
+{
+	height: 28px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+}
+
+.msnVideoGalleryWidget .videoUsage
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 14px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.msnVideoGalleryWidget .videoSourceList
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 14px;
+}
+
+.msnVideoGalleryWidget .videoDateList
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 14px;
+	position: relative;
+}
+
+.msnVideoGalleryWidget .videoUsageList
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 14px;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .videoWidgetFooter 
+{
+	position: absolute;
+	height: 19px;
+	left: 8px;
+	right: 8px;
+	bottom: 0px;
+	z-index: 10;
+}
+
+.msnVideoGalleryWidget .categoryMenu 
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	color: #666666;
+	font-size: 11px;
+	width: 120px;
+	border: 1px solid #666666;
+	zoom: 1;
+}
+
+.msnVideoGalleryWidget .categoryMenuDefault
+{
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 0px;
+	height: 15px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .categoryMenuButton 
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/menu_button.gif");
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 4px;
+	float: right;
+	margin-top: 5px;
+}
+
+.msnVideoGalleryWidget .categoryMenuList 
+{
+	clear: both;
+	padding-bottom: 4px;
+	padding-top: 2px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .categoryMenuListAbove	 
+{
+	padding-bottom: 4px;
+	padding-top: 2px;
+	text-align: left;
+	position: absolute;
+	background-color: White;
+	border: 1px solid #666666;
+	border-bottom: 0px;
+	bottom: 14px;
+	width: 120px;
+	left: -1px;
+	zoom: 1;
+	overflow: hidden;
+}
+
+.msnVideoGalleryWidget .categoryMenuLink 
+{
+	padding-left: 5px;
+}
+
+.msnVideoGalleryWidget .categoryMenuLink A:hover
+{
+	text-decoration: underline;
+}
+
+.msnVideoGalleryWidget .linkback 
+{
+	padding-top: 2px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.msnVideoGalleryWidget .pagingControl 
+{
+	color: #666666;
+}
+
+.msnVideoGalleryWidget .pageInfoText 
+{
+}
+
+.msnVideoGalleryWidget .pagingControlLink 
+{
+}
+
+.msnVideoGalleryWidget .pagingControlSelected 
+{
+	font-weight: bold;
+}
+
+.msnVideoGalleryWidget .addedToPlaylistMarker 
+{
+	background-color: #245394;
+	width: 71px;
+	height: 13px;
+	color: #ffffff;
+	padding-top: -2px;
+	padding-left: 2px;
+}
+
+.msnVideoGalleryWidget .addToPlaylistButton
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/add_to_playlist.gif");
+	width: 14px;
+	height: 13px;
+}
+
+.msnVideoGalleryWidget .rssButton 
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/rss_icon.gif");
+	width: 12px;
+	height: 12px;
+	margin-top: 2px;
+	margin-left: 8px;
+	background-repeat: no-repeat;
+	float: right;
+	border: 0;
+}
+
+.msnVideoGalleryWidget .gridViewButton 
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/grid_view_icon.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.msnVideoGalleryWidget .listViewButton 
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/list_view_icon.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 15px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.msnVideoGalleryWidget .detailViewButton 
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/detail_view_icon.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.msnVideoGalleryWidget .gridViewButtonSelected
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/grid_view_icon_selected.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.msnVideoGalleryWidget .listViewButtonSelected
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/list_view_icon_selected.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.msnVideoGalleryWidget .detailViewButtonSelected
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/detail_view_icon_selected.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.msnVideoGalleryWidget .searchBox 
+{
+	height: 16px;
+	border: 1px solid #666666;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 11px;
+	width: 175px;
+}
+
+.msnVideoGalleryWidget .searchBoxInput 
+{
+	width: 100px;
+	border: 0;
+	float: left;
+	padding-left: 3px;
+	padding-right: 2px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 11px;
+	text-align: left;
+}
+
+.msnVideoGalleryWidget .searchBoxFade
+{
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/search_button_fade.png");
+	width: 4px;
+	height: 15px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.msnVideoGalleryWidget .searchBoxButton
+{
+	height: 15px;
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/search_button.png");
+	background-repeat: repeat-x;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #07519A;
+	font-size: 11px;
+	padding-left: 10px;
+	padding-top: 1px;
+	float: left;
+	cursor: pointer;
+	text-align: left;
+	padding-right: 10px;
+	width: 45px;
+}
+
+.msnVideoGalleryWidget .uploadButton
+{
+	height: 15px;
+	background-image: url("/web/20090312223037im_/http://video.msn.com/ExternalControls/GalleryWidget/v1/images/upload_button.jpg");
+	background-repeat: repeat-x;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 11px;
+	padding-left: 4px;
+	padding-top: 1px;
+	float: right;
+	cursor: pointer;
+	text-align: left;
+	margin-top: 1px;
+	border: 0;
+	text-decoration: none;
+	padding-right: 4px;
+}
+
+.msnVideoGalleryWidget .errorBox
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.msnVideoGalleryWidget .errorTextContainer
+{
+	width: 100%;
+}
+
+.msnVideoGalleryWidget .errorText
+{
+	position: relative;
+	top: -100%;
+	color: #666666;
+}
+
+.msnVideoGalleryWidget .tabBar
+{
+	height: 27px;
+	position: absolute;
+	left: -1px;
+	right: 0px;
+	border-bottom: 1px solid #AACCEE;
+	z-index: 20;
+}
+
+.msnVideoGalleryWidget .tab
+{
+	height: 18px;
+	border: 1px solid #AACCEE;
+	background-color: #F7F7F7;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	color: #07519A;
+	float: left;
+	margin-top: 8px;
+}
+
+.msnVideoGalleryWidget .tabSelected
+{
+	height: 20px;
+	border: 1px solid #AACCEE;
+	border-bottom: 1px solid #ffffff;
+	background-color: White;
+	color: #999999;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	float: left;
+	position: relative;
+	top: 4px;
+}
+
+.msnVideoGalleryWidget  A
+{
+	color: #07519A;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ .msnVideoGalleryWidget A:hover 
+{
+	color: #07519A;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*
+     FILE ARCHIVED ON 22:30:37 Mar 12, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:12:17 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.021
+  exclusion.robots: 0.124
+  exclusion.robots.policy: 0.109
+  cdx.remote: 0.091
+  esindex: 0.015
+  LoadShardBlock: 132.937 (3)
+  PetaboxLoader3.datanode: 53.364 (4)
+  load_resource: 133.69
+  PetaboxLoader3.resolve: 105.249
+*/
