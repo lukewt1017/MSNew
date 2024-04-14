@@ -1,0 +1,116 @@
+/*Story Core*/
+.breadcrumbs{width:500px;}
+
+.hide{display:none;}
+
+/*layout*/
+#story {background:url("https://web.archive.org/web/20090305092951im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/hdr-bg-margin-std.gif") repeat-x; height: 246px; width:100%; clear:both;}
+#story .container {background:url("https://web.archive.org/web/20090305092951im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/hdr-bg-body-std.jpg") no-repeat top center;}
+#story .container #content {font-size:1.6em !important; float: left; width: 650px; padding: 15px 0 0 0; margin-left: 25px;}
+  .IE #story .container #content {margin-left: 5px;}
+  .Safari #Story .container #content, .Firefox #story .container #content, .Opera #Story .container #content {margin-left:20px !important;}
+#story .container #content .p12 {margin-top: 20px;}
+#story .container #content .p12 .mr165 p {/*font-size:13px;*/margin-bottom: 15px;}
+  .Opera #story .container #content .p12 .mR165 p {margin-bottom:10px; width:100% !important;}
+#story .container #content .p12 .mR165 #udtD {/*font-size: 10px*/; display: block; padding-bottom: 15px;}
+#story .container #content &amp;amp;gt; table &amp;amp;gt; tbody &amp;amp;gt; tr &amp;amp;gt; td  {vertical-align: bottom;}
+#story .container #content div &amp;amp;gt; div &amp;amp;gt; table &amp;amp;gt; tbody &amp;amp;gt; tr &amp;amp;gt; td{vertical-align: middle;}
+#story .container #content  p &amp;amp;gt; table &amp;amp;gt; tbody &amp;amp;gt; tr &amp;amp;gt; td &amp;amp;gt; div &amp;amp;gt; div &amp;amp;gt; table &amp;amp;gt; tbody &amp;amp;gt; tr &amp;amp;gt; td  {vertical-align: middle;}
+#story .textBodyBlack table tbody tr td {vertical-align: middle;}
+#story .textBodyBlack table tbody tr td .textHang {vertical-align: middle;}
+#story #Dcolumn {margin-top: 20px;}
+
+#AdShowcase_F1{font-size:100% !important;}
+  .IE #AdBanner_S{padding:10px 0 0 0; margin:0 0 -5px 0;}
+
+h1 {margin-left: 15px; font: normal 28.73px Georgia, Times, serif;color: #CC0000;}
+h2 {margin: 5px 0 0 15px; color: #000;  font-weight:bold !important; font-family: Tahoma, Helvetica, sans-serif !important;}
+
+p strong{font-weight:bold;}
+
+.mR165 ul li{list-style:disc outside; margin-left:15px;}
+.mR165 ol li{list-style:decimal outside; margin-left:15px;}
+.mR165 ul, .mR165 ol{margin-bottom:15px;}
+
+/*universal box fixes*/
+.cbx .textBodyBlack, .cbx .textBodyBlackBold, .cbx .textStoryTag, .cbx .linkSubSectionTab, .cbx .textSubSectionTab, .cbx .textMed, .cbx .textMedBlack, .cbx .textMedBlackBold, .cbx .textMedGrey,.cbx .textMedLtGrey, .cbx .textMedBlue, .cbx .textMedBlueBold,.cbx .textMedLtGold, .cbx .textMedReverse, .cbx .textMedRedBold,.cbx .textSmall, .cbx .textSmallBold, .cbx .textSmallReverse, .cbx .textSmallReverseBold, .cbx .textSmallRed, .cbx .textSmRed, .cbx .textSmallGreen, .cbx .textSmGreen,.cbx .textSmallBlue, .cbx .textSmallBlueBold, .cbx .textSmallLtBlue, .cbx .textSmallBlack, .cbx .textSmallLtGold,.cbx .textSmallGrey, .cbx .textSmallGreyBold, .cbx .AdEShopHead,.cbx .textSmallBlackBold,.cbx .heads,.cbx .textTimestamp,.cbx .textLegal, .cbx .textMedBlackHang {font-family: Arial, Verdana, Helvetica, sans-serif;}
+table .textBodyBlack {font-size: 100%;}
+#story .bigRedLink p {margin-bottom:0px !important; padding-bottom:0px !important;}
+.userRating table tbody tr td{padding-right:5px;}.textMed, .textMedBlack, .textMedBlackBold, .textMedGrey, .textMedLtGrey, .textMedBlue, .textMedBlueBold,.textMedLtGold, .textMedReverse, .textMedBlackHang, .textMedRedBold{font-size:11.33px !important;line-height:140%}
+.WCCol {background: none; padding: 0 0 0 15px; border: none;}
+.caption, .credit {font-size:11.33px !important;}
+.box_brl{font-size:16px !important;}
+.w460 table tr td {background: none !important;}
+
+
+/*D-col*/
+#Dcolumn {width: 164px; float: right; margin-right: 15px; padding: 0; background: url("https://web.archive.org/web/20090305092951im_/http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/border-fade.gif") no-repeat bottom left;}
+  .IE-6 #Dcolumn {margin-right: 8px;}
+#dcol-sponsored {width: 160px; font-family: Arial, sans-serif; font-size: 11px; margin-left: 5px; overflow: hidden;}
+#dcol-skyscraper{margin-left: 10px;}
+#Dcolumn p.dcol-hed, #Dcolumn #dcol-resourceguide p.dcol-hed{font-size: 14px; font-weight: bold; text-align: center; color: #999; margin-bottom: 15px;}
+#Dcolumng p {margin-bottom: 23px;}
+#Dcolumng p b, #Dcolumng p u {color: #259d2f;}
+#Dcolumn .listing p {line-height: 1.5; margin-bottom: 14px;}
+#Dcolumn .listing, #content .listing {background: transparent; border: none;}
+#Dcolumn #dcol-resourceguide{margin-left: 10px;text-align: center;}
+#Dcolumn #dcol-resourceguide p {font-family: Arial, sans-serif; font-weight: normal; font-size: 11px; margin: 8px 0px 22px 0px;}
+#Dcolumn #dcol-resourceguide p a, #Dcolumn #dcol-resourceguide p a:visited {color: #393; font-weight: normal; text-decoration: none;}
+#Dcolumn #dcol-resourceguide p a:hover {text-decoration: underline;}
+#Dcolumn #msn-shopping{margin-left: 10px;}
+  .IE #Dcolumn #msn-shopping {margin-left: 0px;}
+
+
+/*box specific fixes*/
+.boxBI_3216310 .headlineList2, .boxBI_3216310 .headlineList1 {font-size:12px !important;}
+.boxBI_3053751 image {float: right;}
+/* fixes link size in inline boxes */
+#story #content table .box_3053751, #story #content table .box_3088874, #story #content table .box_3088867, #story #content table .box_3553566  {font-size:120%;}
+
+.subhedTop10Movers{font-size:9px !important;}
+#poptext_Top10Movers {font-size:9px !important;}
+.headlineTop10Movers{line-height:16px; margin:4px 0; display:block;}
+
+#body_MSNBC_Political_Calendar tbody tr td {padding: 2px; border: none !important;}
+  .Safari .boxB_MSNBC_Political_Calendar{border: 1px solid #A4ABC1 !important;}
+  .Safari #deck_MSNBC_Political_Calendar{padding-left:10px;}
+  .Safari .hedMSNBC_Political_Calendar {width:296px;}
+  .Safari #body_MSNBC_Political_Calendar, #deck_MSNBC_Political_Calendar {font-size:10px !important;}
+
+/*Quizes*/
+#quiztableA, #quiztableB, #quiztableC{font-size:90% !important;}
+
+/*Xpress Fixes*/
+.textBodyBlack .xpress-int {font-size: 90% !important;}
+
+/*Byline Fix*/
+
+#story .mR165 .sitewrapperbox {
+margin: 5px 15px 5px 0px;
+}
+
+.Firefox #story .mR165 .sitewrapperbox {
+margin:15px 5px 5px 0;}
+
+/* keep colorboxes from overlapping dcol
+#story #content div.CCol{ width: 300px; margin-left: 30px; } */
+/*
+     FILE ARCHIVED ON 09:29:51 Mar 05, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:49:33 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.756
+  exclusion.robots: 0.083
+  exclusion.robots.policy: 0.071
+  cdx.remote: 0.068
+  esindex: 0.01
+  LoadShardBlock: 277.061 (3)
+  PetaboxLoader3.datanode: 48.817 (4)
+  PetaboxLoader3.resolve: 343.436 (2)
+  load_resource: 130.409
+*/

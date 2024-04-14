@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function HeaderSearchText(){this.default_text="Search America's #1 News Site";this.searching=false;this.timeoutVal=null;this.CreateFocus=function(ctl){ctl.val("");ctl.addClass("sw_qbox").removeClass("sw_qbox_blur")};this.CreateBlur=function(ctl){if(ctl.val().length==0){ctl.val(this.default_text);ctl.addClass("sw_qbox_blur").removeClass("sw_qbox")}};this.CreateClick=function(ctl,evt){if(ctl.val()!=this.default_text)DoSearch(0)};this.CreateEvents=function(ctl){var searchbox=$(ctl).find("#q"),me=this;if(searchbox){$(searchbox).focus(function(){me.CreateFocus(searchbox)});$(searchbox).blur(function(e){me.CreateBlur(searchbox)});searchbox.blur()}var searchBtn=$(ctl).find(":button");if(searchBtn&&searchbox){$(searchBtn).attr("onclick","");$(searchBtn).click(function(e){me.CreateClick(searchbox,e)})}};this.Initialize=function(){var searchCtl=$("#searchset");if(searchCtl)this.CreateEvents(searchCtl)}}$(document).ready(function(){var searchTextObject=new HeaderSearchText;searchTextObject.Initialize()})
+
+}
+/*
+     FILE ARCHIVED ON 04:09:41 Mar 07, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:49:33 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.612
+  exclusion.robots: 0.074
+  exclusion.robots.policy: 0.065
+  cdx.remote: 0.059
+  esindex: 0.009
+  LoadShardBlock: 260.187 (3)
+  PetaboxLoader3.datanode: 73.628 (4)
+  PetaboxLoader3.resolve: 261.203 (2)
+  load_resource: 141.317
+*/

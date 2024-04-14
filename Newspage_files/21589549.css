@@ -1,0 +1,453 @@
+/*Global Core*/
+@import "/web/20090307040859cs_/http://www.msnbc.msn.com/default.ashx/id/23016591"; /* icon styles */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, table, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0;font-size: 100%; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {vertical-align:baseline;}
+:focus {outline: 0;}
+body {line-height: 1; background: #FFF; color: #666; font: normal 62.5% Arial, Helvetica, sans-serif; margin: auto;}
+ol, ul {list-style: none;}
+table {border-collapse: separate; border-spacing: 0;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a {color: #369; text-decoration: none; font-weight: bold;}
+a:hover {color: #C00;}
+
+/*SITE HEADER*/
+
+#header, #header2 {width: 100%; margin-top:-2px; background: #000 url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/hdr-bg-std.jpg') no-repeat top center; text-align: center; position:relative;}
+#hdr-content {position: relative; width: 99.6em; height: 94px; margin: auto; text-align: left;}
+#msnbc-logo {width: 30em; padding-top: 15px; float: left;}
+#nav-top {width: 69em; float: right; margin: 0;}
+
+
+/*msn network header*/
+#msn ul {text-align: right; margin: 20px 1.5em 0 0;}
+  .Safari #msn ul {margin-top: 20px;}
+  .IE #msn ul {margin-top: 0px;}
+#msn li {display: inline; font: normal 1.1em Tahoma, Arial, sans-serif; color: #666; margin: 0;}
+#msn li a {color: white; text-decoration: none; font-weight: normal;}
+#msn ul img {border: none; padding-bottom: 4px; vertical-align: middle;}
+  .IE #msn ul img {position: relative; top: 0px;}
+#msn .link a:hover {color: #FFF; text-decoration: underline;}
+#msn .more a {margin: 0 9px 0 6px; padding: 4px 2.6em 5px 1.5em; width: 6.4em; height: 22px; background:url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/hdr-msn-more-btn.gif") no-repeat center;}
+#msn .more a:hover {text-decoration: underline;}
+  .IE #msn .more a {position: relative; top: 4px; padding: 4px 26px 0px 15px; }
+#msn .msn_logo a {margin-left: 15px; padding: 11px 0px 10px 66px; height:34px; width:66px; background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/hdr-msn-logo.png") no-repeat center; }
+  .IE #msn .msn_logo a {position:relative; top:10px; margin-top: 0px; background-image: none; height:1px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/hdr-msn-logo.png', sizingMethod='scale'); cursor:pointer;}
+  .Safari #msn .msn_logo a { float:right; position:relative; display:block; padding:0px; top:-10px;}
+#msn .msn_logo span {display:block; width:0; height:0; overflow:hidden;}
+#msn .search {position: absolute; top: 7px; left: 326px; width:30.5em; margin-top:7px; margin-left: 0;}
+  .IE #msn .search {top: 6px; left: 329px;}
+#msn .search .button {background-image:url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/hdr-search-btn.gif"); background-position:0 45%; background-repeat:repeat; border: none; padding: 3px 8px 3px 8px; margin-right: 7px; font-family: tahoma, sans-serif; font-size:100%; color: #07519a; text-transform: lowercase;}
+  .IE #msn .search .button {padding: 3px 4px 3px 4px;}
+  .Safari #msn .search .button, .Opera #msn .search .button {padding: 4px 11px 4px 11px; margin-left: -1px;}
+#msn .search .textbox {background:#fff url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/hdr-search-shade.gif") repeat-y 100% 0; width:195px; border: 1px solid #333; border-right: none; padding: 4px; font-family: Tahoma, sans-serif; font-size:100%;}
+  .IE #msn .search .textbox {position: relative; top: 1px; height: 23px; width: 191px;}
+div.blockClosed {display: none;}
+div.blockOpen {display:block;position:absolute !important;}
+#msn #msnMore {width: 86.2em; padding: 10px 0 10px 10px; position: absolute; top: 38px; left: .9em; background: #ffffff; border: 1px solid #999; z-index:200;}/*was width958px left10px*/
+  .IE #msn #msnMore {width: 964px; padding-bottom: 12px;}/*was width86.7em*/
+#msn #msnMore ul {float: left; margin: 0 38px 0 0; padding: 0; width: 10.9em;}/*was width120px*/
+  .IE #msn #msnMore ul {display: inline; margin-left: -15px; width: 12.26em; }/*was width135*/
+#msn #msnMore li {display: block; font-size: 100%; line-height: 160%; text-align: left;}
+#msn #msnMore li a {margin: 0; padding: 0; background: none; color: #07519a; width: auto;}
+  .IE #msn #msnMore li a {margin-top: -4px;}
+  .IE #msn #msnMore .linkedimglinklist {margin-top: 0px;}
+#msn #msnMore .linkedimglinklist li img {margin: -1px 2px 0 0; }
+#msn #msnMore .linkedimglinklist a {font-weight: bold; margin-top: -0.4em;}
+  .IE #msn #msnMore .linkedimglinklist a {margin-top: -1px;}
+#msn #msnMore .linkedimglinklist li {display:block; float:none;}
+
+/*NBC News shows*/
+#nbc ul {padding: 22px 0 5px 0px;}
+#nbc li {display: inline; color: #CCC; font-size: 115%; margin-left: 10px;}
+  .Opera #nbc li {font-size: 130%;}
+#nbc .item1 {margin-left: 0px;}
+#nbc .item2, #nbc .item2H {margin-left: 0.7em;}
+.Firefox #nbc .item2, .Firefox #nbc .item2H {margin-left: 0.6em;}
+#nbc li a {color: #DEF; font-size: 115%; text-decoration: none; border-bottom: 1px dotted #999; padding-right: 20px; background: transparent url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/hdr-nbclinks-vcaret2.gif) no-repeat scroll right top;}
+#nbc li a:hover {background: transparent url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/hdr-nbclinks-vcaret2.gif) no-repeat scroll right -18px;}
+  .IE-6 #nbc li a {border-bottom: none; padding-top: 1px;}
+  .IE-6 #nbc li {background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/dots.gif') repeat-x bottom; padding-bottom: 1px;}
+  .IE-6 #nbc .item1 {background: none;}
+#nbc li a:hover {color: #FC6; border-bottom: 1px solid #FC6;}
+  .IE-6 #nbc li a:hover {text-decoration: none; border-bottom: 1px solid #FC6; margin-bottom: -1px;}
+
+
+/*BANTOP*/
+
+#bantop {width: 100%; background: #ececec; border-top: 1px solid black; text-align: center; background: url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/hdr-bg-bantop-margin.gif") repeat-x bottom; position:relative; z-index:50;}
+#bantop .container {width: 996px; height: 36px; margin: auto; background: url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/hdr-bg-bantop-std.jpg") no-repeat; text-align: left; }
+#bantop #udtD {display: block; font-size: 110%; padding-top: 13px;}
+  .Opera #bantop #udtD, .Safari #bantop #udtD {padding-top: 12px;}
+#bantop #udtD .date {font-weight: bold;}
+#bantop #bantopBadge {text-align:right; float:right;}
+#badgeContainer {text-align:right; float: left;}
+#bantop #AdSponsor_SF {float:left; padding: 2px 10px 0 0;}
+  .IE #bantop #AdSponsor_SF {padding-top: 0;}
+#bantop #coverBadge{float:right;}
+
+.breadcrumbs{float: left; font-size: 110%; padding: 6px 0px 0px 6px; }
+  .Firefox .breadcrumbs{ padding: 5px 0px 0px 6px; }
+.breadcrumbs li{display:inline; margin-right: 5px;}
+.breadcrumbs a, .breadcrumbs a:visited {color: #369; font-size: 130%; padding-left: 15px; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/hdr-bantop-crumb-div.gif') no-repeat left;}
+.breadcrumbs a:hover {color: #C00;}
+.breadcrumbs .item1 {font-size: 180% !important; padding-left: 0 !important; font-weight: bold;}
+.breadcrumbs .item1 a {font-size: 100% !important; background: none !important; padding-left: 0 !important;}
+
+.cover .breadcrumbs .item1 a, .front .breadcrumbs .item1 a, .cover .breadcrumbs .item1 a:hover, .front .breadcrumbs .item1 a:hover {color: #666; text-decoration: none;}
+#breadcrumbs {vertical-align:bottom; clear: none; float:left; width:56%; margin-left:3px; overflow:hidden;}
+.cover #breadcrumbs, .front #breadcrumbs {width: 47%;}
+.btn-home {background:transparent url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/btn-home.gif); display:inline-block; float:left; height:21px; margin:7px 3px 0pt 10px; width:25px;}
+a.btn-home:hover {background-position:0pt 22px;}
+
+#marquee-site, #marquee-section {height: 47px !important; background: #000; border-bottom: 1px solid #666;}
+.IE #marquee-site, .IE #marquee-section {height: 49px; background: #000; border-bottom: 1px solid #666;}
+.Firefox #marquee-site, .Firefox #marquee-section {height: auto !important; min-height: 47px;}
+#marquee .breaking {background: #c33 url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/bg_marquee_breaking.gif") repeat-y center !important; border-top: 1px solid #e64d4d;}
+#marquee .developing {background: #06C url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/bg_marquee_developing.gif") repeat-y center !important; border-top: 1px solid #0099e6;}
+#marquee .breakingupdated {background: #E08721 url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/bg_marquee_breakingupdated.gif") repeat-y center !important; border-top: 1px solid #f3ce59;}
+#marquee .comingup {background: #54a43e url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/bg_marquee_comingup.gif") repeat-y center !important; border-top: 1px solid #9bf084;}
+#marquee .continuing {background: #582c3d url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/bg_marquee_continuing.gif") repeat-y center !important; border-top: 1px solid #89435d;}
+#marquee .ticker {background: #582c3d url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/bg_marquee_continuing.gif") repeat-y center !important; border-top: 1px solid #89435d; height: 47px;}
+#marquee .ticker h1 {font-family: Arial, sans-serif; font-weight: bold; font-size: 2em; color: #FFF; margin-top: 4px;}
+#marquee .ticker h1 a, #marquee .ticker h1 a:visited {text-transform: none; font-weight: normal; text-decoration: none; color: #FFF; border-bottom: 1px dotted #FFF;}
+#marquee .ticker h1 a:hover {text-decoration: none; border-bottom: 1px solid #FFF;}
+
+#marquee h1{text-align: center !important; font-family: Arial, sans-serif !important; font-weight: bold; font-size: 2em !important; color: #FFF; padding-left: 0 !important;}
+#marquee h1 a, #marquee h1 a:visited {text-transform: none; font-weight: normal; text-decoration: none; color: #FFF; border-bottom: 1px dotted #FFF;}
+#marquee h1 a:hover{border-bottom: 1px solid #FFF; text-decoration: none;}
+  .IE-6 #marquee h1 a {border-bottom: none; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/dots-white.gif') repeat-x bottom; padding-bottom: 1px;}
+  .IE-6 #marquee h1 a:hover {background: none; padding-bottom: 0;}
+
+
+/*LEFT NAV*/
+
+#nav-left{clear:left;}
+
+
+#newsMAIN td.nmIS, #newsMAIN td.nmISH {padding-left: 0; padding-right: 0;}
+#newsMAIN table.nmTB #nmb {padding-left: 0px;}
+#newsMAIN .swappy a, #newsMAIN .swappy a:hover {background: none; margin-left: -2px;}
+
+#newsMAIN {background: url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/border-fade.gif") no-repeat bottom right; border-right: 1px solid white; width: 110px; padding: 0 15px 0 15px !important;}
+#newsMAIN table {font: normal 95%/100% Arial, Helvetica, sans-serif; padding: 0; margin: 0;}
+  .Opera #newsMAIN table {font-size: 99% !important;}
+#newsMAIN table.nmTS {width: 110px;}
+#newsMAIN table.nmTB {width: 110px;}
+#newsMAIN table tr td, #newsMAIN table tr td:hover {border-bottom: 1px dotted #BBB; margin: 0; padding: 0;}
+#newsMAIN table.nmTS tr td.nmIS {border-right: 0px; border-left: 0px;}
+#newsMAIN table.nmTS tr td {border-bottom: 0px;}
+  .IE-6 #newsMAIN table tr td {border-bottom: 0px; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/dots.gif') repeat-x bottom; text-decoration: none;}
+  .IE-6 #newsMAIN .swappy {background: none;}
+  .Safari #newsMAIN table.nmTS tr td:hover {border-bottom: 1px dotted #BBB;}
+  .Safari #newsMAIN table tr td {background: transparent;}
+#newsMAIN table.nmTB {border: 0px; width: 100%;font-size:100%;}
+#newsMAIN table.nmTB tr td, #newsMAIN table.nmTS tr td.nmAS, #newsMAIN table.nmTS tr td.nmIS {background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); border-bottom: 1px dotted #BBB;}
+  .IE-6 #newsMAIN table.nmTB tr td, .IE-6 #newsMAIN table.nmTS tr td.nmAS, .IE-6 #newsMAIN table.nmTS tr td.nmIS {border-bottom: none; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/dots.gif') repeat-x bottom; text-decoration: none; padding-bottom: 1px;}
+
+#newsMAIN table tr td a {font-family: Arial; font-size: 130% !important; background: transparent url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/nav-arrow-right.gif') right no-repeat; color: #147 !important; display: block; margin: 7px 0 0 0; padding: 3px 0 1px 0; width: 100%;}
+#newsMAIN a:hover {background: transparent url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Test-Dev/tiffehr/newsmenu/caret_h.gif') right no-repeat; color: #C00 !important; text-decoration: underline;}
+
+#newsMAIN .nmIBH, #newsMAIN .nmIBDH, #newsMAIN .nmISH {background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549') right no-repeat; border-bottom: none !important; padding-bottom: 1px !important;}
+#newsMAIN .nmLB, #newsMAIN .nmLBH {font-size: 120% !important; color: #336699 !important; padding-right: 20px; width: auto;}
+  .IE-6 #newsMAIN .nmIBH, .IE-6 #newsMAIN .nmIBDH, .IE-6 #newsMAIN .nmISH {background: none !important;}
+  .Mac-Firefox #newsMain .nmLB, .Mac-Firefox #newsMAIN .nmLBH, .Safari #newsMain .nmLB, .Safari #newsMAIN .nmLBH {padding-bottom: 3px;}
+
+#newsMAIN table.nmTS tr td.nmIP, #newsMAIN table.nmTS tr td.nmIP:hover {background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); border-bottom: 0px; color: #999; font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; padding-top: 20px;}
+span.nmTOP {line-height: 2.0em;}
+
+#newsMAIN table.nmTS tr td.disFLY {border: 0px; background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
+  .Opera #newsMAIN table tr td a {padding-bottom: 3px;}
+#newsMAIN table tr td.disFLY a.toggle {background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); display: inline; padding-right: 10px; width: auto;}
+#newsMAIN table tr td.disFLY a, #newsMAIN table tr td.disFLY a:hover {background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); display: inline; width: auto;}
+  .disFLY img.iBut {background: url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); border: 0px;}
+
+/*flyouts*/
+#nm_d1, #nm_d2 {left:-1000px; top:-1000px; margin: 3px 0 0 5px; background: transparent; font-family: Arial, Helvetica, sans-serif;}
+#nm_d2 {width: 283px !important; margin: 0 0 0 7px;}
+  .IE-6 #newsSUB .nmC2 .subbox, .IE-6 #newsSUB .nmC1 .c1, .IE-6 #newsSUB #nm_d2 .c1 {background-image: none; background-color:#f4f4ea; }
+/*containers*/
+#newsSUB a:hover {background: none;} 
+#newsSUB .nmC2 .subbox, #newsSUB .nmC1 .c1, #newsSUB #nm_d2 .c1 {height: 100%; border: 1px solid #BDBDBD; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Test-Dev/tiffehr/newsmenu/tanfade_bkg.png') repeat-x;}
+
+#newsSUB .nmC2 .subbox {width: 505px !important;}
+#newsSUB ul.c1, #newsSUB ul.c2 {background: none; border: none; padding-bottom: 7px;}
+#newsSUB ul.c1 {width: 333px; float: left; border-right: 1px solid #BDBDBD;}
+#newsSUB ul.c2 {width: 170px; float: right; position: relative; left: 0px;}
+#newsSUB .nmF {width: auto !important; border: none; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Test-Dev/tiffehr/newsmenu/shadow.png') top left; margin: 0; padding: 0 4px 6px 0;}
+  .IE-7 #newsSUB .nmF {padding-bottom:4px;}
+  .IE-6 #newsSUB .nmF {background: transparent url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549'); padding:0; margin: 0;};
+  .Firefox #newsSUB .nmF , .Safari #newsSUB .nmF {padding-bottom: 5px;}
+#newsSUB #nm_d2 {width: 333px !important; padding-left:3px; margin-top:-6px;}
+ .IE #newsSUB #nm_d2 {margin-top: 0px;}
+#newsSUB #nm_d1 ul.c1 {padding-bottom: 15px;}
+  .Firefox #newsSUB #nm_d1 ul.c1 {padding-bottom: 10px;}
+#newsSUB #nm_d2 ul.c1 {padding: 15px 0 18px 0;}
+  .Firefox #newsSUB #nm_d2 ul.c1 {padding: 15px 0 0 0;}
+
+#newsSUB .subbox .c1 .nmIR, #newsSUB .subbox .c1 .nmIRH, #newsSUB .c2 .nmIR, #newsSUB .c2 .nmIRH {border-bottom: 0px; color: #666; font-family: Tahoma, "Lucida Grande", sans-serif; font-weight: bold; font-size: 100%; margin: 0 0 10px 0 !important; padding: 9px 10px 9px 15px; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Test-Dev/tiffehr/newsmenu/tan_bkg.png') top left repeat;}
+  .IE-6 #newsSUB .subbox .c1 .nmIR, .IE-6 #newsSUB .subbox .c1 .nmIRH, #newsSUB .c2 .nmIR, #newsSUB .c2 .nmIRH {background: #d7d8c6 url('/web/20090307040859im_/http://www.msnbc.msn.com/default.ashx/id/21589549') top left repeat;}
+  .IE #newsSUB .c2 .nmIR, #newsSUB .c2 .nmIRH {margin-bottom: 5px;}
+
+#newsSUB ul.c1 li, #newsSUB ul.c2 li {margin: 0px; padding: 6px 15px 6px 20px; background: none; border-bottom: 0px; font-size: 165%;}
+#newsSUB ul.c2 li {width: auto;}
+#newsSUB ul.c2 li.nmIF {border-bottom: 1px dotted #BBB; margin: 0 20px 0 15px; padding: 0px;}
+  .IE-6 #newsSUB ul.c2 li.nmIF, .IE-6 #newsSUB ul.c1 li a {border-bottom: none; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/dots.gif') repeat-x bottom; text-decoration: none; padding-bottom: 1px;}
+  .IE #newsSUB ul.c2 li.nmIF {margin: 1px 15px 0 20px;}
+#newsSUB ul.c1 li a {border-bottom: 1px dotted #BBB; text-decoration: none !important;}
+#newsSUB ul.c1 li a:hover {border-bottom: 1px solid #C00;}
+#newsSUB ul.c2 li a {font-weight: normal;}
+#newsSUB .c2 li a, #newsSUB .c2 li a:hover{width:120px !important; padding-right:10px !important; }
+  .Safari #newsSUB .c2 li a, .Safari #newsSUB .c2 li a:hover{width:115px !important; padding-right:20px !important;}
+#newsSUB ul.c2 li.nmIF {width: 135px; margin-left: 20px;}
+#newsSUB ul.c2 li.nmIF a {background: transparent url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/nav-arrow-right.gif') right no-repeat; border-bottom: 0px; display: block; margin-top: 6px; padding: 3px 0 2px 0; width: 100%;}
+#newsSUB ul.c2 li.nmIF a:hover {background: transparent url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Test-Dev/tiffehr/newsmenu/caret_h.gif') right no-repeat; text-decoration: none;}
+
+.IE-6 #newsSUB a{width:100%;}
+.IE-6 #newsSUB a:hover{top:1px; position:relative;}/* fixing small issue with hovers in ie6 - Tony */
+
+.nmTS {margin-bottom: 15px !important;}
+#flyouttogglerow {font-size: 110%; height: 50px; display:block !important; width:110px !important; background:transparent url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/btn-disable-flyouts.gif) no-repeat scroll left top;
+padding: 3px 5px; }
+  .Opera #flyouttogglerow{font-size:99%;}
+#flyouttogglerow a {color: #369 !important; width: 100px; display: block;}
+#flyouttogglerow a:hover {background: none;}
+.toggle {font-weight: normal;}
+#exclBtn {display: none;}
+  .Opera #exclBtn{margin-left:14px !important;}
+
+  
+/*menus outside of newsmenu*/
+#nav-left .nav-menu {padding-bottom: 15px; width: 110px; }
+#nav-left .nav-menu .label {font-size: 14px; padding-bottom: 10px; font-weight: bold; color: #999; font-family: Arial, Helvetica, sans-serif; }
+#nav-left .nav-menu li {font-size: 11px; line-height: 16px; padding-bottom: 10px; color: #999; font-family: Arial, Helvetica, sans-serif;}
+#nav-left .nav-menu li a {display: block; font-weight: bold; color: #369; font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+#nav-left .nav-menu li a:hover {background: none !important;}
+#nav-left #shortcuts a {font-weight: normal;}
+#nav-left #marketplace a {color: #393;}
+
+
+/*SHARED TEMPLATE STYLES*/
+
+#cover, #front, #story, #subSectionFront {z-index:20; height: 245px; background: url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/hdr-bg-body-std.jpg ") repeat-x top center; text-align: center;}
+#cover .container, #front .container, #story .container , #subSectionFront  .container {height: 245px;  width: 996px; margin: auto; text-align: left; z-index:30;}
+#cover .container:after, #front .container:after {content: ""; display: block; height: 0; clear: both;}
+#cover #content, #front #content, #story #content , #subSectionFront #content  {width: 836px; float: right; margin-bottom: 30px;}
+
+#nav-left {width: 120px; float: left;} 
+#nav-left #wrapperMSNBCa_head,#nav-left #wrapperMSNBCa_box{width:122px;padding:8px 4px 4px; }
+#nav-left #wrapperMSNBCa_box{width:120px; padding:8px 4px 4px;}
+#nav-left span.nav-txt {float: left;}
+#nav-left span.nav-img {float: right;}
+
+.gradOff {height:225px; width:100%; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/ftr-bg-fade.jpg') bottom center repeat-x; z-index:1; display:none;}
+  .IE #bottomGradientIE {display:block !important; height:225px; z-index:-100; margin-top:-225px; position:relative;}
+#bottomGradient {display:block; margin-top:-371px;}
+ .IE #bottomGradient {display:none !important;}
+
+.ad {text-align: center; font-size: 12px; background:transparent !important;}
+.ad p {margin: 0; padding: 0; font-family: verdana; font-size: 9px; color: #666; text-align: center;}
+#AdShowcase_F1{font-size:9px !important;}
+#AdShowcase_F {float: right; }
+body #AdBanner_S {background: #666 url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/hdr-ad-bg.gif') repeat-x top; text-align:center;}
+body .adbar {padding: 10px 0 10px 0; text-align:center; margin: 0 auto;}
+
+/*Microsoft Sponsored Ads*/
+.AdUnit {background-color: transparent;}
+.AdUnit ul.sponads {list-style: none;}
+.AdUnit ul li {color: #999; cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 11px; line-height: 16px; padding-bottom: 10px;}
+.AdUnit ul li.label {color: #999; cursor: text; font-size: 14px; font-weight: bold; text-align: left;}
+.AdUnit ul li.label a {cursor: pointer;}
+.AdUnit ul li a, .AdUnit ul li a:link {color: #393; display: block; font-size: 12px; font-weight:bold;}
+.AdUnit ul li a:hover, .AdUnit ul li a:active {color: #C00;}
+.AdUnit ul li a.url {font-size: 11px; font-weight: normal; text-decoration: none;}
+/*specific location suppressions/changes*/
+#DColumn .AdUnit ul li.label {text-align: center;}
+#DColumn .AdUnit {margin-left: 15px; overflow: hidden; width: 154px;}
+#ad-front-sponsoredlinks .AdUnit ul li.label {display: none;}
+
+/*Kanoodle Sponsored Ads*/
+/*Front/Subsection Front Footers and D-Column Story*/
+#ad-front-sponsoredlinks div div.listing, #dcol-sponsored div div.listing 
+    {background-color: transparent; font-size: 11px; font-family: Arial, Helvetica, sans-serif; width: 100%; border: 0px; line-height: 16px; padding-left: 5px; color: #999;}
+    #dcol-sponsored div div.listing {width: auto;}
+#ad-front-sponsoredlinks div  div.listing p, #dcol-sponsored div  div.listing p 
+    {margin: 0px; padding: 0px 0px 10px 0px;}
+#ad-front-sponsoredlinks div div.listing_title, #dcol-sponsored div div.listing_title
+    {clear: both; font-size: 12px; font-weight: bold; color: #393; line-height: 16px;}
+#ad-front-sponsoredlinks div font, #dcol-sponsored div font {color: #999; line-height: 16px;}
+#ad-front-sponsoredlinks div div.listing_title:hover, #dcol-sponsored div div.listing_title:hover 
+    {color: #C00; text-decoration: underline;}
+#ad-front-sponsoredlinks div div.listing font u, #dcol-sponsored div div.listing font u 
+    {color: #393; text-decoration: none;}
+#ad-front-sponsoredlinks div div.listing font u:hover, #dcol-sponsored div div.listing font u:hover 
+    {color: #C00; text-decoration: underline;}
+
+/*Kanoodle Story Footer*/    
+.w460 div table tr td table tr {background: transparent;}
+.w460 div table tr td table tr td {border-bottom: 1px solid #CCC; color: #999; font-size: 11px; line-height: 16px; padding-top: 10px;}
+.w460 div table tr td table tr td font {color: #999; font-size: 14px; line-height: 20px;}
+.w460 div table tr td table tr td p font {color: #393; font-size: 12px; line-height: 16px;}
+.w460 div table tr td table tr td p font:hover {color: #C00; text-decoration: underline;}
+.w460 div table tr td table tr td p font u {font-size: 11px; line-height: 16px; text-decoration: none;}
+.w460 div table tr td table tr td p font u:hover {color: #C00; text-decoration: underline;} 
+.w460 div table tr td table tr + tr td {border: 0px;}
+
+
+/*SITEWIDE FOOTER*/
+
+#footer {width: 100%; clear: both; background-color: #000; overflow: visible; text-align: center; border-top: 1px solid white;}
+#footer .container {background:#000000 url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/ftr-bg-std.jpg) no-repeat scroll center top; overflow:hidden; position: relative; width: 996px; height: 121px; margin: auto; text-align: left;}
+#footer .logo {float: left; width: 150px; margin-top: 10px;}
+#footer .links {width: 500px; position: absolute; top: 15px; left: 165px;}
+#footer .links ul {float: left; width: 425px; font-family: Arial, Helvetica, sans-serif; font-size: 110%; font-weight: bold; line-height: 170%; margin: 0 0 7px 0;}
+#footer .links li {display: inline; margin-right: 8px; }
+#footer .links li a {color: #DEF; text-decoration: none; border-bottom: 1px dotted #CCC;}
+  .IE-6 #footer .links li a {border: none; background: url('https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/dots.gif') repeat-x bottom; padding-bottom: 1px;}
+  .IE-6 #footer .links li a:hover {padding-bottom: 0px;}
+#footer .links li a:hover {color: #FC6; border-bottom: 1px solid #FC6;}
+#footer .links .listheader {float: left; width: 65px; font-family: 'Lucida Grande', Tahoma, sans-serif; font-size: 100%; font-weight: bold; line-height: 180%; color: #CCC;}
+#footer .divider {position: absolute; top: 15px; left: 650px; background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/ftr-rule-dashed.png") no-repeat top left; width:1px; height:100%;}
+  .IE-6 #footer .divider {background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/ftr-rule-dashed.png', sizingMethod='crop');}
+#footer .buttons {position: absolute; top: 20px; left: 665px; width: 315px;}
+#footer .buttons .button a {float:left; margin-right:8px; margin-bottom: 15px; height:35px; width:40px;}
+#footer .buttons .btn-1 a {background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/ftr-btn-alerts.gif") no-repeat top left;}
+#footer .buttons .btn-2 a {background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/ftr-btn-email.gif") no-repeat top left;}
+#footer .buttons .btn-3 a {background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia2.msn.com/i/msnbc/Components/CSS/img/ftr-btn-feeds.gif") no-repeat top left;}
+#footer .buttons .btn-4 a {background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia3.msn.com/i/msnbc/Components/CSS/img/ftr-btn-mobile.gif") no-repeat top left;}
+#footer .buttons .btn-5 a {background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia4.msn.com/i/msnbc/Components/CSS/img/ftr-btn-podcasts.gif") no-repeat top left;}
+#footer .buttons .btn-6 a {background: transparent url("https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/ftr-btn-widgets.gif") no-repeat top left;}
+#footer .buttons .button a:hover {text-decoration: none; background-position: 0px -35px;}
+#footer .buttons .link {float: left; display: table; vertical-align: middle; width: 45px; margin: 4px 10px 0 0 ; height: 35px;}
+#footer .buttons .link a {font-size: 110%; font-weight: normal; color: #DEF;}
+#footer .buttons .link a:hover {text-decoration: none; color: #FC6; border-bottom: 1px solid #FC6;}
+
+#msnfooter {background:#000000 url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/ftr-msn-bg.jpg) repeat-y scroll center; border-top:1px solid #555555; clear:both; overflow:visible; text-align:center; width:100%;}
+#msnfooter .container {background:#000000 url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia1.msn.com/i/msnbc/Components/CSS/img/ftr-msn-bg.jpg) repeat-y scroll center; margin:0 auto; overflow:hidden; text-align:left; width:996px;}
+#msnfooter ul {float: left; padding: 5px 5px 5px 15px;}
+#msnfooter ul#rightlinks {float: right;}
+#msnfooter li {font-size: 110%; color: #999; display: inline; margin-right: 10px;}
+#msnfooter li a {font-weight: normal; text-decoration: none; color: #9CF;}
+#msnfooter li a:hover {text-decoration: underline;}
+
+.hide{display:none;}
+.dpi{display:inline;}
+
+/*moved up from front-cover-core, so it hits local subsection fronts*/
+/*BADGES HOLE---------------------------------
+Be sure to position all three instances:  
+div#coverbadge div#wx-badge  (cover weather badge)
+div#bantopBadge div#wx-badge (local weather badge)
+div#bantopBadge div.marketbadge {biz front market badge}
+*/
+div#coverbadge div#wx-badge, 
+div#bantopBadge div#wx-badge, 
+div#bantopBadge div.marketbadge 
+ {top: 12px;}
+.Mozilla div#bantopBadge div.marketbadge, 
+.Mozilla div#coverbadge div#wx-badge, 
+.Mozilla div#bantopBadge div#wx-badge 
+ {top: 13px;}
+.IE-6 div#bantopBadge div#wx-badge {top: -1px;}
+.IE-6 div#bantop div#coverbadge div#wx-badge, 
+.IE-6 div#bantopBadge div.marketbadge,
+.IE-6 div#bantopBadge div#wx-badge 
+ {float: right; position: relative; margin-top: -30px;}
+.IE-6 div#bantop div#coverbadge div#wx-badge, 
+.IE-6 div#bantopBadge div#wx-badge 
+ {margin-top: -35px;}
+.Safari div#bantop div#coverbadge, 
+.Safari div#bantopBadge div#wx-badge 
+ {margin-top: 14px; width: auto; white-space: nowrap;}
+.Safari div#coverbadge div#wx-badge
+ {top: 0px;}
+.Safari div#bantopBadge div#wx-badge {top: 12px;}
+/*WEATHER BADGE-------------------------------*/
+div.weatherbadger {display: inline; font-size: 120%; padding: 40px 0px 0px 0px; position: relative; width: auto; z-index: 20;}
+div.weatherbadger span {display: inline;}
+div.weatherbadger span.loc {display: inline; font-weight: bold; margin-right: -10px; padding-bottom: 0px; text-align: right; width: 180px;}
+div.weatherbadger span.loc a, div.weatherbadger span.loc a:link {color: #369;}
+div.weatherbadger span.nocookie a, div.weatherbadger span.nocookie a:link {color: #999;}
+div.weatherbadger .forecast span.img {display: inline; padding-bottom: 8px; padding-left: 162px; padding-top: 40px; z-index: 20; text-align: right;}
+div.weatherbadger .forecast span .img strong {display: inline; font-weight: bold;}
+div.weatherbadger span.edit a, div.weatherbadger span.edit a:link {color: #369; display: inline; font-size: 90%; font-weight: bold; padding-bottom: 0px; padding-left: 10px; padding-right: 10px;}
+.Opera div.weatherbadger span.edit a, .Opera div.weatherbadger span.edit a {font-size: 100%;}
+.IE div.weatherbadger {padding: 35px 0px 0px 0px; width: auto; z-index: 20;}
+.IE-6 div.weatherbadger {margin-top: 0px; padding-top: 0px; font-size: 110%;}
+.IE div.weatherbadger .forecast span.img {position: relative; top: 1px; white-space: nowrap;}
+.IE-6 div.weatherbadger .forecast span.img {padding-top: 25px; top: 8px;}
+/*Local hub fixes*/
+.IE div#bantopBadge div.weatherbadger {padding-top: 14px;}
+.IE-7  div#bantopBadge div.weatherbadger {top: 0px;}
+.IE div#bantopBadge div.weatherbadger span.loc {display: none;}
+/* event menu */
+#eventmenu.nmTS td a:link,#eventmenu.nmTS td a:visited,#eventmenu.nmTS td a:hover{color:#C00 !important;background: transparent url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/j/msnbc/Components/CSS/img/events/Decision08_MenuLogo_01.standard.gif) no-repeat scroll 100% 0;}
+#eventmenu.nmTS td.olympx a:link,#eventmenu.nmTS td.olympx a:visited,#eventmenu.nmTS td.olympx a:hover{background-image:url(https://web.archive.org/web/20090307040859im_/http://msnbcmedia.msn.com/i/msnbc/Components/CSS/img/events/Oly_MenuLogo.standard.gif);}
+.Mac #eventmenu.nmTS td.olympx a { letter-spacing:-0.25px; }
+#cover #nav-left #newsMAIN #eventmenu{margin-bottom:15px !important}
+
+/* Style rules for subsection showcase ads*/
+#AdSubsectionShowcase_F1 {font-size:9px !important;}
+
+/*election day additions*/
+#liveVideo {margin-top: 18px;}
+/*local+weather sectionslice - live search*/
+.grid #localH .abstr a.source{font-size:9.5px;border-bottom:0;color:#69C;}
+.grid #localF .story a.source{font-size:11.1px;font-family:Arial,sans-serif;}
+/*flyout menu - live search */
+#newsSUB .nmLink .Source {font-size:11px; color: #69C;padding-top:10px;}
+
+/*Search button*/
+input.sw_qbox, input.sw_q_nrw {
+ border:1px solid #FFF;
+ color:#333;
+ font-size:112%;
+ padding:0.2em 0 0.2em 0.2em;
+ vertical-align:middle;
+ width:24.5em;
+}
+
+/* Added to style the default text in the searchbox,  1/14/09 */
+input.sw_qbox_blur, input.sw_q_nrw_blur {
+ border:1px solid #FFF;
+ color: #999;
+ font-size: 112%;
+ padding:0.2em 0 0.2em 0.2em;
+ vertical-align:middle;
+ width:24.5em;
+}
+
+input.sw_qbtn {
+ background:#549C00 url(https://web.archive.org/web/20090307040859im_/http://search.live.com/s/live/asset3.gif) 0pt -64px no-repeat;
+ border: 0;
+ height:24px;
+ line-height:500%;
+ margin:0.14em 0.2em 0.14em 0.14em;
+ vertical-align:middle;
+ width:24px;}
+#msn .search #searchset {background:#FFFFFF; border:#CCC 1px solid;}
+
+/*Flash Alt Content*/
+.flash-replaced .alt {display: none;}
+/*
+     FILE ARCHIVED ON 04:08:59 Mar 07, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:49:33 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.582
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.076
+  cdx.remote: 0.055
+  esindex: 0.008
+  LoadShardBlock: 39.379 (3)
+  PetaboxLoader3.datanode: 53.748 (4)
+  load_resource: 103.262
+  PetaboxLoader3.resolve: 38.891
+*/
